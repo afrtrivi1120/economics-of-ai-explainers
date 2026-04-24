@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Claude Code local settings (keep agents/ committed, ignore local prefs)
+.claude/settings.local.json
+
+# Temporary download artifacts
+*.pdf.tmp
+*.partial
