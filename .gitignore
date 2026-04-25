@@ -16,3 +16,6 @@ venv/
 # Temporary download artifacts
 *.pdf.tmp
 *.partial
+
+# CE review run artifacts
+.context/
