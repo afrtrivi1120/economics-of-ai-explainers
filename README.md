@@ -36,10 +36,10 @@ Listed alphabetically by first author's surname. Every entry links to the explai
 
 ### Agrawal, Ajay — University of Toronto, Rotman
 - **[The Economics of Bicycles for the Mind](explainers/firms-market-structure/agrawal-gans-goldfarb_2025_bicycles-for-the-mind.md)** `[F,M]` — 2025, NBER WP 34034 (with Joshua Gans, Avi Goldfarb) · [PDF](papers/pdfs/agrawal-gans-goldfarb_2025_bicycles-for-the-mind.pdf)
-- **[A Research Agenda for the Economics of Transformative AI](explainers/ai-models-governance/agrawal-gans-goldfarb_2025_research-agenda-tai.md)** `[F,M]` — 2025, NBER WP 34256 (with Erik Brynjolfsson, Anton Korinek) · [PDF](papers/pdfs/agrawal-gans-goldfarb_2025_research-agenda-tai.pdf)
+- **[A Research Agenda for the Economics of Transformative AI](explainers/firms-market-structure/agrawal-gans-goldfarb_2025_research-agenda-tai.md)** `[F,M]` — 2025, NBER WP 34256 (with Erik Brynjolfsson, Anton Korinek) · [PDF](papers/pdfs/agrawal-gans-goldfarb_2025_research-agenda-tai.pdf)
 
 ### Akcigit, Ufuk — University of Chicago
-- **[Attention (And Money) Is All You Need: Why Universities Are Struggling to Keep AI Talent](explainers/firms-market-structure/akcigit-et-al_2025_attention-money-universities.md)** `[F,M]` — 2025, NBER WP 34964 (with Bradley Chikis, Emin Dinlersoz, Nathan Goldschlag) · [PDF](papers/pdfs/akcigit-et-al_2025_attention-money-universities.pdf)
+- **[Attention (And Money) Is All You Need: Why Universities Are Struggling to Keep AI Talent](explainers/firms-market-structure/akcigit-et-al_2025_attention-money-universities.md)** `[F,M]` — 2025, NBER WP 34964 (with Craig A. Chikis, Emin Dinlersoz, Nathan Goldschlag) · [PDF](papers/pdfs/akcigit-et-al_2025_attention-money-universities.pdf)
 
 ### Albanesi, Stefania — University of Pittsburgh / Miami Herbert / CEPR
 - **[New Technologies and Jobs in Europe](explainers/labor-productivity/albanesi-et-al_2025_new-tech-jobs-europe.md)** `[L,I]` — 2025, *Economic Policy* / NBER WP 33451 (with António Dias da Silva, Juan F. Jimeno, Ana Lamo, Alena Wabitsch) · [PDF](papers/pdfs/albanesi-et-al_2025_new-tech-jobs-europe.pdf)

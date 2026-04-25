@@ -50,6 +50,6 @@ Agrawal, A. K., Gans, J. S., & Goldfarb, A. (2025). *The Economics of Bicycles f
 - [autor_2024_rebuild-middle-class](../labor-productivity/autor_2024_rebuild-middle-class.md) — la tesis "let non-elites do expert tasks" que el paper formaliza microeconómicamente.
 - [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — evidencia empírica de inverse skill bias en call centers; el caso paradigmático que el modelo busca explicar.
 - [johnson_2024_ricardo-thompson-ai](../labor-productivity/johnson_2024_ricardo-thompson-ai.md) — distinción complementariedad vs. sustitución que ancla la sección 5 sobre automatización.
-- [agrawal-gans-goldfarb_2025_research-agenda-tai](../ai-models-governance/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — agenda de investigación de los mismos autores; este paper es una pieza del programa.
-- [gans_2025_genius-on-demand](gans_2025_genius-on-demand.md) — Gans solo, sobre cómo la IA democratiza el acceso al "genio" experto.
+- [agrawal-gans-goldfarb_2025_research-agenda-tai](../firms-market-structure/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — agenda de investigación de los mismos autores; este paper es una pieza del programa.
+- [gans_2025_genius-on-demand](../firms-market-structure/gans_2025_genius-on-demand.md) — Gans solo, sobre cómo la IA democratiza el acceso al "genio" experto.
 - [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — contrapunto macro pesimista al optimismo micro de este paper.

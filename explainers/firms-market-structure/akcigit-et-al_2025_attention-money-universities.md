@@ -50,5 +50,5 @@ Para universidades colombianas y latinoamericanas, los hallazgos son relevantes 
 
 - [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — concentración de mercado en IA: aquí vemos el canal de talento.
 - [cockburn-henderson-stern_2018_ai-impact-innovation](../ai-models-governance/cockburn-henderson-stern_2018_ai-impact-innovation.md) — IA como GPT que reorganiza el descubrimiento científico.
-- [agrawal-gans-goldfarb_2025_research-agenda-tai](../ai-models-governance/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — agenda de investigación para IA transformativa.
+- [agrawal-gans-goldfarb_2025_research-agenda-tai](../firms-market-structure/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — agenda de investigación para IA transformativa.
 - [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — proyecciones de crecimiento que asumen difusión de conocimiento que aquí se erosiona.

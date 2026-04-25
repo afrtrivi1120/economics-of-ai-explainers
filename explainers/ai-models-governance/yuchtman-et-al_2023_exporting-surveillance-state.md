@@ -52,4 +52,4 @@ América Latina es objetivo activo del despliegue de IA china: el paper cita el 
 - [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — Concentración de capacidades de IA y riesgos de poder; complemento natural sobre gobernanza.
 - [jones_2026_ai-economic-future](../ai-models-governance/jones_2026_ai-economic-future.md) — Marco macro sobre futuro económico de la IA, donde encajar las externalidades políticas documentadas aquí.
 - [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — Discute usos "malos" de la IA (incluyendo vigilancia) que no entran en estimaciones convencionales de TFP.
-- [agrawal-gans-goldfarb_2025_research-agenda-tai](../ai-models-governance/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — Agenda de investigación sobre IA transformativa que requiere incorporar la dimensión geopolítica documentada.
+- [agrawal-gans-goldfarb_2025_research-agenda-tai](../firms-market-structure/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — Agenda de investigación sobre IA transformativa que requiere incorporar la dimensión geopolítica documentada.

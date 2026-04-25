@@ -57,5 +57,5 @@ Ensayo teórico-narrativo que sintetiza modelos de crecimiento basados en tareas
 - [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — Estimación conservadora de TFP que Jones cita como un extremo del espectro.
 - [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — Réplica más optimista a Acemoglu, también referenciada explícitamente.
 - [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — Concentración de poder de cómputo, complementaria a la propuesta de impuesto global a GPUs.
-- [agrawal-gans-goldfarb_2025_research-agenda-tai](../ai-models-governance/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — Agenda de investigación para IA transformativa, marco programático adyacente.
+- [agrawal-gans-goldfarb_2025_research-agenda-tai](../firms-market-structure/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — Agenda de investigación para IA transformativa, marco programático adyacente.
 - [acemoglu-restrepo_2018_ai-automation-work](../labor-productivity/acemoglu-restrepo_2018_ai-automation-work.md) — Modelo task-based base sobre el que Jones construye el argumento de weak links.

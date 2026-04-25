@@ -19,14 +19,14 @@ The `paper-explainer` and `github-publisher` subagents already exist and define 
 
 ## Problem Frame
 
-Today the repo is invisible to anyone outside this machine, and even locally a reader landing on `README.md` cannot reach a single explainer (none exist). Authors in `inputs/economists_map.md` are listed but not cross-linked to the papers we have actually downloaded. The CEPE audience the corpus is meant for cannot use it in this state.
+Today the repo is invisible to anyone outside this machine, and even locally a reader landing on `README.md` cannot reach a single explainer (none exist). Authors in `inputs/economists_map.md` are listed but not cross-linked to the papers we have actually downloaded. The intended audience cannot use it in this state.
 
 This is a publication task, not a re-architecture. The slug convention, metadata schema, sub-area taxonomy, and explainer template are all already fixed in `CLAUDE.md` and `.claude/agents/paper-explainer.md` — the plan must respect them, not relitigate them.
 
 ## Requirements Trace
 
 - **R1.** A GitHub repository exists under `afrtrivi1120/<repo-name>` (final name to be confirmed in Open Questions) and contains the full corpus.
-- **R2.** `README.md` opens with a clear statement of the repo's aim (Economics-of-AI explainers for a Colombian/CEPE policy audience).
+- **R2.** `README.md` opens with a clear statement of the repo's aim (Economics-of-AI explainers for a Colombian / Latin American policy audience).
 - **R3.** `README.md` contains an author-organized index of every paper currently in `papers/metadata/`, with each entry linking to its explainer (and secondarily to the PDF).
 - **R4.** Every paper in `papers/metadata/*.json` has a corresponding `explainers/{subarea}/{slug}.md` that follows the template in `.claude/agents/paper-explainer.md` (bilingual headers, page-cited quantitative claims, debates/caveats section, cross-links).
 - **R5.** Commits are grouped per paper (PDF + metadata + explainer in one commit) where possible, per the `github-publisher` contract; the README/index lands as its own commit after all explainers are in.
@@ -60,7 +60,7 @@ This is a publication task, not a re-architecture. The slug convention, metadata
 
 ### Institutional Learnings
 
-- The corpus is intentionally bilingual (Spanish-leaning headers, English-acceptable body) — explainers must reflect the CEPE audience tone, not generic academic prose.
+- The corpus is intentionally bilingual (Spanish-leaning headers, English-acceptable body) — explainers must reflect the policy-audience tone, not generic academic prose.
 - The field has genuine quantitative disagreement (Acemoglu's ~0.66% TFP/10yr vs. Aghion's ~0.8–1.3 pp/yr). `CLAUDE.md` and the explainer template both require this divergence to be foregrounded, not papered over. Explainers in `labor-productivity/` and `ai-models-governance/` will most often need this section to do real work.
 
 ### External References
@@ -73,7 +73,7 @@ This is a publication task, not a re-architecture. The slug convention, metadata
 - **Group explainer generation in dependency-ordered batches by sub-area**, starting with the papers most heavily cited by others in the corpus (Acemoglu, Aghion, Brynjolfsson-Li-Raymond). Rationale: later explainers' "Lecturas relacionadas" sections cross-link by slug — earlier explainers must already exist for the cross-links to be real.
 - **Author index in README is generated from `papers/metadata/*.json`**, not hand-written from `inputs/economists_map.md`. Rationale: the metadata is what we actually have; the economists_map is a wishlist that exceeds the corpus. An author-grouped index built from metadata cannot drift out of sync with the actual files. Group by **first author** (alphabetical by surname); list co-authored papers under the first author and add a "Co-authored with: …" suffix.
 - **Repo name**: pending confirmation in Open Questions, but default to `economics-of-ai-explainers` (matches the README phrasing and is more descriptive than the local directory name `ai_papers_explainers`).
-- **Visibility**: public. Rationale: the corpus is built from open-access PDFs and is intended as a CEPE-facing reference. No private/internal data is in the tree. Confirm with user before `gh repo create` since this is a one-way decision in practice.
+- **Visibility**: public. Rationale: the corpus is built from open-access PDFs and is intended as a Colombian / Latin American policy reference. No private/internal data is in the tree. Confirm with user before `gh repo create` since this is a one-way decision in practice.
 - **Commit grouping**: one commit per explainer + its (already-tracked) PDF and metadata when possible. Since the PDF and metadata are already in the prior `645adae` initialization commit, in practice each new commit will be `explainers/{subarea}/{slug}.md` alone. Bundle in groups of ~5 explainers per commit only if per-explainer commits become noisy; default to per-paper commits.
 - **README rewrite lands as the final commit before push**, after all explainers exist, so every link in the index resolves.
 
@@ -167,7 +167,7 @@ This is a publication task, not a re-architecture. The slug convention, metadata
 **Verification:**
 - `find explainers -name '*.md' | wc -l` returns at least 24.
 - Every slug in `papers/metadata/` has a matching explainer file under the expected subarea folder.
-- A 5-explainer spot-check (one per wave, plus the one orphan in `inequality-welfare/`) reads as a clear, page-cited, ~600–1200-word piece for a CEPE policy audience.
+- A 5-explainer spot-check (one per wave, plus the one orphan in `inequality-welfare/`) reads as a clear, page-cited, ~600–1200-word piece for a Colombian / Latin American policy audience.
 
 ---
 
@@ -273,7 +273,7 @@ This is a publication task, not a re-architecture. The slug convention, metadata
 
 ## System-Wide Impact
 
-- **Interaction graph:** This plan touches three existing subagents (`paper-explainer`, `github-publisher`, and `paper-downloader` indirectly via the metadata it produced). It changes none of them. It does not touch the toy CEPE Bayesian pipeline, which lives in a separate repo per `CLAUDE.md`'s governance boundary.
+- **Interaction graph:** This plan touches three existing subagents (`paper-explainer`, `github-publisher`, and `paper-downloader` indirectly via the metadata it produced). It changes none of them. It does not touch the separate Bayesian decision pipeline that lives in a different repo, per `CLAUDE.md`'s governance boundary.
 - **Error propagation:** A bad explainer (fabricated number, broken cross-link) propagates into the README index because the index links to it. Mitigation: write all explainers and validate cross-links before the README rewrite, then validate every README link before committing the README.
 - **State lifecycle risks:** Explainer files added in waves; if execution is interrupted between waves, partially-written explainers must not be committed. Mitigation: commit only complete explainers; treat the working tree between waves as in-progress local state.
 - **API surface parity:** The metadata schema and slug convention in `CLAUDE.md` are the public "API" of this corpus. Nothing in this plan changes them.
@@ -294,7 +294,7 @@ This is a publication task, not a re-architecture. The slug convention, metadata
 
 ## Documentation / Operational Notes
 
-- After push, the GitHub repo URL becomes the canonical link to share with CEPE colleagues. Consider adding it to the user's notes / `CLAUDE.md` follow-up so future sessions know where the corpus lives.
+- After push, the GitHub repo URL becomes the canonical link to share with policy colleagues. Consider adding it to the user's notes / `CLAUDE.md` follow-up so future sessions know where the corpus lives.
 - No CI, no GitHub Actions, no Pages site in this plan. Plain Markdown rendered by GitHub is the deliverable.
 - The 20 MB PDF footprint leaves ample room (~80 MB) before the `CLAUDE.md` LFS-revisit threshold; nothing to do operationally here.
 

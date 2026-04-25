@@ -51,5 +51,5 @@ No es un paper empírico sino una **guía metodológica y técnica** dirigida a 
 
 - [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — el otro lado de la moneda: por qué la frontera de IA tiende a concentrarse en pocos laboratorios.
 - [agrawal-gans-goldfarb_2025_bicycles-for-the-mind](../firms-market-structure/agrawal-gans-goldfarb_2025_bicycles-for-the-mind.md) — la IA como "bicicleta para la mente" del investigador, complementario al enfoque "agentes como asistentes" de Korinek.
-- [agrawal-gans-goldfarb_2025_research-agenda-tai](../ai-models-governance/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — agenda de investigación para IA transformativa.
+- [agrawal-gans-goldfarb_2025_research-agenda-tai](../firms-market-structure/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — agenda de investigación para IA transformativa.
 - [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — evidencia empírica sobre ganancias reales de productividad con IA generativa en el lugar de trabajo.

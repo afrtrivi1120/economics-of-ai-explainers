@@ -50,6 +50,6 @@ Cockburn, Iain M., Rebecca Henderson, and Scott Stern (2018). "The Impact of Art
 
 - [trajtenberg_2018_ai-next-gpt](../ai-models-governance/trajtenberg_2018_ai-next-gpt.md) — La tesis hermana: IA como próxima GPT, con énfasis en políticas complementarias.
 - [agrawal-gans-goldfarb_2025_bicycles-for-the-mind](../firms-market-structure/agrawal-gans-goldfarb_2025_bicycles-for-the-mind.md) — Continúa la línea: IA generativa como herramienta cognitiva de propósito general para firmas.
-- [agrawal-gans-goldfarb_2025_research-agenda-tai](../ai-models-governance/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — Agenda de investigación para AI transformativa que extiende el marco GPT/IMI.
+- [agrawal-gans-goldfarb_2025_research-agenda-tai](../firms-market-structure/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — Agenda de investigación para AI transformativa que extiende el marco GPT/IMI.
 - [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — Cuantifica el efecto-crecimiento que este paper solo conjetura.
 - [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — Profundiza el riesgo de concentración por control de datos que aquí se anticipa.
