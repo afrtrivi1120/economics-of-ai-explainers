@@ -10,7 +10,7 @@
 
 Frey, C. B., & Osborne, M. A. (2024). *Generative AI and the Future of Work: A Reappraisal*. Oxford Martin Working Paper Series on the Future of Work, No. 2023. Forthcoming in *Brown Journal of World Affairs*.
 
-This is the "rewrite" the same authors produced of their famous 2013 study ("The Future of Employment"), the one that estimated that **47% of jobs in the U.S. were exposed to automation** (p. 1, footnote 4) — a figure that dominated the global labor policy debate for more than a decade, including much of the Colombian conversation about the "fourth industrial revolution."
+This is the "rewrite" the same authors produced of their famous 2013 study ("The Future of Employment"), the one that estimated that **47% of jobs in the U.S. were exposed to automation** (p. 1, footnote 4) — a figure that dominated the global labor policy debate for more than a decade, including much of the global conversation about the "fourth industrial revolution."
 
 ## 2. Research question
 
@@ -35,12 +35,12 @@ Unlike the 2013 paper (which was a quantitative exercise based on O*NET occupati
 - **The technical frontier is approaching diminishing returns:** training data has already consumed much of the web; synthetic data can cause "model collapse"; RLHF showed signs of saturation; hallucination rates increased from 18% (GPT-3) to 33–34% (GPT-4) on human-like fallacious judgments (pp. 4, 10–11, note 40).
 - **White-collar political resistance.** Unlike the factory automation of the 20th century, those affected now (Hollywood screenwriters, journalists) have organizing capacity and political weight — the WGA/SAG-AFTRA strike is the case in point (p. 10).
 
-## 5. Policy implications (Colombia / Latin America)
+## 5. Policy implications
 
-1. **Re-read the "47%" with caution.** Studies derived from the original 2013 paper estimated exposure rates as high as 60–70% for Latin American economies (IDB, ILO). Frey and Osborne's reappraisal suggests that the real short-run risk is not mass unemployment but **wage compression among urban white-collar workers** — junior programmers, journalists, designers, call-center agents. For Colombia, where the BPO sector (call centers in Bogotá, Medellín, Manizales) employs hundreds of thousands, the Uber-in-LLM effect is directly relevant.
-2. **Complementarity policy before protection policy.** If novices gain more from AI, there is a strong case for subsidizing access to generative AI tools in SENA, public universities, and small and medium enterprises — AI can act as a "skill equalizer" (consistent with `brynjolfsson-li-raymond_2025_genai-at-work`).
+1. **Re-read the "47%" with caution.** Studies derived from the original 2013 paper estimated exposure rates as high as 60–70% for many developing economies (IDB, ILO). Frey and Osborne's reappraisal suggests that the real short-run risk is not mass unemployment but **wage compression among urban white-collar workers** — junior programmers, journalists, designers, call-center agents. In economies with large business-process outsourcing sectors, the Uber-in-LLM effect is directly relevant.
+2. **Complementarity policy before protection policy.** If novices gain more from AI, there is a strong case for subsidizing access to generative AI tools in vocational training systems, public universities, and small and medium enterprises — AI can act as a "skill equalizer" (consistent with `brynjolfsson-li-raymond_2025_genai-at-work`).
 3. **Prioritize in-person interaction skills.** Technical and secondary education should reinforce socioemotional competencies, relationship management, and unstructured physical trades (construction, health, care) — the "refuges" that survive the reappraisal.
-4. **Anticipate distributional conflict, not just unemployment.** The paper suggests that the real political-economic risk is friction between incumbents (with voice) and entrants (without it). For Latin America, where formal unionism is weak but informality is high, this translates into pressure on mid-level formal wages.
+4. **Anticipate distributional conflict, not just unemployment.** The paper suggests that the real political-economic risk is friction between incumbents (with voice) and entrants (without it). In many developing economies, where formal unionism is weak but informality is high, this translates into pressure on mid-level formal wages.
 
 ## 6. Debates and caveats
 

@@ -33,14 +33,14 @@ How can economists use open-ended survey questions — combined with large langu
 - **Costs and privacy:** commercial APIs can be prohibitively expensive with large datasets; open-source LLMs such as Llama allow local execution with full replicability but demand computational resources and technical expertise (PDF p. 33).
 - **Methodological risks:** "interpretive convergence" from excessive ICR iteration can suppress nuance (PDF p. 28); researcher degrees of freedom in codebook design threaten replicability and require pre-registration and detailed documentation (PDF pp. 34–35).
 
-## 5. Policy implications (Colombia / Latin America)
+## 5. Policy implications
 
-This is the only piece in the corpus whose contribution is methodological rather than substantive, which makes it especially valuable for survey design in Colombian and Latin American contexts:
+This is the only piece in the corpus whose contribution is methodological rather than substantive, which makes it especially valuable for survey design in a wide range of policy contexts:
 
-- **Capturing informal-sector realities.** Standard closed-ended survey questions — such as those in DANE's GEIH — assume occupational and income categories built for formal labor markets. Open-ended questions analyzed with LLMs could reveal how informal workers conceptualize employment, risk, savings, and exposure to shocks: categories that are unlikely to appear in structured forms.
-- **Surveys with low-literacy populations.** The authors explicitly note that AI-assisted interviews with follow-up probes improve data quality among "less literate or less educated" populations (PDF p. 23) — directly relevant for surveys in rural areas and indigenous communities.
-- **Measuring beliefs about AI and labor displacement.** Structured surveys on AI adoption (in the style of Bloom et al. or Bick-Blandin-Deming) can be complemented with open-ended questions to understand how Colombian workers perceive the threats and opportunities of AI, capturing local narratives that do not fit imported categories.
-- **Redistributive policy design.** Stantcheva (cited in PDF p. 6) has used open-ended questions to map how citizens think about taxes and inflation. Applying this approach to Colombian debates on tax reform or pension reform could inform public communication and instrument design.
+- **Capturing informal-sector realities.** Standard closed-ended survey questions assume occupational and income categories built for formal labor markets. Open-ended questions analyzed with LLMs could reveal how informal workers conceptualize employment, risk, savings, and exposure to shocks — categories that are unlikely to appear in structured forms. This is particularly relevant where statistical agencies rely on labor force surveys designed around formal employment.
+- **Surveys with low-literacy populations.** The authors explicitly note that AI-assisted interviews with follow-up probes improve data quality among "less literate or less educated" populations (PDF p. 23) — directly relevant for surveys in rural areas and communities where traditional written questionnaires perform poorly.
+- **Measuring beliefs about AI and labor displacement.** Structured surveys on AI adoption (in the style of Bloom et al. or Bick-Blandin-Deming) can be complemented with open-ended questions to understand how workers perceive the threats and opportunities of AI, capturing local narratives that do not fit imported categories.
+- **Redistributive policy design.** Stantcheva (cited in PDF p. 6) has used open-ended questions to map how citizens think about taxes and inflation. Applying this approach to policy debates on tax reform or pension reform could inform public communication and instrument design across many economies.
 - **Accessible costs.** Using LLMs via API or open-source models dramatically lowers the barrier to entry for research centers with limited budgets, democratizing a methodology that previously required large teams of research assistants.
 
 ## 6. Debates and caveats

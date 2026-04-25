@@ -38,14 +38,14 @@ How does automation in general — and AI and robotics in particular — affect 
 - **Disappointing U.S. productivity:** labor productivity growth of 2.7% (1947–1973) fell to 1.5% (1974–1994), rebounded to 2.8% (1995–2004), and declined again to 1.3% (2005–2015) (citing Syverson 2017, p. 14). The framework attributes this to possible *excessive automation* (tax-code biases favoring capital, labor-market frictions) and a slowdown in the creation of new tasks (pp. 13–14).
 - **Skills mismatch:** new tasks require new skills; when the education system fails to provide them, adjustment slows and productivity gains shrink (p. 13).
 
-## 5. Policy implications (Colombia / Latin America)
+## 5. Policy implications
 
-The displacement–reinstatement framework is directly applicable to AI policy design in Colombia:
+The displacement–reinstatement framework is directly applicable to AI policy design:
 
-- **Tax policy:** Acemoglu–Restrepo argue that the U.S. tax code subsidizes capital over labor (accelerated depreciation, interest deductions) and pushes toward excessive automation (p. 14). Colombia should audit whether its depreciation rules, investment deductions, and non-wage payroll charges (social-security contributions on wages) create an analogous bias in an economy with very high informality and low aggregate productivity.
-- **Education and skills mismatch:** the creation of AI-linked new tasks only translates into employment when complementary skills exist (p. 13). For Colombia, this reinforces the urgency of technical training and retraining programs (SENA, micro-credential programs) aligned with the tasks that AI *complements* — judgment, communication, and ethical oversight of systems.
+- **Tax policy:** Acemoglu–Restrepo argue that the U.S. tax code subsidizes capital over labor (accelerated depreciation, interest deductions) and pushes toward excessive automation (p. 14). Policymakers should audit whether their depreciation rules, investment deductions, and non-wage labor costs create an analogous bias — a concern particularly acute in economies with high informality and low aggregate productivity.
+- **Education and skills mismatch:** the creation of AI-linked new tasks only translates into employment when complementary skills exist (p. 13). This reinforces the urgency of technical training and retraining programs — through vocational training systems and micro-credential programs — aligned with the tasks that AI *complements*: judgment, communication, and ethical oversight of systems.
 - **Watch out for "so-so technologies":** low-value customer-service chatbots and administrative automation in the public sector and services can displace formal employment without generating the productivity gains that would finance the transition (p. 7). Industrial policy should prioritize AI adoption in tasks with high productivity effects (health, personalized education, logistics) rather than superficial automation.
-- **Policy for new-task creation:** the paper argues this does not happen automatically (p. 11) — it depends on incentives, R&D, and the education system. This provides theoretical grounding for investing in local innovation (science, technology, and innovation policy) rather than simply importing automation.
+- **Policy for new-task creation:** the paper argues this does not happen automatically (p. 11) — it depends on incentives, R&D, and the education system. This provides theoretical grounding for investing in domestic innovation capacity rather than simply importing automation.
 
 ## 6. Debates and caveats
 

@@ -32,13 +32,13 @@ How large are the plausible macroeconomic effects of generative AI on total fact
 - **New "bad tasks":** quantifying deepfakes, digital manipulation, and cyberattacks, AI could appear to raise GDP by **2%** while reducing welfare by **−0.72%** in consumption-equivalent units (PDF p. 5; PDF p. 35: calculation 0.02 × 0.36 = 0.072% of GDP in damages).
 - **Minimal wage growth:** even for the most-benefited group (less than high-school education), the wage increase is only **~1.3% over 10 years**; the standard deviation across groups rises slightly from 0.35 to 0.36 (PDF p. 38).
 
-## 5. Policy implications (Colombia / Latin America)
+## 5. Policy implications
 
-- **Calibrate fiscal and productivity expectations.** Consultant-driven forecasts (McKinsey, Goldman) that underpin national AI plans and "digital transformation agendas" may be overstating aggregate gains by an order of magnitude. For Colombia, Acemoglu's framework suggests that no generative-AI productivity shock will, by itself, close GDP-per-capita gaps within a decade.
-- **Do not expect automatic inequality reduction.** Acemoglu's theoretical result — AI can raise low-skill workers' productivity and still increase inequality — is directly relevant to the Colombian debate on AI in BPO, call centers, and education. Redistributive policy (capital taxes, training, new tasks for workers) must be designed separately; it will not emerge from the market.
+- **Calibrate fiscal and productivity expectations.** Consultant-driven forecasts (McKinsey, Goldman) that underpin national AI plans and "digital transformation agendas" may be overstating aggregate gains by an order of magnitude. Acemoglu's framework suggests that no generative-AI productivity shock will, by itself, close GDP-per-capita gaps within a decade in non-frontier economies.
+- **Do not expect automatic inequality reduction.** Acemoglu's theoretical result — AI can raise low-skill workers' productivity and still increase inequality — is directly relevant to policy debates on AI in services, call centers, and education. Redistributive policy (capital taxes, training, new tasks for workers) must be designed separately; it will not emerge from the market.
 - **Regulate "bad tasks."** The estimates on digital manipulation, disinformation, and cyberattacks justify explicitly including digital consumer protection, social-media regulation, and public cybersecurity in any national AI strategy — not as an ethical appendix but as a macroeconomic component (the damage can reach ~36% of monetized value).
 - **Public investment should prioritize creating "new tasks for workers"** (education, health, AI-assisted personal care) over pure automation. This aligns with the "pro-worker AI" agenda that Acemoglu has developed with Johnson and Autor.
-- **Be careful about counting AI revenue as welfare.** The paper's methodological warning (GDP ≠ welfare when manipulative tasks are present) has direct implications for how DANE and Planeación Nacional should measure the contribution of digital platforms.
+- **Be careful about counting AI revenue as welfare.** The paper's methodological warning (GDP ≠ welfare when manipulative tasks are present) has direct implications for how statistical agencies and planning ministries should measure the contribution of digital platforms.
 
 ## 6. Debates and caveats
 

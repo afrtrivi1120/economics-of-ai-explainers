@@ -32,16 +32,16 @@ Did the spread of AI-enabled technologies in Europe between 2011 and 2019 displa
 - The highest coefficients under Felten et al. correspond to the Netherlands, Portugal, and Estonia; under Webb to Austria, Belgium, and Luxembourg (p. 6).
 - **Contrast with the U.S.:** Cortes-Pan (2019) and Cortés et al. (2024) find a **negative** correlation between automation exposure and women's employment in the U.S. 1980–2017; the European authors argue the difference stems from combining AI (not classical routine automation) with larger educational gains for women in Europe (p. 2, p. 7).
 
-## 5. Policy implications (Colombia / Latin America)
+## 5. Policy implications
 
-The European evidence is particularly relevant for Colombia for three structural reasons: (i) formal-sector labor-protection systems are closer to the continental European model than to the U.S. one; (ii) gender gaps in participation have been narrowing through educational attainment rather than deregulation; (iii) sectors exposed to AI (professional services, health, finance, public administration) concentrate formal female employment.
+The European evidence is relevant for a broad set of policymakers. Three structural features of the European context make the findings transferable: (i) formal-sector labor-protection systems based on employment regulation rather than deregulation; (ii) gender gaps in participation narrowing through educational attainment; (iii) AI-exposed sectors (professional services, health, finance, public administration) concentrating formal female employment.
 
 Operational implications:
 
-- **Women's education amplifies the benefits of AI.** Technical and university training programs focused on women (Generación E scholarships, engineering, data science) are not only gender policy — they are productivity and technology-absorption policy. The coefficient rises by roughly 50% in countries with greater female educational progress (p. 4).
-- **Labor-market attachment provides protection.** Policies that sustain women's participation — subsidized childcare, shared parental leave, measures against informality — reduce the risk that AI diffusion ends up excluding women from formal employment, as routine automation did in the U.S.
-- **Do not mechanically replicate the U.S. displacement narrative.** The European pattern, institutionally closer to the Colombian one, suggests positive net effects on formal female employment when human capital is available to complement the technology.
-- **Caveat:** the effects are at the level of participation shares within occupations, not net job creation. The study does not address informality or the sectors that in Colombia employ the most women (domestic service, informal trade).
+- **Women's education amplifies the benefits of AI.** Technical and university training programs focused on women are not only gender policy — they are productivity and technology-absorption policy. The coefficient rises by roughly 50% in countries with greater female educational progress (p. 4). Vocational training systems and public education finance programs should account for this complementarity.
+- **Labor-market attachment provides protection.** Policies that sustain women's participation — subsidized childcare, shared parental leave, measures to reduce barriers to formal employment — reduce the risk that AI diffusion ends up excluding women, as routine automation did in the U.S.
+- **Do not mechanically replicate the U.S. displacement narrative.** The European pattern, grounded in stronger labor-market institutions, suggests positive net effects on formal female employment when human capital is available to complement the technology. Policymakers in non-frontier economies should weigh institutional context before importing U.S.-centric projections.
+- **Caveat:** the effects are at the level of participation shares within occupations, not net job creation. The study does not address informal employment or sectors where women are concentrated outside the formal professional labor market.
 
 ## 6. Debates and caveats
 

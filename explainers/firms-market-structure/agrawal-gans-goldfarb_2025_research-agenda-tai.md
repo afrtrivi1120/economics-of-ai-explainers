@@ -33,13 +33,13 @@ What are the urgent economic questions the profession must answer before *Transf
 - **Challenge for emerging economies:** the agenda explicitly raises the question of what policies countries with limited technological capacity can adopt to avoid marginalization in the global TAI economy (PDF p. 10).
 - **Acknowledged disagreement:** the agenda explicitly notes that Acemoglu (2025) and Narayanan & Kapoor (2025) hold that AI will have modest impacts, but argues that scenario planning is warranted regardless (PDF p. 4, note 2).
 
-## 5. Policy implications (Colombia / Latin America)
+## 5. Policy implications
 
-- **Diagnostic framework for policy design:** the agenda gives Colombia and the region a ready-made taxonomy for structuring national AI plans — the nine challenges serve as a checklist to verify whether a national strategy covers productivity, distribution, governance, safety, and transition.
-- **Explicit geoeconomic risk:** Section 3.5 directly raises the problem of technological marginalization for lower-capacity countries (PDF p. 10). For Colombia, this reinforces the relevance of investments in sovereign compute, curated public data, doctoral training in AI, and technology-sharing initiatives through multilateral bodies.
-- **Social safety nets:** the authors emphasize that social insurance schemes designed on the assumption that labor is the primary source of income may cease to function (PDF p. 9). In the Colombian context — with high informality and partial coverage under the contributory system — this suggests accelerating debate on non-contributory protection floors before AI-induced employment shocks materialize the risk.
-- **Transition dashboard:** the proposed "Transformative AI Dashboard" (PDF p. 15) can be translated into a regional observatory (ECLAC/IDB) that monitors AI adoption, substitution, and productivity indicators across Latin America.
-- **Education and human capital policy:** the paper asks which human skills become redundant and which remain valuable, and how education systems should adapt (PDF p. 7) — a question directly actionable for Colombia's Ministry of Education and the SENA.
+- **Diagnostic framework for policy design:** the agenda gives policymakers a ready-made taxonomy for structuring national AI plans — the nine challenges serve as a checklist to verify whether a national strategy covers productivity, distribution, governance, safety, and transition.
+- **Explicit geoeconomic risk:** Section 3.5 directly raises the problem of technological marginalization for lower-capacity countries (PDF p. 10). This reinforces the relevance of investments in sovereign compute, curated public data, doctoral training in AI, and technology-sharing initiatives through multilateral bodies — especially for non-frontier economies.
+- **Social safety nets:** the authors emphasize that social insurance schemes designed on the assumption that labor is the primary source of income may cease to function (PDF p. 9). In many developing economies — where informal employment is prevalent and contributory social protection systems cover only part of the workforce — this suggests accelerating debate on non-contributory protection floors before AI-induced employment shocks materialize.
+- **Transition dashboard:** the proposed "Transformative AI Dashboard" (PDF p. 15) can be translated into a regional or multilateral observatory that monitors AI adoption, substitution, and productivity indicators across emerging markets.
+- **Education and human capital policy:** the paper asks which human skills become redundant and which remain valuable, and how education systems should adapt (PDF p. 7) — a question directly actionable for ministries of education and vocational training systems worldwide.
 
 ## 6. Debates and caveats
 
@@ -48,7 +48,7 @@ What are the urgent economic questions the profession must answer before *Transf
 - **Concentration:** the agenda supports the empirical question of whether TAI will be dominated by one, few, or many systems (PDF p. 9), explicitly citing Korinek & Vipra — see `korinek-vipra_2025_concentrating-intelligence`.
 - **AI as a research tool:** the methodological section converges with `korinek_2025_ai-agents-econ-research` in positing that TAI itself will transform empirical practice in economics.
 - **Formal caveat:** this document does *not* contribute new evidence. It is a framework of questions; its quantitative figures are almost entirely drawn from third-party citations (Eloundou, Metaculus, Davidson). Any use must respect that attribution chain.
-- **Absence of the Global South:** although the geoeconomics section mentions countries with low technological capacity (PDF p. 10), the agenda does not elaborate on concrete catch-up mechanisms — a gap that Latin American research can fill.
+- **Absence of the Global South:** although the geoeconomics section mentions countries with low technological capacity (PDF p. 10), the agenda does not elaborate on concrete catch-up mechanisms — a gap that research from emerging economies can fill.
 
 ## 7. Related readings
 

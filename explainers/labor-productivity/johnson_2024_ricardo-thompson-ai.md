@@ -30,15 +30,15 @@ Under what conditions does the introduction of new machinery — from the power 
 - Aggregate real wages in the British economy stagnated from the late 18th century through at least 1820 and possibly through the 1830s, when railways and new tasks widened labor demand (pp. 13–14).
 - Fewer than 10% of the British adult population had the right to vote before 1832; the absence of political voice and collective bargaining rights was decisive in preventing productivity gains from being shared (p. 4, note 10).
 
-## 5. Policy implications (Colombia / Latin America)
+## 5. Policy implications
 
-The central lesson for Colombia and Latin America is that accelerated AI adoption in sectors such as BPO, banking, retail, health, or public services does not, by itself, guarantee better wages or higher-quality employment. The paper points to three policy levers:
+The central lesson for policymakers is that accelerated AI adoption in sectors such as business services, banking, retail, health, or public services does not, by itself, guarantee better wages or higher-quality employment. The paper points to three policy levers:
 
-1. **Technological direction:** Subsidies, public procurement, and R&D funding should favor AI applications that **complement** workers (creation of new tasks, capability augmentation) rather than pure substitution. This is especially relevant in high-informality economies where displaced workers have no safety net.
+1. **Technological direction:** Subsidies, public procurement, and R&D funding should favor AI applications that **complement** workers (creation of new tasks, capability augmentation) rather than pure substitution. This is especially relevant in economies with large informal sectors where displaced workers have limited safety nets.
 - **Labor voice and collective bargaining:** The wage stagnation of hand-loom weavers was partly explained by the suppression of worker "combination" (p. 3). Strengthening sectoral unions, works councils, and social-dialogue mechanisms is an indispensable institutional complement if productivity gains are to flow through to wages.
-- **Working conditions and algorithmic surveillance:** Acemoglu and Johnson warn (p. 18) that AI can be used for intensive monitoring and the degradation of worker autonomy. A Latin American regulatory agenda should include limits on algorithmic monitoring, transparency requirements for AI-driven management systems, and labor data protections.
+- **Working conditions and algorithmic surveillance:** Acemoglu and Johnson warn (p. 18) that AI can be used for intensive monitoring and the degradation of worker autonomy. A forward-looking regulatory agenda should include limits on algorithmic monitoring, transparency requirements for AI-driven management systems, and labor data protections.
 
-For Colombia in particular, the historical case is an argument against policies that assume an automatic "trickle-down" from AI adoption to formal employment: the British economy took **at least four decades** to share the gains from cotton mechanization.
+The historical case is an argument against policies that assume an automatic "trickle-down" from AI adoption to formal employment: the British economy took **at least four decades** to share the gains from cotton mechanization.
 
 ## 6. Debates and caveats
 
