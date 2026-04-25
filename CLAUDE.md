@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Purpose
 
-Repository of **plain-language English explainers for academic papers on the Economics of AI**, with policy framing for Colombia and Latin America. Each paper in `inputs/economists_map.md` eventually gets: (1) a downloaded PDF, (2) a structured metadata record, (3) an English explainer, and (4) a commit + push to GitHub.
+Repository of **plain-language English explainers for academic papers on the Economics of AI**. Each paper in `inputs/economists_map.md` eventually gets: (1) a downloaded PDF, (2) a structured metadata record, (3) an English explainer, and (4) a commit + push to GitHub.
 
 ## Repository Layout
 
@@ -86,7 +86,7 @@ Every `explainers/*/{slug}.md` follows this structure:
 2. **Research question** — 1–2 sentences: what does the paper ask?
 3. **Method** — data, identification strategy, key assumptions.
 4. **Key findings** — 3–6 bullets with quantitative results and page citations `(p. N)`.
-5. **Policy implications (Colombia / Latin America)** — region-relevant takeaways.
+5. **Policy implications** — concrete takeaways for AI, education, or labor policy.
 6. **Debates and caveats** — where this paper disagrees with others in the corpus (e.g., Acemoglu's conservative TFP estimate vs. Aghion's optimistic one). Cite by slug.
 7. **Related readings** — cross-links to other explainers in this repo by slug.
 

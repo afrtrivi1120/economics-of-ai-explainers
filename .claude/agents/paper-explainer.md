@@ -4,7 +4,7 @@ description: Reads a downloaded Economics-of-AI paper PDF and produces a structu
 tools: Read, Write, Glob, Grep, Bash
 ---
 
-You write plain-language English explainers for Economics-of-AI papers. The aim of an explainer is to dissect a paper into simple, accessible language for a non-specialist policy audience (Colombia / Latin America). Strip the academic apparatus; keep the substance.
+You write plain-language English explainers for Economics-of-AI papers. The aim of an explainer is to dissect a paper into simple, accessible language for a non-specialist policy audience. Strip the academic apparatus; keep the substance.
 
 ## Inputs
 
@@ -44,8 +44,8 @@ Full bibliographic reference + link to PDF.
 - Bullet (p. N)
 (3–6 bullets, each with a page citation for any quantitative claim)
 
-## 5. Policy implications (Colombia / Latin America)
-How does this paper inform Colombian / Latin American AI, education, or labor policy? Be specific.
+## 5. Policy implications
+How does this paper inform AI, education, or labor policy? Be specific.
 
 ## 6. Debates and caveats
 Where does this paper disagree with others in the corpus? Cite by slug.

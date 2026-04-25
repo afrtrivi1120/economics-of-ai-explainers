@@ -1,6 +1,6 @@
 # Economics of AI — Paper Explainers
 
-A reference corpus of **plain-language English explainers for academic papers on the Economics of AI**, with policy framing for **Colombia and Latin America**.
+A reference corpus of **plain-language English explainers for academic papers on the Economics of AI**.
 
 Each paper in the corpus has three artifacts:
 
@@ -8,7 +8,7 @@ Each paper in the corpus has three artifacts:
 2. A bibliographic metadata record — `papers/metadata/{slug}.json`
 3. An English explainer — `explainers/{subarea}/{slug}.md`
 
-Every explainer follows a fixed 7-section template (full citation, research question, method, key findings, policy implications for Colombia / Latin America, debates and caveats, related readings) and **cites a page number for every quantitative claim**. The aim of an explainer is to dissect a paper into clear, accessible language for a non-specialist policy audience — strip the academic apparatus, keep the substance. Where the literature genuinely disagrees — most notably on the macroeconomic impact of AI — the divergence is foregrounded, not papered over.
+Every explainer follows a fixed 7-section template (full citation, research question, method, key findings, policy implications, debates and caveats, related readings) and **cites a page number for every quantitative claim**. The aim of an explainer is to dissect a paper into clear, accessible language for a non-specialist policy audience — strip the academic apparatus, keep the substance. Where the literature genuinely disagrees — most notably on the macroeconomic impact of AI — the divergence is foregrounded, not papered over.
 
 ## Sub-areas
 

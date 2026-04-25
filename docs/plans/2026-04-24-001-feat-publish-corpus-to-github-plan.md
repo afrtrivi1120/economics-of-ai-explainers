@@ -26,7 +26,7 @@ This is a publication task, not a re-architecture. The slug convention, metadata
 ## Requirements Trace
 
 - **R1.** A GitHub repository exists under `afrtrivi1120/<repo-name>` (final name to be confirmed in Open Questions) and contains the full corpus.
-- **R2.** `README.md` opens with a clear statement of the repo's aim (Economics-of-AI explainers for a Colombian / Latin American policy audience).
+- **R2.** `README.md` opens with a clear statement of the repo's aim (Economics-of-AI explainers for a non-specialist policy audience).
 - **R3.** `README.md` contains an author-organized index of every paper currently in `papers/metadata/`, with each entry linking to its explainer (and secondarily to the PDF).
 - **R4.** Every paper in `papers/metadata/*.json` has a corresponding `explainers/{subarea}/{slug}.md` that follows the template in `.claude/agents/paper-explainer.md` (bilingual headers, page-cited quantitative claims, debates/caveats section, cross-links).
 - **R5.** Commits are grouped per paper (PDF + metadata + explainer in one commit) where possible, per the `github-publisher` contract; the README/index lands as its own commit after all explainers are in.
@@ -73,7 +73,7 @@ This is a publication task, not a re-architecture. The slug convention, metadata
 - **Group explainer generation in dependency-ordered batches by sub-area**, starting with the papers most heavily cited by others in the corpus (Acemoglu, Aghion, Brynjolfsson-Li-Raymond). Rationale: later explainers' "Lecturas relacionadas" sections cross-link by slug — earlier explainers must already exist for the cross-links to be real.
 - **Author index in README is generated from `papers/metadata/*.json`**, not hand-written from `inputs/economists_map.md`. Rationale: the metadata is what we actually have; the economists_map is a wishlist that exceeds the corpus. An author-grouped index built from metadata cannot drift out of sync with the actual files. Group by **first author** (alphabetical by surname); list co-authored papers under the first author and add a "Co-authored with: …" suffix.
 - **Repo name**: pending confirmation in Open Questions, but default to `economics-of-ai-explainers` (matches the README phrasing and is more descriptive than the local directory name `ai_papers_explainers`).
-- **Visibility**: public. Rationale: the corpus is built from open-access PDFs and is intended as a Colombian / Latin American policy reference. No private/internal data is in the tree. Confirm with user before `gh repo create` since this is a one-way decision in practice.
+- **Visibility**: public. Rationale: the corpus is built from open-access PDFs and is intended as a public policy reference. No private/internal data is in the tree. Confirm with user before `gh repo create` since this is a one-way decision in practice.
 - **Commit grouping**: one commit per explainer + its (already-tracked) PDF and metadata when possible. Since the PDF and metadata are already in the prior `645adae` initialization commit, in practice each new commit will be `explainers/{subarea}/{slug}.md` alone. Bundle in groups of ~5 explainers per commit only if per-explainer commits become noisy; default to per-paper commits.
 - **README rewrite lands as the final commit before push**, after all explainers exist, so every link in the index resolves.
 
@@ -167,7 +167,7 @@ This is a publication task, not a re-architecture. The slug convention, metadata
 **Verification:**
 - `find explainers -name '*.md' | wc -l` returns at least 24.
 - Every slug in `papers/metadata/` has a matching explainer file under the expected subarea folder.
-- A 5-explainer spot-check (one per wave, plus the one orphan in `inequality-welfare/`) reads as a clear, page-cited, ~600–1200-word piece for a Colombian / Latin American policy audience.
+- A 5-explainer spot-check (one per wave, plus the one orphan in `inequality-welfare/`) reads as a clear, page-cited, ~600–1200-word piece for a non-specialist policy audience.
 
 ---
 

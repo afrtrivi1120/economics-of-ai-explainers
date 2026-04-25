@@ -38,7 +38,7 @@ The corpus was published to a public GitHub repo without any automated invariant
 - **6 author-attribution mismatches** — explainer headers (correctly extracted from PDF cover pages) credited different authors than the metadata recorded. E.g., metadata for `restrepo_2024_automation-rent-dissipation.json` listed solo Restrepo; the PDF and explainer correctly named both Acemoglu and Restrepo. Same shape for `johnson_2024` (PDF: Acemoglu + Johnson), `bloom-et-al_2026` (PDF lead: Yotzov, not Bloom), `gans_2025` (PDF: trio, not solo), and `agrawal-gans-goldfarb_2025_research-agenda-tai` (PDF: Brynjolfsson + Korinek + Agrawal, not Agrawal/Gans/Goldfarb).
 - **1 wrong PDF/title pair** — `albanesi-et-al_2025_new-tech-jobs-europe.json` claimed the title "New Technologies and Jobs in Europe", but the downloaded PDF (NBER WP 33451) is actually "AI and Women's Employment in Europe" by the same author team.
 - **Cross-link breakage** — moving the misrouted file fixed routing but broke 8 inbound cross-links from other explainers.
-- **CEPE branding leak** — 7 references to a private organizational name leaked into a committed plan document despite an explicit memory rule that public artifacts must drop that framing.
+- **Internal-framing leak** — 7 references to a private organizational marker leaked into a committed plan document despite an explicit memory rule that public artifacts must drop that framing.
 - **Bare-slug cross-link** — one cross-link used a directory-relative form `(slug.md)` instead of the canonical `(../subarea/slug.md)`, which would silently break if either file moved.
 
 The post-publication cleanup ran for ~2 hours: 6 fix commits across 3 review rounds, plus the cost of the multi-reviewer LLM pass that surfaced the bugs. The corrective `scripts/check_coverage.py` invariant checker — written *after* the cleanup — is 172 lines of Python and would have flagged every one of the bugs above mechanically before the first push.
@@ -81,7 +81,7 @@ The checker's job is to hold every layer accountable to the layer above it. If t
 
 **Step 4 — Document slug exceptions explicitly.** When the slug captures the curator's original framing (e.g., `yuchtman-et-al_2023_*`) but a metadata correction later changes `authors[0]` (PDF cover page actually leads with Beraja), the slug stays per the no-rename rule — but the exception goes in `CLAUDE.md` so future contributors don't open a "fix" PR that renames the file and breaks every inbound cross-link. (See `CLAUDE.md` "Documented slug exceptions" section.)
 
-**Step 5 — Audit the public-facing surface separately from the metadata.** Branding / framing / audience-positioning leaks (e.g., the CEPE references that ended up in a committed plan doc) are a different class of error — they don't fail any structural invariant — but a plain `grep -r "CEPE" public-facing-paths/` step belongs in the same checker run.
+**Step 5 — Audit the public-facing surface separately from the metadata.** Branding / framing / audience-positioning leaks (e.g., internal organizational markers that end up in a committed plan doc) are a different class of error — they don't fail any structural invariant — but a plain `grep -r "<internal-marker>" public-facing-paths/` step belongs in the same checker run.
 
 ## Why This Matters
 
