@@ -15,6 +15,8 @@ papers/metadata/{slug}.json         Bibliographic + source metadata (see schema 
 explainers/{subarea}/{slug}.md      Explainer markdown, filed by sub-area tag
 scripts/download_papers.py          Bulk PDF downloader (NBER / SSRN / SF Fed / direct URLs)
 scripts/check_coverage.py           Validates corpus invariants (slugs, routing, links, sections)
+docs/solutions/                     Documented learnings from past work (best practices, bug fixes, workflow patterns), organized by category with YAML frontmatter (module, tags, problem_type)
+docs/plans/                         Implementation plans for non-trivial work
 .claude/agents/                     Custom subagents (see "Agents" section)
 ```
 
