@@ -1,60 +1,60 @@
 # Applying AI to Rebuild Middle Class Jobs
 
-**Autores / Authors:** David Autor
-**Año / Year:** 2024
-**Publicación / Venue:** NBER Working Paper No. 32140 (versión también publicada en NOEMA Magazine como "How AI Could Help Rebuild The Middle Class")
+**Authors:** David Autor
+**Year:** 2024
+**Venue:** NBER Working Paper No. 32140 (also published in NOEMA Magazine as "How AI Could Help Rebuild The Middle Class")
 **PDF:** [papers/pdfs/autor_2024_rebuild-middle-class.pdf](../../papers/pdfs/autor_2024_rebuild-middle-class.pdf)
-**Fuente / Source:** https://www.nber.org/papers/w32140
+**Source:** https://www.nber.org/papers/w32140
 
-## 1. Cita completa
+## 1. Full citation
 
 Autor, David (2024). "Applying AI to Rebuild Middle Class Jobs." NBER Working Paper No. 32140, National Bureau of Economic Research, February 2024.
 
-## 2. Pregunta de investigación
+## 2. Research question
 
-¿Puede la inteligencia artificial revertir el patrón de polarización del mercado laboral que la informatización profundizó durante cuatro décadas, devolviéndole valor económico a la pericia ("expertise") de trabajadores sin grado universitario? Autor argumenta — explícitamente como tesis normativa, no como pronóstico (p. 3) — que la IA, bien usada, puede "restablecer el corazón de habilidades medias y clase media del mercado laboral estadounidense que ha sido vaciado por la automatización y la globalización" (Abstract, PDF p. 2).
+Can artificial intelligence reverse the labor market polarization that computerization deepened over four decades, restoring economic value to the expertise of workers without college degrees? Autor argues — explicitly as a normative thesis, not a forecast (p. 3) — that AI, used well, can "restore the heart of the middle-skills, middle-class labor market that has been hollowed out by automation and globalization" (Abstract, PDF p. 2).
 
-## 3. Método
+## 3. Method
 
-Este es un ensayo argumentativo / artículo de opinión académica, no un trabajo empírico con identificación causal propia. Su método consiste en:
+This is an argumentative essay / academic opinion piece, not an empirical study with its own causal identification. Its method consists of:
 
-- **Marco conceptual histórico-institucional:** Autor distingue tres regímenes tecnológicos sucesivos — pericia artesanal (pre-industrial), pericia de masas (industrial), y pericia de élite (informática) — y sitúa la IA como punto de inflexión hacia un nuevo régimen (pp. 3–7).
-- **Distinción Polanyi:** se apoya en la "Paradoja de Polanyi" ("sabemos más de lo que podemos decir") para explicar por qué la informática pre-IA solo automatizaba tareas rutinarias codificables, mientras la IA aprende conocimiento tácito mediante ejemplos (pp. 5–7).
-- **Síntesis de evidencia experimental ajena:** revisa cuatro estudios de "prueba de concepto" (Peng et al. 2023 sobre Copilot; Noy & Zhang 2023 sobre ChatGPT; Brynjolfsson, Li & Raymond 2023 sobre servicio al cliente; Agarwal et al. 2023 sobre radiología) (pp. 10–11).
-- **Estudio de caso institucional:** la profesión de Nurse Practitioner (NP) en EE.UU. como ejemplo análogo — no de IA — de cómo se puede redistribuir trabajo experto fuera de un cuello de botella de élite (pp. 8–9).
+- **Historical-institutional conceptual framework:** Autor distinguishes three successive technological regimes — craft expertise (pre-industrial), mass expertise (industrial), and elite expertise (computerized) — and places AI as an inflection point toward a new regime (pp. 3–7).
+- **Polanyi distinction:** relies on "Polanyi's Paradox" ("we know more than we can tell") to explain why pre-AI computing only automated codifiable routine tasks, while AI learns tacit knowledge through examples (pp. 5–7).
+- **Synthesis of external experimental evidence:** reviews four proof-of-concept studies (Peng et al. 2023 on Copilot; Noy & Zhang 2023 on ChatGPT; Brynjolfsson, Li & Raymond 2023 on customer service; Agarwal et al. 2023 on radiology) (pp. 10–11).
+- **Institutional case study:** the Nurse Practitioner (NP) profession in the US as an analogous example — not of AI — of how expert work can be redistributed beyond an elite bottleneck (pp. 8–9).
 
-**Supuestos clave:** (i) la trayectoria de la IA no es tecnológicamente determinista — depende de instituciones e incentivos (pp. 3, 15); (ii) la "pericia" es la fuente primaria de valor laboral en economías industrializadas (p. 1); (iii) hay escasez secular de trabajadores por demografía, no escasez de empleos (pp. 1, 12).
+**Key assumptions:** (i) AI's trajectory is not technologically determinist — it depends on institutions and incentives (pp. 3, 15); (ii) "expertise" is the primary source of labor value in industrialized economies (p. 1); (iii) there is a secular shortage of workers driven by demographics, not a shortage of jobs (pp. 1, 12).
 
-## 4. Hallazgos principales
+## 4. Key findings
 
-- **Diagnóstico de polarización:** durante las últimas cuatro décadas, los precios de servicios de salud y educación en EE.UU. aumentaron alrededor de 200% y 600% respectivamente en relación con los ingresos de los hogares — alimentado en parte por el costo escalante de los expertos de élite (Dohrman & Fallick, citado en p. 8). El 60% de adultos sin licenciatura quedó relegado a empleos de servicios de bajo salario (p. 2).
-- **Brecha salarial por pericia:** controladores aéreos ganaron en 2022 un salario mediano anual de USD 132.250, casi cuatro veces los USD 33.380 de los guardias de cruce escolar — siendo, en lo esencial, "el mismo trabajo" salvo por la pericia requerida (p. 1).
-- **Caso Nurse Practitioner:** entre 2011 y 2022 el empleo de NPs casi se triplicó hasta ~224.000, con crecimiento proyectado de ~40% en la siguiente década y salario mediano de USD 125.900 en 2022 (p. 9). Es un ejemplo de redistribución institucional de tareas de alto riesgo desde médicos a profesionales con menos formación de élite.
-- **Evidencia experimental de complementariedad:** GitHub Copilot aceleró tareas de programación ~56% (Peng et al. 2023, citado en p. 10); ChatGPT redujo en 40% el tiempo de tareas de escritura, con las mayores mejoras de calidad concentradas en los escritores menos hábiles (Noy & Zhang 2023, p. 10); herramientas generativas en servicio al cliente subieron la productividad ~14%, con los novatos alcanzando en 3 meses la habilidad que antes tomaba 10 (Brynjolfsson, Li & Raymond 2023, p. 10).
-- **Excepción que confirma la regla:** en radiología, la IA no mejoró diagnósticos porque los médicos no supieron usarla (sobreescribieron predicciones acertadas) — la lección es que la complementariedad requiere entrenamiento, no que la IA esté contraindicada (Agarwal et al. 2023, p. 11).
-- **Demografía como restricción dura:** ya en 1900 cerca del 35% del empleo estadounidense estaba en agricultura; en 2022 era ~1% sin que se haya reducido el consumo de alimentos (p. 11). El reto industrializado actual no es escasez de empleos sino escasez de trabajadores (p. 12).
+- **Polarization diagnosis:** over the past four decades, prices for healthcare and education services in the US rose roughly 200% and 600%, respectively, relative to household incomes — fed in part by the escalating cost of elite experts (Dohrman & Fallick, cited at p. 8). The 60% of adults without a bachelor's degree were relegated to low-wage service jobs (p. 2).
+- **Expertise wage gap:** air traffic controllers earned a median annual wage of USD 132,250 in 2022, nearly four times the USD 33,380 earned by school crossing guards — essentially "the same job" except for the expertise required (p. 1).
+- **Nurse Practitioner case:** between 2011 and 2022 NP employment nearly tripled to ~224,000, with projected growth of ~40% over the following decade and a median wage of USD 125,900 in 2022 (p. 9). This exemplifies the institutional redistribution of high-stakes tasks from physicians to professionals with less elite training.
+- **Experimental evidence of complementarity:** GitHub Copilot accelerated programming tasks by ~56% (Peng et al. 2023, cited at p. 10); ChatGPT reduced writing task time by 40%, with the largest quality gains concentrated among the least-skilled writers (Noy & Zhang 2023, p. 10); generative tools in customer service raised productivity ~14%, with novices reaching in 3 months the skill level that previously took 10 (Brynjolfsson, Li & Raymond 2023, p. 10).
+- **Exception that proves the rule:** in radiology, AI did not improve diagnoses because physicians did not know how to use it (they overrode correct predictions) — the lesson is that complementarity requires training, not that AI is contraindicated (Agarwal et al. 2023, p. 11).
+- **Demographics as a hard constraint:** by 1900, roughly 35% of US employment was in agriculture; by 2022 it was ~1% without any reduction in food consumption (p. 11). The current industrialized challenge is not a shortage of jobs but a shortage of workers (p. 12).
 
-## 5. Implicaciones para política pública (Colombia / América Latina)
+## 5. Policy implications (Colombia / Latin America)
 
-- **Reforma de alcance regulatorio profesional ("scope of practice"):** el caso NP muestra que el cuello de botella es institucional, no tecnológico. En Colombia esto sugiere repensar reservas profesionales (medicina, derecho, contabilidad, ingeniería) para permitir que técnicos y tecnólogos certificados, asistidos por IA, atiendan tareas que hoy monopoliza el profesional con título universitario — especialmente en zonas rurales con déficit de especialistas.
-- **Educación técnica y tecnológica (SENA, IES tecnológicas):** la tesis de Autor implica que invertir en formación de nivel medio que combine fundamentos sólidos con uso instrumental de IA puede generar más retorno social que duplicar matrícula universitaria. La IA es complemento de pericia adquirida, no sustituto de formación.
-- **Política de salud y educación como sector productivo:** los servicios cuya inflación describe Autor (p. 8) son también los que más pesan en el gasto del hogar colombiano de clase media. Reducir costos vía IA-apalancada-en-personal-no-élite (enfermería avanzada, paralegales, tutores asistidos) ataca tanto inequidad de ingresos como inequidad de acceso.
-- **Riesgo opuesto:** si la regulación y la concentración de mercado bloquean la difusión hacia trabajadores no élite (ver `korinek-vipra_2025_concentrating-intelligence`), el escenario contrario — desvalorización generalizada de la pericia y captura de rentas por dueños de modelos — es perfectamente plausible. La política colombiana de IA debe condicionar la difusión a que llegue al trabajador, no solo al accionista.
-- **Demografía:** Colombia aún no enfrenta el shock demográfico de Japón o EE.UU., pero el bono demográfico se cierra hacia 2035–2045. Autor sugiere que la IA puede mitigar escasez futura de trabajadores calificados — una razón adicional para acelerar adopción institucional, no para frenarla.
+- **Professional scope-of-practice reform:** the NP case shows that the bottleneck is institutional, not technological. In Colombia, this suggests reconsidering professional monopolies (medicine, law, accounting, engineering) to allow AI-assisted certified technicians to handle tasks currently monopolized by university-credentialed professionals — especially in rural areas with specialist shortages.
+- **Technical and vocational education (SENA, technological IES):** Autor's thesis implies that investing in mid-level training that combines strong foundations with practical AI use can yield greater social returns than doubling university enrollment. AI complements acquired expertise; it does not substitute for training.
+- **Health and education policy as productive sectors:** the services whose inflation Autor describes (p. 8) are also those that weigh most heavily on Colombian middle-class household spending. Reducing costs via AI-leveraged non-elite personnel (advanced nursing, paralegals, AI-assisted tutors) addresses both income inequality and access inequality.
+- **Countervailing risk:** if regulation and market concentration block diffusion to non-elite workers (see `korinek-vipra_2025_concentrating-intelligence`), the opposite scenario — generalized devaluation of expertise and rent capture by model owners — is entirely plausible. Colombia's AI policy must condition diffusion on benefits reaching workers, not just shareholders.
+- **Demographics:** Colombia has not yet faced the demographic shock of Japan or the US, but the demographic dividend closes around 2035–2045. Autor suggests AI can mitigate future shortages of skilled workers — an additional reason to accelerate institutional adoption rather than slow it.
 
-## 6. Debates y caveats
+## 6. Debates and caveats
 
-- **Tono frente a Acemoglu:** Autor es deliberadamente más optimista sobre el potencial distributivo de la IA que `acemoglu_2024_simple-macro-ai`, cuya estimación de ~0,66% de TFP acumulada en 10 años se basa en automatización marginal sin un canal de "reintroducción de pericia". Autor mismo reconoce (p. 14) que "la evidencia reciente indica que [la automatización] está superando [a la creación de nuevo trabajo]" — citando a Acemoglu & Restrepo 2022 — pero apuesta por una bifurcación posible. Es complemento, no sustituto, del marco de tareas de `acemoglu-restrepo_2018_ai-automation-work`.
-- **Frente a Aghion:** `aghion-bunel_2024_ai-and-growth` y `aghion-jones-jones_2017_ai-economic-growth` ven la IA como acelerador del crecimiento agregado (0,8–1,3 pp/año o más); Autor no discute crecimiento agregado y se concentra en distribución. Las dos visiones son compatibles pero responden preguntas distintas.
-- **Apoyo empírico parcial:** la evidencia experimental que Autor cita es robusta para escritura, código y servicio al cliente — `brynjolfsson-li-raymond_2025_genai-at-work` confirma directamente la compresión de la brecha entre novatos y expertos. Pero la generalización a medicina, derecho o ingeniería es, por ahora, especulativa: el caso radiología (p. 11) muestra que la complementariedad no es automática.
-- **Riesgo de captura:** Autor reconoce (p. 15) que la IA puede usarse para vigilancia y concentración autoritaria. `korinek-vipra_2025_concentrating-intelligence` formaliza el escenario opuesto al que Autor propone — captura de rentas por pocos proveedores de modelos. La tesis de Autor es condicional: requiere instituciones que distribuyan la pericia.
-- **Naturaleza del documento:** es un ensayo argumentativo, no un paper con identificación causal. No produce datos nuevos; sintetiza. Tratarlo como manifiesto programático, no como evidencia.
+- **Tone versus Acemoglu:** Autor is deliberately more optimistic about AI's distributive potential than `acemoglu_2024_simple-macro-ai`, whose estimate of ~0.66% cumulative TFP over 10 years rests on marginal automation with no "expertise reintroduction" channel. Autor himself acknowledges (p. 14) that "recent evidence indicates that [automation] is outpacing [new task creation]" — citing Acemoglu & Restrepo 2022 — but bets on a possible bifurcation. This paper is a complement, not a substitute, to the tasks framework of `acemoglu-restrepo_2018_ai-automation-work`.
+- **Versus Aghion:** `aghion-bunel_2024_ai-and-growth` and `aghion-jones-jones_2017_ai-economic-growth` view AI as an accelerator of aggregate growth (0.8–1.3 pp/year or more); Autor does not address aggregate growth and focuses on distribution. The two perspectives are compatible but answer different questions.
+- **Partial empirical support:** the experimental evidence Autor cites is robust for writing, coding, and customer service — `brynjolfsson-li-raymond_2025_genai-at-work` directly confirms the compression of the novice-to-expert gap. But the generalization to medicine, law, or engineering remains, for now, speculative: the radiology case (p. 11) shows that complementarity is not automatic.
+- **Risk of capture:** Autor acknowledges (p. 15) that AI can be used for surveillance and authoritarian concentration. `korinek-vipra_2025_concentrating-intelligence` formalizes the scenario opposite to what Autor proposes — rent capture by a small number of model providers. Autor's thesis is conditional: it requires institutions that distribute expertise.
+- **Nature of the document:** this is an argumentative essay, not a paper with causal identification. It produces no new data; it synthesizes. Treat it as a programmatic manifesto, not as evidence.
 
-## 7. Lecturas relacionadas
+## 7. Related readings
 
-- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — la contraparte cautelosa: estima TFP modesta y advierte sobre desigualdad si la IA solo automatiza.
-- [acemoglu-restrepo_2018_ai-automation-work](../labor-productivity/acemoglu-restrepo_2018_ai-automation-work.md) — el marco de tareas que Autor usa implícitamente para distinguir automatización de aumentación.
-- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — evidencia experimental directa sobre la compresión novato-experto que Autor cita en p. 10.
-- [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — visión optimista sobre crecimiento agregado, complementaria a la tesis distributiva de Autor.
-- [aghion-jones-jones_2017_ai-economic-growth](../ai-models-governance/aghion-jones-jones_2017_ai-economic-growth.md) — modelo formal de IA como motor de crecimiento; útil para contrastar con el énfasis no formal de Autor.
-- [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — el escenario opuesto: concentración de mercado en proveedores de IA que bloquearía la difusión democratizadora que Autor propone.
+- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — the cautious counterpart: estimates modest TFP gains and warns about inequality if AI only automates.
+- [acemoglu-restrepo_2018_ai-automation-work](../labor-productivity/acemoglu-restrepo_2018_ai-automation-work.md) — the tasks framework Autor implicitly uses to distinguish automation from augmentation.
+- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — direct experimental evidence on the novice-to-expert compression Autor cites at p. 10.
+- [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — optimistic view on aggregate growth, complementary to Autor's distributive thesis.
+- [aghion-jones-jones_2017_ai-economic-growth](../ai-models-governance/aghion-jones-jones_2017_ai-economic-growth.md) — formal model of AI as a growth engine; useful for contrasting with Autor's non-formal emphasis.
+- [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — the opposite scenario: market concentration among AI providers that would block the democratizing diffusion Autor proposes.

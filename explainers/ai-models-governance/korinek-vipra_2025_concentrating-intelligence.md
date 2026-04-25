@@ -1,59 +1,59 @@
 # Concentrating Intelligence: Scaling and Market Structure in Artificial Intelligence
 
-**Autores / Authors:** Anton Korinek, Jai Vipra
-**Año / Year:** 2024 (NBER WP, forthcoming *Economic Policy* 2025)
-**Publicación / Venue:** NBER Working Paper No. 33139
+**Authors:** Anton Korinek, Jai Vipra
+**Year:** 2024 (NBER WP, forthcoming *Economic Policy* 2025)
+**Venue:** NBER Working Paper No. 33139
 **PDF:** [papers/pdfs/korinek-vipra_2025_concentrating-intelligence.pdf](../../papers/pdfs/korinek-vipra_2025_concentrating-intelligence.pdf)
-**Fuente / Source:** https://www.nber.org/papers/w33139
+**Source:** https://www.nber.org/papers/w33139
 
-## 1. Cita completa
+## 1. Full citation
 
 Korinek, Anton, and Jai Vipra. 2024. "Concentrating Intelligence: Scaling and Market Structure in Artificial Intelligence." NBER Working Paper No. 33139. National Bureau of Economic Research. Forthcoming, *Economic Policy* 2025.
 
-## 2. Pregunta de investigación
+## 2. Research question
 
-¿La estructura del mercado de los modelos de fundación (foundation models) — particularmente los grandes modelos de lenguaje (LLMs) — se está moviendo hacia la concentración monopolística, y qué herramientas de política de competencia pueden usar los reguladores para mantener un panorama competitivo? Los autores examinan los rasgos tecnológicos (escalas de costo, leyes de escalamiento, integración vertical) que podrían "tippear" (volcar) el mercado hacia uno o pocos jugadores dominantes.
+Is the market structure for foundation models — particularly large language models (LLMs) — moving toward monopolistic concentration, and what competition-policy tools can regulators use to preserve a competitive landscape? The authors examine the technological features (cost scaling, scaling laws, vertical integration) that could "tip" the market toward one or a few dominant players.
 
-## 3. Método
+## 3. Method
 
-- **Enfoque:** análisis económico-institucional descriptivo (no econométrico). Combina:
-  - Datos de mercado y benchmarks (tabla LMSYS, valuaciones, cuotas de mercado al cierre de 2023/2024).
-  - Análisis de la estructura de costos de los foundation models (pre-entrenamiento, fine-tuning, inferencia).
-  - Revisión de marcos regulatorios actuales (FTC, DoJ, CMA, EU AI Act, Digital Markets Act).
-- **Marco conceptual clave:** economías de escala y de alcance derivadas de altos costos fijos + bajos costos variables; "leyes de escalamiento" (Kaplan et al. 2020; Hoffmann et al. 2022) que predicen que el desempeño crece con el cómputo invertido.
-- **Supuestos:** los avances de capacidad seguirán correlacionados con el gasto en cómputo durante 3–5 años más (p. 15); los retornos económicos a la IA serán suficientes para justificar la inversión.
+- **Approach:** descriptive institutional-economic analysis (not econometric). It combines:
+  - Market data and benchmarks (LMSYS leaderboard, valuations, market shares as of end-2023/2024).
+  - Cost-structure analysis of foundation models (pre-training, fine-tuning, inference).
+  - Review of current regulatory frameworks (FTC, DoJ, CMA, EU AI Act, Digital Markets Act).
+- **Key conceptual framework:** economies of scale and scope arising from high fixed costs + low variable costs; "scaling laws" (Kaplan et al. 2020; Hoffmann et al. 2022) predicting that performance grows with compute investment.
+- **Assumptions:** capability advances will remain correlated with compute spending for another 3–5 years (p. 15); economic returns to AI will be sufficient to justify the investment.
 
-## 4. Hallazgos principales
+## 4. Key findings
 
-- **Costos de pre-entrenamiento explosivos:** Epoch (2024) estima que entrenar Gemini Ultra en 2023 costó USD 130 millones (PDF p. 13). El cómputo desplegado en modelos de frontera ha crecido 4.1× por año durante los últimos 15 años (PDF p. 14), y el gasto en cómputo 3.09× por año (PDF p. 14, n. 6).
-- **Concentración aguas arriba (chips):** Nvidia controlaba aproximadamente 92% del mercado de GPUs según Fernandez et al. (2023) (Figure 3, PDF p. 11), y un reporte de Wells Fargo estimó 98% del mercado de GPUs para data center en febrero 2024 (PDF p. 11).
-- **Cuotas de mercado iniciales muy concentradas:** a fines de 2023, OpenAI (vía GPT-4) capturaba 39% del mercado de IA generativa y Microsoft (también vía GPT-4) 30% — juntos 69% (Figure 1, PDF p. 9). Google DeepMind quedaba en segundo lugar lejano con 7%.
-- **Pero competencia feroz en el frontier:** al 4 de noviembre de 2024 había al menos 16 laboratorios con modelos comparables al GPT-4 original (PDF p. 3), y los cuatro líderes (OpenAI, Google DeepMind, xAI, Anthropic) están agrupados dentro de 54 puntos LMSYS — ChatGPT-4o tiene solo 55.3% de probabilidad de vencer a Gemini 1.5 Pro 002 y 57.7% contra Claude 3.5 Sonnet (PDF p. 5). Esto sugiere "competencia tipo Bertrand" con precios cerca de costos variables (PDF p. 6).
-- **Talento académico drenado a la industria:** Henshall (2024) reporta que la proporción de Ph.D.s en IA que van a la industria pasó de 21% en 2004 a 73% en 2022 (PDF p. 17), encareciendo el "pipeline" de investigadores y profundizando ventajas de incumbentes.
-- **Riesgos de tipping y bucles de retroalimentación:** los autores identifican un mecanismo nuevo —"intelligence feedback loop"— por el cual el laboratorio líder usa sus propios modelos internos para acelerar la siguiente versión, lo que en el límite podría producir una "explosión de inteligencia" (Good 1965) y "first-mover advantages" auto-reforzantes (PDF p. 19).
-- **Integración vertical preocupante:** OpenAI ya exigió cláusulas de exclusividad a inversionistas (incluida Nvidia) en su ronda de octubre 2024 (PDF p. 10); Microsoft "absorbió" a Inflection AI vía un acuerdo de licencia de USD 650 millones que evitó la revisión antimonopolio (PDF p. 10). Microsoft invirtió ~USD 14 mil millones en OpenAI (PDF p. 7); OpenAI fue valorada en USD 157 mil millones en octubre 2024 (Figure 2, PDF p. 9).
+- **Explosive pre-training costs:** Epoch (2024) estimates that training Gemini Ultra in 2023 cost USD 130 million (PDF p. 13). Compute deployed in frontier models has grown 4.1× per year over the past 15 years (PDF p. 14), and compute spending 3.09× per year (PDF p. 14, n. 6).
+- **Upstream concentration (chips):** Nvidia controlled approximately 92% of the GPU market according to Fernandez et al. (2023) (Figure 3, PDF p. 11), and a Wells Fargo report estimated 98% of the data-center GPU market in February 2024 (PDF p. 11).
+- **Highly concentrated initial market shares:** at end-2023, OpenAI (via GPT-4) captured 39% of the generative AI market and Microsoft (also via GPT-4) 30% — together 69% (Figure 1, PDF p. 9). Google DeepMind came in a distant second with 7%.
+- **But fierce competition at the frontier:** as of November 4, 2024, at least 16 labs had models comparable to the original GPT-4 (PDF p. 3), and the four leaders (OpenAI, Google DeepMind, xAI, Anthropic) are clustered within 54 LMSYS points — ChatGPT-4o has only a 55.3% probability of beating Gemini 1.5 Pro 002 and 57.7% against Claude 3.5 Sonnet (PDF p. 5). This suggests "Bertrand-style competition" with prices near variable cost (PDF p. 6).
+- **Academic talent drained to industry:** Henshall (2024) reports that the share of AI Ph.D.s going to industry rose from 21% in 2004 to 73% in 2022 (PDF p. 17), raising the cost of the researcher pipeline and deepening incumbents' advantages.
+- **Tipping risks and feedback loops:** the authors identify a new mechanism — the "intelligence feedback loop" — by which the leading lab uses its own internal models to accelerate the next version, which could in the limit produce an "intelligence explosion" (Good 1965) and self-reinforcing first-mover advantages (PDF p. 19).
+- **Concerning vertical integration:** OpenAI already required exclusivity clauses from investors (including Nvidia) in its October 2024 funding round (PDF p. 10); Microsoft "absorbed" Inflection AI via a USD 650 million licensing deal that avoided antitrust review (PDF p. 10). Microsoft invested ~USD 14 billion in OpenAI (PDF p. 7); OpenAI was valued at USD 157 billion in October 2024 (Figure 2, PDF p. 9).
 
-## 5. Implicaciones para política pública (Colombia / América Latina)
+## 5. Policy implications (Colombia / Latin America)
 
-Para Colombia y la región andina, este artículo es de lectura obligada porque enmarca la IA como **infraestructura crítica con tendencia natural al monopolio global**, no como un mercado competitivo más:
+For Colombia and the Andean region, this paper is essential reading because it frames AI as **critical infrastructure with a natural tendency toward global monopoly**, not as just another competitive market:
 
-1. **Soberanía de cómputo limitada por diseño:** Colombia no tiene ni tendrá capacidad de competir en la frontera del entrenamiento de LLMs (los costos de entrenamiento se proyectan en miles de millones de USD para 2027 según Cottier et al. 2024, citado en bibliografía PDF p. 27). La estrategia nacional de IA debe asumir que **será consumidora, no productora**, de modelos de frontera, y enfocarse en (a) acceso negociado a APIs en condiciones no discriminatorias, (b) capacidad de fine-tuning con datos colombianos, y (c) talento local para evaluar y adaptar modelos.
-2. **Política de competencia preventiva:** la SIC (Superintendencia de Industria y Comercio) debería incorporar lecciones del DMA europeo y del análisis FTC/CMA citado por los autores (PDF p. 11–12). Específicamente: vigilar adquisiciones "encubiertas" tipo Microsoft–Inflection, contratos exclusivos cloud–LLM, y privilegios de acceso temprano que distorsionan mercados downstream.
-3. **Datos como activo estratégico:** el artículo destaca que el 79% de sitios de noticias de EE.UU. bloquearon los crawlers de OpenAI (PDF p. 16). Colombia podría coordinar políticas de data sharing público (datos de salud, educación, judiciales anonimizados) para reducir la dependencia de modelos entrenados solo con corpus en inglés y para fortalecer la posición negociadora frente a proveedores extranjeros.
-4. **Riesgo de "intelligence divide":** los autores advierten que la UE enfrenta un riesgo de "intelligence divide" al carecer de un laboratorio frontera propio (PDF p. 24). Colombia y América Latina enfrentan una versión más severa: si la concentración global se consolida, el acceso, los precios y los términos de uso de los modelos quedarán determinados por reguladores en EE.UU., UE y China.
+1. **Compute sovereignty limited by design:** Colombia does not and will not have the capacity to compete at the frontier of LLM training (training costs are projected in the billions of USD by 2027 according to Cottier et al. 2024, cited in bibliography PDF p. 27). The national AI strategy must assume that Colombia **will be a consumer, not a producer**, of frontier models, and focus on (a) negotiated access to APIs on non-discriminatory terms, (b) fine-tuning capacity using Colombian data, and (c) local talent to evaluate and adapt models.
+2. **Preventive competition policy:** Colombia's SIC (Superintendencia de Industria y Comercio) should incorporate lessons from the European DMA and the FTC/CMA analysis cited by the authors (PDF p. 11–12). Specifically: monitor "stealth" acquisitions like Microsoft–Inflection, exclusive cloud–LLM contracts, and early-access privileges that distort downstream markets.
+3. **Data as a strategic asset:** the paper notes that 79% of U.S. news sites blocked OpenAI's crawlers (PDF p. 16). Colombia could coordinate public data-sharing policies (health, education, anonymized judicial data) to reduce dependence on models trained only on English-language corpora and to strengthen its negotiating position vis-à-vis foreign providers.
+4. **Risk of an "intelligence divide":** the authors warn that the EU faces an "intelligence divide" risk by lacking a frontier lab of its own (PDF p. 24). Colombia and Latin America face a more severe version: if global concentration consolidates, access, pricing, and terms of use for models will be determined by regulators in the U.S., EU, and China.
 
-## 6. Debates y caveats
+## 6. Debates and caveats
 
-- **Optimistas vs. pesimistas sobre la magnitud:** los autores citan explícitamente la estimación conservadora de Acemoglu (2024) de un efecto de crecimiento de **0.07% anual** sobre la próxima década — bajo ese escenario, dicen, "the market concentration implications will be a footnote in economic history" (PDF p. 4). Korinek y Vipra están más cerca del campo optimista (Hatzius et al. 2023; JP Morgan 2024 que proyectan que la IA podría sustentar 7–10% del PIB global en una década, PDF p. 4). Compárese con `acemoglu_2024_simple-macro-ai` (estimación conservadora de TFP) y `aghion-bunel_2024_ai-and-growth` (~0.8–1.3pp/año).
-- **¿Tipping inevitable?** El análisis subraya que en noviembre 2024 había competencia feroz, no monopolio. Joshua Gans (2024, citado en PDF p. 19) argumenta que los data feedback loops no garantizan dominancia si los retornos a datos adicionales decrecen rápido. Los autores reconocen esta tensión pero apuestan a que los costos crecientes terminarán reduciendo el número de jugadores viables.
-- **Competencia vs. seguridad:** los autores señalan honestamente un trade-off ético: hacer el mercado más competitivo (vía open-source) puede colisionar con regular la seguridad de la IA (PDF p. 24). Esto contrasta con visiones más maximalistas pro-open-source.
-- **Limitaciones empíricas:** el artículo es descriptivo y prospectivo, no causal. No estima elasticidades, no testea hipótesis, y depende fuertemente de un snapshot de noviembre 2024 que ya envejece rápidamente.
+- **Optimists vs. pessimists on magnitude:** the authors explicitly cite Acemoglu's (2024) conservative estimate of a growth effect of **0.07% per year** over the next decade — under that scenario, they say, "the market concentration implications will be a footnote in economic history" (PDF p. 4). Korinek and Vipra lean closer to the optimist camp (Hatzius et al. 2023; JP Morgan 2024, which project that AI could underpin 7–10% of global GDP within a decade, PDF p. 4). Compare with `acemoglu_2024_simple-macro-ai` (conservative TFP estimate) and `aghion-bunel_2024_ai-and-growth` (~0.8–1.3pp/yr).
+- **Is tipping inevitable?** The analysis stresses that as of November 2024 there was fierce competition, not monopoly. Joshua Gans (2024, cited PDF p. 19) argues that data feedback loops do not guarantee dominance if returns to additional data diminish quickly. The authors acknowledge this tension but bet that rising costs will eventually reduce the number of viable players.
+- **Competition vs. safety:** the authors honestly flag an ethical trade-off: making the market more competitive (via open source) may clash with regulating AI safety (PDF p. 24). This contrasts with more maximalist pro-open-source views.
+- **Empirical limitations:** the paper is descriptive and prospective, not causal. It estimates no elasticities, tests no hypotheses, and depends heavily on a November 2024 snapshot that is already aging quickly.
 
-## 7. Lecturas relacionadas
+## 7. Related readings
 
-- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — Estimación conservadora de impacto macro que, si se cumple, vuelve secundaria la preocupación por concentración.
-- [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — Visión más optimista del crecimiento por IA; eleva el premio del mercado y refuerza la urgencia de política de competencia.
-- [aghion-jones-jones_2017_ai-economic-growth](../ai-models-governance/aghion-jones-jones_2017_ai-economic-growth.md) — Marco teórico sobre cuellos de botella e ideas que se vuelven escasas — relevante para el "intelligence feedback loop".
-- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — Evidencia microeconómica de que los LLMs sí generan productividad real, justificando la inversión que alimenta la concentración.
-- [acemoglu-restrepo_2018_ai-automation-work](../labor-productivity/acemoglu-restrepo_2018_ai-automation-work.md) — Marco de tareas y automatización que complementa la pregunta de quién captura las rentas.
-- [autor_2024_rebuild-middle-class](../labor-productivity/autor_2024_rebuild-middle-class.md) — Sobre cómo la IA podría redistribuir poder de mercado en el trabajo, dependiente de la estructura del mercado upstream que Korinek-Vipra describen.
+- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — Conservative estimate of macro impact that, if borne out, makes concentration concerns a secondary issue.
+- [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — More optimistic view of AI-driven growth; raises the market prize and reinforces the urgency of competition policy.
+- [aghion-jones-jones_2017_ai-economic-growth](../ai-models-governance/aghion-jones-jones_2017_ai-economic-growth.md) — Theoretical framework on bottlenecks and ideas becoming scarce — relevant to the "intelligence feedback loop."
+- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — Microeconomic evidence that LLMs do generate real productivity gains, justifying the investment that fuels concentration.
+- [acemoglu-restrepo_2018_ai-automation-work](../labor-productivity/acemoglu-restrepo_2018_ai-automation-work.md) — Task and automation framework that complements the question of who captures the rents.
+- [autor_2024_rebuild-middle-class](../labor-productivity/autor_2024_rebuild-middle-class.md) — On how AI could redistribute market power in labor, dependent on the upstream market structure that Korinek-Vipra describe.

@@ -1,60 +1,60 @@
 # AI and Women's Employment in Europe (companion to "New Technologies and Jobs in Europe")
 
-**Autores / Authors:** Stefania Albanesi, António Dias da Silva, Juan F. Jimeno, Ana Lamo, Alena Wabitsch
-**Año / Year:** 2025
-**Publicación / Venue:** NBER Working Paper 33451 (February 2025); companion to Albanesi et al., *Economic Policy* (2024), "New Technologies and Jobs in Europe"
+**Authors:** Stefania Albanesi, António Dias da Silva, Juan F. Jimeno, Ana Lamo, Alena Wabitsch
+**Year:** 2025
+**Venue:** NBER Working Paper 33451 (February 2025); companion to Albanesi et al., *Economic Policy* (2024), "New Technologies and Jobs in Europe"
 **PDF:** [papers/pdfs/albanesi-et-al_2025_new-tech-jobs-europe.pdf](../../papers/pdfs/albanesi-et-al_2025_new-tech-jobs-europe.pdf)
-**Fuente / Source:** https://www.nber.org/papers/w33451
+**Source:** https://www.nber.org/papers/w33451
 
-> Nota: el PDF descargado (W33451, "AI and Women's Employment in Europe") es la extensión por género del artículo de *Economic Policy* (2024) "New Technologies and Jobs in Europe" referenciado en `inputs/economists_map.md`. Esta nota explica ambos resultados, con énfasis en el documento descargado.
+> Note: the downloaded PDF (W33451, "AI and Women's Employment in Europe") is the gender-focused extension of the *Economic Policy* (2024) article "New Technologies and Jobs in Europe" referenced in `inputs/economists_map.md`. This explainer covers the findings of both, with emphasis on the downloaded paper.
 
-## 1. Cita completa
+## 1. Full citation
 
-Albanesi, S., Dias da Silva, A., Jimeno, J. F., Lamo, A., y Wabitsch, A. (2025). *AI and Women's Employment in Europe*. NBER Working Paper No. 33451. Cambridge, MA: National Bureau of Economic Research. (Extensión de Albanesi et al., 2024, *Economic Policy*, eiae058.)
+Albanesi, S., Dias da Silva, A., Jimeno, J. F., Lamo, A., and Wabitsch, A. (2025). *AI and Women's Employment in Europe*. NBER Working Paper No. 33451. Cambridge, MA: National Bureau of Economic Research. (Extension of Albanesi et al., 2024, *Economic Policy*, eiae058.)
 
-## 2. Pregunta de investigación
+## 2. Research question
 
-¿La difusión de tecnologías habilitadas por IA en Europa entre 2011 y 2019 desplazó o aumentó el empleo, y específicamente qué efecto tuvo sobre la participación femenina en el empleo? El estudio busca un test empírico ex-post —no una proyección— de las hipótesis de desplazamiento masivo (Frey-Osborne) y de los modelos de automatización sesgada (Acemoglu-Restrepo) en el contexto europeo.
+Did the spread of AI-enabled technologies in Europe between 2011 and 2019 displace or increase employment, and what effect did it have specifically on women's share of employment? The study seeks an ex-post empirical test — not a projection — of the mass-displacement hypothesis (Frey-Osborne) and of skill-biased automation models (Acemoglu-Restrepo) in the European context.
 
-## 3. Método
+## 3. Method
 
-- **Datos:** Encuesta de Fuerza de Trabajo de la UE (EU-LFS) más Reino Unido, 16 países, 2011–2019, ocupaciones ISCO-2008 a 3 dígitos cruzadas con seis sectores agregados (p. 2–3).
-- **Medidas de exposición a IA:** dos índices construidos para EE.UU. y traducidos a ISCO mediante crosswalks (Hardy et al. 2018): el AI Occupational Impact score de Felten et al. (2019), basado en habilidades, y el índice de Webb (2020), basado en superposición textual entre patentes de IA y descripciones de tareas (p. 2).
-- **Estrategia:** regresión a nivel sector-ocupación-país del cambio porcentual en la participación femenina entre 2011 y 2019 sobre el percentil de exposición a IA, con efectos fijos de país e industria, ponderada por empleo inicial (p. 3, ec. 1).
-- **Supuestos clave:** las medidas de exposición construidas para EE.UU. se trasladan razonablemente a la estructura ocupacional europea; la variación entre celdas captura el efecto causal potencial de la difusión de IA y no sólo tendencias preexistentes (limitación reconocida implícitamente).
+- **Data:** EU Labour Force Survey (EU-LFS) plus the United Kingdom, 16 countries, 2011–2019, ISCO-2008 3-digit occupations crossed with six aggregate sectors (p. 2–3).
+- **AI exposure measures:** two indices built for the U.S. and mapped to ISCO through crosswalks (Hardy et al. 2018): the AI Occupational Impact score of Felten et al. (2019), based on skills, and the Webb (2020) index, based on textual overlap between AI patents and task descriptions (p. 2).
+- **Strategy:** sector-occupation-country level regression of the percentage-point change in women's employment share between 2011 and 2019 on the AI-exposure percentile, with country and industry fixed effects, weighted by initial employment (p. 3, eq. 1).
+- **Key assumptions:** the U.S.-built exposure measures transfer reasonably to the European occupational structure; the variation across cells captures the potential causal effect of AI diffusion and not merely pre-existing trends (a limitation implicitly acknowledged by the authors).
 
-## 4. Hallazgos principales
+## 4. Key findings
 
-- Subir 10 percentiles en la distribución de exposición a IA se asocia con un aumento de **2,2 % en la participación femenina** del empleo de la celda usando la medida Webb y de **2,9 %** usando Felten et al. (p. 4). Estos coeficientes son aproximadamente el doble que los estimados para el empleo total en Albanesi et al. (2024) (p. 4).
-- En países con **mayor incremento relativo en la educación femenina**, el coeficiente sube a **2,7 % (Webb) y 3,4 % (Felten et al.)** por cada 10 percentiles de exposición (p. 4, Fig. 2).
-- La asociación positiva es **más fuerte en países con alta participación femenina inicial** (2011), lo que sugiere que el apego al mercado laboral protege contra efectos de desplazamiento (p. 5–6, Fig. 2 paneles c-d).
-- A nivel país, **casi todos** los 16 países muestran coeficientes positivos para ambas medidas; las excepciones son Grecia (negativo en Webb) e Italia/Lituania (cercanos a cero) (p. 6, Fig. 3).
-- Los coeficientes más altos según Felten et al. corresponden a Países Bajos, Portugal y Estonia; según Webb a Austria, Bélgica y Luxemburgo (p. 6).
-- **Contraste con EE.UU.:** Cortes-Pan (2019) y Cortés et al. (2024) encuentran correlación **negativa** entre exposición a automatización y empleo femenino en EE.UU. 1980–2017; los autores europeos argumentan que la diferencia se debe a la combinación de IA (no automatización rutinaria clásica) y mayores ganancias educativas femeninas en Europa (p. 2, p. 7).
+- Moving 10 percentiles up the AI-exposure distribution is associated with a **2.2% increase in women's employment share** within the cell using the Webb measure and **2.9%** using Felten et al. (p. 4). These coefficients are roughly double those estimated for total employment in Albanesi et al. (2024) (p. 4).
+- In countries with **larger relative gains in women's education**, the coefficient rises to **2.7% (Webb) and 3.4% (Felten et al.)** per 10 percentiles of exposure (p. 4, Fig. 2).
+- The positive association is **stronger in countries with higher initial (2011) female labor-force participation**, suggesting that labor-market attachment protects against displacement effects (p. 5–6, Fig. 2 panels c–d).
+- At the country level, **nearly all** 16 countries show positive coefficients for both measures; exceptions are Greece (negative under Webb) and Italy/Lithuania (close to zero) (p. 6, Fig. 3).
+- The highest coefficients under Felten et al. correspond to the Netherlands, Portugal, and Estonia; under Webb to Austria, Belgium, and Luxembourg (p. 6).
+- **Contrast with the U.S.:** Cortes-Pan (2019) and Cortés et al. (2024) find a **negative** correlation between automation exposure and women's employment in the U.S. 1980–2017; the European authors argue the difference stems from combining AI (not classical routine automation) with larger educational gains for women in Europe (p. 2, p. 7).
 
-## 5. Implicaciones para política pública (Colombia / América Latina)
+## 5. Policy implications (Colombia / Latin America)
 
-La evidencia europea es especialmente relevante para Colombia por tres razones estructurales: (i) sistemas de protección laboral del sector formal más cercanos al modelo continental europeo que al estadounidense; (ii) brechas de género en participación que han venido cerrándose por la vía educativa, no por desregulación; (iii) sectores expuestos a IA (servicios profesionales, salud, finanzas, administración pública) concentran empleo femenino formal.
+The European evidence is particularly relevant for Colombia for three structural reasons: (i) formal-sector labor-protection systems are closer to the continental European model than to the U.S. one; (ii) gender gaps in participation have been narrowing through educational attainment rather than deregulation; (iii) sectors exposed to AI (professional services, health, finance, public administration) concentrate formal female employment.
 
-Implicaciones operativas:
+Operational implications:
 
-- **La educación femenina amplifica los beneficios de la IA.** Programas de formación técnica y universitaria con foco en mujeres (becas Generación E, ingenierías, ciencia de datos) no son sólo política de género: son política de productividad y de absorción tecnológica. El coeficiente sube ~50 % en países con mayor avance educativo femenino (p. 4).
-- **El apego al mercado laboral protege.** Políticas que sostienen la participación femenina —cuidado infantil subsidiado, licencias parentales compartidas, lucha contra la informalidad— reducen el riesgo de que la difusión de IA termine excluyendo mujeres del empleo formal, como ocurrió en EE.UU. con la automatización rutinaria.
-- **No replicar mecánicamente la narrativa estadounidense de desplazamiento.** El patrón europeo, más cercano al colombiano en términos institucionales, sugiere efectos netos positivos sobre empleo femenino formal cuando hay capital humano para complementar la tecnología.
-- **Cautela:** los efectos son a nivel de participación dentro de ocupaciones, no de creación neta de empleos. El estudio no aborda informalidad ni el sector que en Colombia emplea más mujeres (servicio doméstico, comercio informal).
+- **Women's education amplifies the benefits of AI.** Technical and university training programs focused on women (Generación E scholarships, engineering, data science) are not only gender policy — they are productivity and technology-absorption policy. The coefficient rises by roughly 50% in countries with greater female educational progress (p. 4).
+- **Labor-market attachment provides protection.** Policies that sustain women's participation — subsidized childcare, shared parental leave, measures against informality — reduce the risk that AI diffusion ends up excluding women from formal employment, as routine automation did in the U.S.
+- **Do not mechanically replicate the U.S. displacement narrative.** The European pattern, institutionally closer to the Colombian one, suggests positive net effects on formal female employment when human capital is available to complement the technology.
+- **Caveat:** the effects are at the level of participation shares within occupations, not net job creation. The study does not address informality or the sectors that in Colombia employ the most women (domestic service, informal trade).
 
-## 6. Debates y caveats
+## 6. Debates and caveats
 
-- **Divergencia con Frey-Osborne y con la literatura de automatización en EE.UU.** El hallazgo positivo contrasta frontalmente con la predicción de desplazamiento masivo de Frey-Osborne (ver `frey-osborne_2024_genai-reappraisal`) y con la evidencia negativa de Cortes-Pan/Cortés et al. para EE.UU. citada en el propio paper (p. 2, p. 7).
-- **Optimismo moderado vs. pesimismo macro de Acemoglu.** Mientras Acemoglu (2024) estima ganancias de TFP de ~0,66 % en 10 años y advierte sobre "the wrong kind of AI" (ver `acemoglu_2024_simple-macro-ai` y `acemoglu-restrepo_2018_ai-automation-work`), Albanesi et al. encuentran efectos de empleo positivos a nivel ocupación. La conciliación posible: efectos heterogéneos por género y educación pueden coexistir con ganancias agregadas modestas.
-- **Pregunta abierta sobre IA generativa.** El periodo 2011–2019 cubre IA predictiva pre-ChatGPT. La extrapolación a IA generativa es incierta; estudios más recientes (`brynjolfsson-li-raymond_2025_genai-at-work`, `deming-bick-blandin_2024_rapid-adoption-genai`) muestran patrones distintos de adopción y compresión de productividad.
-- **Limitaciones de medición:** las medidas Felten y Webb fueron construidas para EE.UU. y discrepan entre sí en qué ocupaciones marcan como expuestas; los autores las usan como proxies pero los coeficientes difieren en magnitud y ranking de país (p. 6).
-- **Causalidad débil.** No hay variación instrumental: la asociación es condicional a efectos fijos de país e industria, pero podría reflejar tendencias preexistentes en feminización de ocupaciones profesionales independientes de IA.
+- **Divergence from Frey-Osborne and from the U.S. automation literature.** The positive finding stands in direct contrast to the mass-displacement prediction of Frey-Osborne (see `frey-osborne_2024_genai-reappraisal`) and to the negative evidence of Cortes-Pan/Cortés et al. for the U.S. cited in the paper itself (p. 2, p. 7).
+- **Moderate optimism vs. Acemoglu's macro pessimism.** While Acemoglu (2024) estimates TFP gains of ~0.66% over 10 years and warns about "the wrong kind of AI" (see `acemoglu_2024_simple-macro-ai` and `acemoglu-restrepo_2018_ai-automation-work`), Albanesi et al. find positive employment effects at the occupation level. A plausible reconciliation: heterogeneous effects by gender and education can coexist with modest aggregate gains.
+- **Open question on generative AI.** The 2011–2019 period covers pre-ChatGPT predictive AI. Extrapolation to generative AI is uncertain; more recent studies (`brynjolfsson-li-raymond_2025_genai-at-work`, `deming-bick-blandin_2024_rapid-adoption-genai`) show different patterns of adoption and productivity compression.
+- **Measurement limitations:** the Felten and Webb measures were built for the U.S. and disagree on which occupations they flag as exposed; the authors use them as proxies, but the coefficients differ in magnitude and country ranking (p. 6).
+- **Weak causality.** There is no instrumental variation: the association is conditional on country and industry fixed effects, but could reflect pre-existing trends in the feminization of professional occupations independent of AI.
 
-## 7. Lecturas relacionadas
+## 7. Related readings
 
-- [acemoglu-restrepo_2018_ai-automation-work](../labor-productivity/acemoglu-restrepo_2018_ai-automation-work.md) — Marco teórico de tareas y desplazamiento; predice efectos negativos que el paper europeo no encuentra.
-- [frey-osborne_2024_genai-reappraisal](../labor-productivity/frey-osborne_2024_genai-reappraisal.md) — Estimaciones de "automatizabilidad" cuya proyección de desplazamiento masivo este estudio no confirma ex-post.
-- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — Estimaciones macro conservadoras de TFP que matizan el optimismo del paper europeo.
-- [autor_2022_labor-market-impacts-tech](../labor-productivity/autor_2022_labor-market-impacts-tech.md) — Marco general de polarización al que dialoga el patrón europeo.
-- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — Evidencia microeconómica complementaria sobre IA generativa y trabajadores menos experimentados.
+- [acemoglu-restrepo_2018_ai-automation-work](../labor-productivity/acemoglu-restrepo_2018_ai-automation-work.md) — Task-based theoretical framework and displacement; predicts negative effects that the European paper does not find.
+- [frey-osborne_2024_genai-reappraisal](../labor-productivity/frey-osborne_2024_genai-reappraisal.md) — "Automatability" estimates whose mass-displacement projections this study does not confirm ex-post.
+- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — Conservative macro TFP estimates that qualify the optimism of the European paper.
+- [autor_2022_labor-market-impacts-tech](../labor-productivity/autor_2022_labor-market-impacts-tech.md) — General polarization framework with which the European pattern is in dialogue.
+- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — Complementary microeconomic evidence on generative AI and less-experienced workers.

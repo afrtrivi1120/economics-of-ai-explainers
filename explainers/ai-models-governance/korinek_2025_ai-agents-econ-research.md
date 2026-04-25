@@ -1,55 +1,55 @@
 # AI Agents for Economic Research
 
-**Autores / Authors:** Anton Korinek
-**Año / Year:** 2025
-**Publicación / Venue:** NBER Working Paper 34202
+**Authors:** Anton Korinek
+**Year:** 2025
+**Venue:** NBER Working Paper 34202
 **PDF:** [papers/pdfs/korinek_2025_ai-agents-econ-research.pdf](../../papers/pdfs/korinek_2025_ai-agents-econ-research.pdf)
-**Fuente / Source:** https://www.nber.org/papers/w34202
+**Source:** https://www.nber.org/papers/w34202
 
-## 1. Cita completa
+## 1. Full citation
 
-Korinek, Anton. 2025. "AI Agents for Economic Research." NBER Working Paper 34202, September 2025. National Bureau of Economic Research. Recursos en línea: https://www.GenAIforEcon.org
+Korinek, Anton. 2025. "AI Agents for Economic Research." NBER Working Paper 34202, September 2025. National Bureau of Economic Research. Online resources: https://www.GenAIforEcon.org
 
-## 2. Pregunta de investigación
+## 2. Research question
 
-¿Cómo pueden los economistas — incluso aquellos sin experiencia en programación — incorporar agentes de IA (sistemas autónomos basados en LLMs que planifican, usan herramientas y ejecutan tareas multipaso) en cada etapa del flujo de trabajo investigativo, desde la revisión de literatura hasta la limpieza de datos, codificación econométrica y síntesis de resultados? El paper combina un marco conceptual con una guía práctica con código funcional.
+How can economists — including those with no programming background — incorporate AI agents (autonomous LLM-based systems that plan, use tools, and execute multi-step tasks) into every stage of the research workflow, from literature review to data cleaning, econometric coding, and results synthesis? The paper combines a conceptual framework with a practical guide containing working code.
 
-## 3. Método
+## 3. Method
 
-No es un paper empírico sino una **guía metodológica y técnica** dirigida a investigadores. Korinek:
+This is not an empirical paper but a **methodological and technical guide** for researchers. Korinek:
 
-- **Documenta** la evolución de la IA generativa en tres paradigmas: chatbots tradicionales (LLMs estilo "Sistema 1"), modelos de razonamiento ("Sistema 2", lanzados en septiembre 2024) y chatbots agénticos (diciembre 2024) (p. 4).
-- **Compara** ofertas de los principales laboratorios (OpenAI, Anthropic, Google DeepMind, xAI, Alibaba, Moonshot) usando benchmarks LMSYS, GPQA y SWE-Bench V (Tablas 2 y 3, pp. 9, 11).
-- **Demuestra** con ejemplos ejecutables: gráficos de la curva de Beveridge en ChatGPT o3 (pp. 12–14), revisiones tipo Deep Research, "vibe coding" de una herramienta OLS con Claude Code (pp. 28–30), y construcción de agentes propios en Python usando la API de FRED y el framework LangGraph (pp. 32–42).
-- **Supuesto clave:** los agentes son asistentes — no sustitutos — del investigador; requieren supervisión humana cercana (p. 6).
+- **Documents** the evolution of generative AI across three paradigms: traditional chatbots (System 1-style LLMs), reasoning models (System 2, released September 2024), and agentic chatbots (December 2024) (p. 4).
+- **Compares** offerings from the leading labs (OpenAI, Anthropic, Google DeepMind, xAI, Alibaba, Moonshot) using LMSYS, GPQA, and SWE-Bench V benchmarks (Tables 2 and 3, pp. 9, 11).
+- **Demonstrates** with runnable examples: Beveridge curve plots in ChatGPT o3 (pp. 12–14), Deep Research-style literature reviews, "vibe coding" an OLS tool with Claude Code (pp. 28–30), and building custom Python agents using the FRED API and the LangGraph framework (pp. 32–42).
+- **Key assumption:** agents are assistants — not substitutes — for the researcher; they require close human supervision (p. 6).
 
-## 4. Hallazgos principales
+## 4. Key findings
 
-- **Los agentes ya completan tareas multi-paso significativas.** Kwa et al. (2025) muestran que los agentes pueden realizar autónomamente tareas que toman ~50 minutos a un humano, y la duración de las tareas que pueden manejar **se ha duplicado cada siete meses desde 2019**; al ritmo actual, podrían realizar tareas de un día completo a finales de 2026 (p. 22).
-- **El frontier de razonamiento se saturó rápidamente.** GPT-5 alcanza 89.4% y Grok-4 88.9% en GPQA (preguntas de doctorado); cuando el benchmark se publicó en noviembre 2023 el mejor modelo lograba sólo 39%, y los doctorandos del área puntean ~65% (p. 11). En julio 2025 dos modelos lograron medalla de oro en la Olimpiada Internacional de Matemáticas (p. 11).
-- **El acceso al frontier se está volviendo función de la capacidad de pago.** Las suscripciones premium de los laboratorios cuestan ~$200/mes (un aumento de 10× respecto al año anterior); un "power user" con todas las suscripciones gastaría ~$1,000/mes, y Sam Altman ha mencionado un sistema "PhD-level" a $20,000/año (p. 16).
-- **Existen alternativas open-source competitivas.** Kimi-K2 (Moonshot, julio 2025) ofrece desempeño cercano al frontier a **15 centavos por millón de tokens de entrada vs. $15 de Claude — diferencia de 100×** (p. 18). DeepSeek y Alibaba Qwen también ofrecen open-weights útiles para investigadores con recursos limitados.
-- **"Vibe coding" democratiza la implementación técnica.** Korinek muestra que con ~300 líneas de Python (en gran parte generadas por lenguaje natural) se puede construir un agente Deep Research multi-agente en LangGraph; el reporte completo de su ejemplo costó ~1 centavo en tokens y 15 búsquedas Tavily (p. 43).
-- **Limitaciones documentadas:** alucinaciones, "datos pseudo" generados cuando el agente no puede acceder a la fuente real (p. 15), fragilidad ante cambios menores en prompts, vulnerabilidad a prompt injection, y razonamiento económico aún débil ("a veces malaplican marcos teóricos y reproducen ideas erróneas comunes en sus datos de entrenamiento") (p. 6).
+- **Agents already complete meaningful multi-step tasks.** Kwa et al. (2025) show that agents can autonomously perform tasks that take a human ~50 minutes, and the duration of tasks they can handle **has doubled every seven months since 2019**; at the current pace, they could handle full-day tasks by late 2026 (p. 22).
+- **The reasoning frontier saturated quickly.** GPT-5 reaches 89.4% and Grok-4 88.9% on GPQA (PhD-level questions); when the benchmark was published in November 2023 the best model scored only 39%, and domain PhD students score ~65% (p. 11). In July 2025 two models won gold medals at the International Mathematical Olympiad (p. 11).
+- **Access to the frontier is becoming a function of ability to pay.** Lab premium subscriptions cost ~$200/month (a 10× increase from the prior year); a power user with all subscriptions would spend ~$1,000/month, and Sam Altman has mentioned a PhD-level system at $20,000/year (p. 16).
+- **Competitive open-source alternatives exist.** Kimi-K2 (Moonshot, July 2025) delivers near-frontier performance at **15 cents per million input tokens vs. $15 for Claude — a 100× difference** (p. 18). DeepSeek and Alibaba Qwen also offer open-weights models useful for researchers with limited budgets.
+- **"Vibe coding" democratizes technical implementation.** Korinek shows that with ~300 lines of Python (largely generated from natural language) one can build a multi-agent Deep Research system in LangGraph; the full report in his example cost ~1 cent in tokens and 15 Tavily searches (p. 43).
+- **Documented limitations:** hallucinations, "pseudo-data" generated when the agent cannot access the real source (p. 15), fragility to minor prompt changes, vulnerability to prompt injection, and still-weak economic reasoning ("they sometimes misapply theoretical frameworks and reproduce common misconceptions present in their training data") (p. 6).
 
-## 5. Implicaciones para política pública (Colombia / América Latina)
+## 5. Policy implications (Colombia / Latin America)
 
-- **Cierre de brecha computacional.** Para departamentos de economía, bancos centrales y centros de investigación en Colombia y América Latina, los agentes ofrecen una vía concreta para superar la brecha en habilidades programáticas: el "vibe coding" permite construir herramientas econométricas funcionales sin un staff técnico dedicado (p. 5). Investigadores junior pueden ahora "lograr lo que antes requería equipos enteros" (p. 47).
-- **Estrategia anti-dependencia y soberanía de datos.** Korinek recomienda **mantener flexibilidad entre proveedores en lugar de comprometerse con un único ecosistema** (p. 6). Para instituciones latinoamericanas con datos sensibles (información de mercado de bancos centrales, microdatos del DANE, registros administrativos), los modelos open-weights desplegados localmente (gpt-oss, Llama, Qwen) son la "norma de oro" en seguridad y permiten cumplir requisitos de no transferencia de datos (p. 19).
-- **Costo y acceso desigual.** El precio premium de $200/mes y la posibilidad de tarifas de $20,000/año para sistemas PhD-level es una **señal de alarma para presupuestos de investigación públicos en la región**. Convenios institucionales con APIs (pago por uso) o el uso de Kimi-K2 / Qwen / DeepSeek pueden ser estrategias más viables que múltiples suscripciones individuales (p. 19).
-- **Infraestructura MCP local.** Las instituciones colombianas (Banco de la República, DANE, Fedesarrollo, universidades) podrían publicar **servidores MCP (Model Context Protocol)** que expongan sus bases de datos a agentes de manera estandarizada — análogo al rol de FRED en EE.UU. (p. 44). Esto aumentaría la visibilidad y uso de datos colombianos en investigación global automatizada.
-- **Capacitación de investigadores.** El paper sugiere que los economistas deben "abrazar estas herramientas ahora, no sólo para aumentar productividad sino para entender sus capacidades y limitaciones" (p. 47). Programas de doctorado y maestría en la región deberían incluir agentes de IA en su currículum metodológico.
+- **Closing the computational gap.** For economics departments, central banks, and research centers in Colombia and Latin America, agents offer a concrete path to overcome the gap in programming skills: vibe coding allows building functional econometric tools without a dedicated technical staff (p. 5). Junior researchers can now "achieve what previously required entire teams" (p. 47).
+- **Anti-dependence strategy and data sovereignty.** Korinek recommends **maintaining flexibility across providers rather than committing to a single ecosystem** (p. 6). For Latin American institutions with sensitive data (central bank market information, DANE microdata, administrative records), locally deployed open-weights models (gpt-oss, Llama, Qwen) are the "gold standard" for security and allow compliance with data non-transfer requirements (p. 19).
+- **Cost and unequal access.** The $200/month premium price and the possibility of $20,000/year fees for PhD-level systems is a **warning signal for public research budgets in the region**. Institutional API agreements (pay-per-use) or the use of Kimi-K2 / Qwen / DeepSeek may be more viable strategies than multiple individual subscriptions (p. 19).
+- **Local MCP infrastructure.** Colombian institutions (Banco de la República, DANE, Fedesarrollo, universities) could publish **MCP (Model Context Protocol) servers** that expose their databases to agents in a standardized way — analogous to the role FRED plays in the US (p. 44). This would increase the visibility and use of Colombian data in automated global research.
+- **Researcher training.** The paper suggests economists should "embrace these tools now, not just to increase productivity but to understand their capabilities and limitations" (p. 47). Doctoral and master's programs in the region should include AI agents in their methodological curriculum.
 
-## 6. Debates y caveats
+## 6. Debates and caveats
 
-- **Optimismo democratizador vs. concentración.** Korinek presenta una tensión interna: aunque el "vibe coding" democratiza el acceso, los benchmarks GPQA/SWE-Bench muestran que las capacidades avanzadas siguen concentradas en laboratorios bien financiados (p. 11), y "los power users que mejor saben desplegar agentes pueden beneficiarse mucho más" (p. 5). Esta lectura es coherente con el trabajo paralelo del autor con Vipra — ver `korinek-vipra_2025_concentrating-intelligence` — que enfatiza el riesgo de concentración estructural en la industria de IA.
-- **Capacidad real vs. capacidad anunciada.** El paper documenta sobreconfianza explícita: el sistema Deep Research de OpenAI afirmó que "los agentes de IA están transformando rápidamente cómo los economistas hacen investigación" — Korinek mismo no está seguro de que mejoren la inferencia causal (p. 26). Esto es relevante frente a estudios empíricos como `brynjolfsson-li-raymond_2025_genai-at-work` que miden ganancias de productividad reales en tareas más limitadas.
-- **Razonamiento económico vs. síntesis.** Korinek es claro: los agentes son "soberbios asistentes pero todavía no investigadores independientes" (p. 47). Esto matiza visiones más expansivas sobre automatización de la investigación científica como las que se discuten en `agrawal-gans-goldfarb_2025_research-agenda-tai` y `agrawal-gans-goldfarb_2025_bicycles-for-the-mind`.
-- **Riesgos novedosos:** Korinek cita el trabajo de Gans (2025) sobre manipulación de revisores LLM mediante prompt injection (p. 47), sugiriendo que la integración masiva de agentes en flujos académicos abre vectores de gaming inéditos.
+- **Democratizing optimism vs. concentration.** Korinek presents an internal tension: although vibe coding democratizes access, the GPQA/SWE-Bench benchmarks show that advanced capabilities remain concentrated in well-funded labs (p. 11), and "power users who best know how to deploy agents may benefit far more" (p. 5). This reading is consistent with the author's parallel work with Vipra — see `korinek-vipra_2025_concentrating-intelligence` — which emphasizes the risk of structural concentration in the AI industry.
+- **Actual capability vs. announced capability.** The paper explicitly documents overconfidence: OpenAI's Deep Research system claimed that "AI agents are rapidly transforming how economists do research" — Korinek himself is not sure they improve causal inference (p. 26). This is relevant in relation to empirical studies like `brynjolfsson-li-raymond_2025_genai-at-work` that measure real productivity gains in more limited tasks.
+- **Economic reasoning vs. synthesis.** Korinek is clear: agents are "superb assistants but not yet independent researchers" (p. 47). This qualifies more expansive views on the automation of scientific research such as those discussed in `agrawal-gans-goldfarb_2025_research-agenda-tai` and `agrawal-gans-goldfarb_2025_bicycles-for-the-mind`.
+- **Novel risks:** Korinek cites Gans (2025) on the manipulation of LLM reviewers through prompt injection (p. 47), suggesting that the mass integration of agents into academic workflows opens previously unknown gaming vectors.
 
-## 7. Lecturas relacionadas
+## 7. Related readings
 
-- [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — el otro lado de la moneda: por qué la frontera de IA tiende a concentrarse en pocos laboratorios.
-- [agrawal-gans-goldfarb_2025_bicycles-for-the-mind](../firms-market-structure/agrawal-gans-goldfarb_2025_bicycles-for-the-mind.md) — la IA como "bicicleta para la mente" del investigador, complementario al enfoque "agentes como asistentes" de Korinek.
-- [agrawal-gans-goldfarb_2025_research-agenda-tai](../firms-market-structure/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — agenda de investigación para IA transformativa.
-- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — evidencia empírica sobre ganancias reales de productividad con IA generativa en el lugar de trabajo.
+- [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — the other side of the coin: why the AI frontier tends to concentrate in a few labs.
+- [agrawal-gans-goldfarb_2025_bicycles-for-the-mind](../firms-market-structure/agrawal-gans-goldfarb_2025_bicycles-for-the-mind.md) — AI as a "bicycle for the mind" of the researcher, complementary to Korinek's "agents as assistants" framing.
+- [agrawal-gans-goldfarb_2025_research-agenda-tai](../firms-market-structure/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — research agenda for transformative AI.
+- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — empirical evidence on real productivity gains from generative AI in the workplace.

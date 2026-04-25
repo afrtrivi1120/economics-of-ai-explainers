@@ -1,16 +1,16 @@
-# Economics of AI — Paper Explainers / Explicaciones de papers
+# Economics of AI — Paper Explainers
 
-A reference corpus of **plain-language Spanish/English explainers for academic papers on the Economics of AI**, with policy framing for **Colombia and Latin America**.
+A reference corpus of **plain-language English explainers for academic papers on the Economics of AI**, with policy framing for **Colombia and Latin America**.
 
 Each paper in the corpus has three artifacts:
 
 1. The downloaded full-text PDF — `papers/pdfs/{slug}.pdf`
 2. A bibliographic metadata record — `papers/metadata/{slug}.json`
-3. A bilingual explainer — `explainers/{subarea}/{slug}.md`
+3. An English explainer — `explainers/{subarea}/{slug}.md`
 
-Explainers follow a fixed 7-section template (research question, method, key findings, policy implications for Colombia / América Latina, debates and caveats, related readings) and **cite a page number for every quantitative claim**. Where the literature genuinely disagrees — most notably on the macroeconomic impact of AI — the divergence is foregrounded, not papered over.
+Every explainer follows a fixed 7-section template (full citation, research question, method, key findings, policy implications for Colombia / Latin America, debates and caveats, related readings) and **cites a page number for every quantitative claim**. The aim of an explainer is to dissect a paper into clear, accessible language for a non-specialist policy audience — strip the academic apparatus, keep the substance. Where the literature genuinely disagrees — most notably on the macroeconomic impact of AI — the divergence is foregrounded, not papered over.
 
-## Sub-areas / Sub-áreas
+## Sub-areas
 
 | Tag | Folder | Scope |
 |-----|--------|-------|
@@ -22,7 +22,7 @@ Explainers follow a fixed 7-section template (research question, method, key fin
 
 A paper's home folder is its **first** sub-area tag in the metadata (e.g., `[L, I, M]` → `labor-productivity/`).
 
-## Papers by author / Papers por autor
+## Papers by author
 
 Listed alphabetically by first author's surname. Every entry links to the explainer (clickable) and the underlying PDF. Co-authors are noted in parentheses.
 
@@ -82,28 +82,22 @@ Listed alphabetically by first author's surname. Every entry links to the explai
 ### Yotzov, Ivan — Bank of England
 - **[Firm Data on AI](explainers/labor-productivity/bloom-et-al_2026_firm-data-on-ai.md)** `[L,F]` — 2026, NBER WP 34836 (with Jose Maria Barrero, Nicholas Bloom, Philip Bunn, Steven J. Davis, et al.) · [PDF](papers/pdfs/bloom-et-al_2026_firm-data-on-ai.pdf)
 
-## Source list / Lista canónica
+## Source list
 
 The canonical author scope of the corpus lives in [`inputs/economists_map.md`](inputs/economists_map.md) — a curated map of leading US and European economists working on AI, organized by sub-area. New papers enter the corpus only when authored by (or co-authored with) someone in that map.
 
-## How it works / Cómo funciona
-
-Three subagents in [`.claude/agents/`](.claude/agents/) automate the pipeline:
-
-- **`paper-downloader`** — resolves a paper reference to a direct PDF URL (NBER, SSRN, SF Fed, RePEc, author pages), downloads, validates `%PDF` magic bytes, and writes a metadata JSON. Never fabricates URLs.
-- **`paper-explainer`** — reads a downloaded PDF and writes a structured bilingual explainer. Cites page numbers for all quantitative claims. Never invents numbers.
-- **`github-publisher`** — groups one commit per paper (PDF + metadata + explainer). Never force-pushes. Never bypasses hooks.
-
-Full operating rules and file conventions are in [`CLAUDE.md`](CLAUDE.md).
-
-### Adding or refreshing PDFs
+## Maintaining the corpus
 
 ```bash
-# Bulk download from the curated list (idempotent — skips existing PDFs)
+# Bulk download PDFs from the curated list (idempotent — skips existing files)
 python scripts/download_papers.py
 
-# Single paper
+# Download a single paper by slug
 python scripts/download_papers.py --slug acemoglu_2024_simple-macro-ai
+
+# Validate that every metadata record has a matching PDF and explainer,
+# explainer is in the correct subarea folder, and all cross-links resolve
+python scripts/check_coverage.py
 ```
 
 ## A note on quantitative disagreement
@@ -115,7 +109,7 @@ Estimates of AI's macroeconomic impact diverge by **more than an order of magnit
 - Brynjolfsson–Li–Raymond (2025): 14% average / 34% novice productivity at the firm level, with inequality compression.
 - Korinek–Trammell, Jones (2026): transformative-AI scenarios that span much wider ranges still.
 
-This is genuine empirical and theoretical disagreement, not a consensus that has yet to land. Every explainer's "Debates y caveats" section makes the divergence explicit rather than smoothing it over.
+This is genuine empirical and theoretical disagreement, not a consensus that has yet to land. Every explainer's "Debates and caveats" section makes the divergence explicit rather than smoothing it over.
 
 ---
 

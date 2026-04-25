@@ -1,59 +1,59 @@
 # Understanding Economic Behavior Using Open-ended Survey Data
 
-**Autores / Authors:** Ingar K. Haaland, Christopher Roth, Stefanie Stantcheva, Johannes Wohlfart
-**Año / Year:** 2024 (revisado diciembre 2024)
-**Publicación / Venue:** NBER Working Paper No. 32421
+**Authors:** Ingar K. Haaland, Christopher Roth, Stefanie Stantcheva, Johannes Wohlfart
+**Year:** 2024 (revised December 2024)
+**Venue:** NBER Working Paper No. 32421
 **PDF:** [papers/pdfs/stantcheva-et-al_2024_open-ended-survey.pdf](../../papers/pdfs/stantcheva-et-al_2024_open-ended-survey.pdf)
-**Fuente / Source:** https://www.nber.org/papers/w32421
+**Source:** https://www.nber.org/papers/w32421
 
-## 1. Cita completa
+## 1. Full citation
 
 Haaland, Ingar K., Christopher Roth, Stefanie Stantcheva, and Johannes Wohlfart. 2024. "Understanding Economic Behavior Using Open-ended Survey Data." NBER Working Paper No. 32421, May 2024 (revised December 2024). JEL C90, D83, D91.
 
-## 2. Pregunta de investigación
+## 2. Research question
 
-¿Cómo pueden los economistas usar preguntas abiertas en encuestas — combinadas con modelos de lenguaje grandes (LLMs) — para descubrir los motivos, modelos mentales y narrativas que están detrás de comportamientos y expectativas económicas que las preguntas cerradas tradicionales no logran captar? La revisión documenta una literatura emergente y propone un manual de buenas prácticas para recolectar y analizar datos cualitativos a gran escala.
+How can economists use open-ended survey questions — combined with large language models (LLMs) — to uncover the motives, mental models, and narratives behind economic behaviors and expectations that traditional closed-ended questions fail to capture? The paper surveys an emerging literature and proposes a best-practices guide for collecting and analyzing qualitative data at scale.
 
-## 3. Método
+## 3. Method
 
-- **Tipo de trabajo:** revisión metodológica (review article) que cubre publicaciones en revistas líderes de economía y working papers de NBER, CEPR y CESifo desde 1990 (PDF p. 2, Figura 1).
-- **Fuentes de datos discutidas:** preguntas abiertas de un solo ítem en encuestas escritas, grabaciones de voz y entrevistas cualitativas conducidas por IA (PDF p. 3).
-- **Métodos de análisis cubiertos:**
-  - Codificación humana con esquemas inductivos vs. deductivos, libros de códigos y métricas de confiabilidad inter-codificadores (ICR) como kappa de Cohen, alfa de Krippendorff (PDF pp. 26–28).
-  - Codificación con LLMs (GPT-4o, Claude 3 Opus) vía API, evaluada contra benchmarks humanos usando F1-scores (PDF pp. 29–30).
-  - Métodos tradicionales: diccionarios, topic modeling, keyness analysis, clasificadores de ML (PDF p. 32).
-- **Supuestos clave:** (i) los respondientes pueden articular verbalmente al menos una parte de su razonamiento (PDF p. 4, debate Ericsson-Simon vs. Nisbett-Wilson); (ii) los LLMs frontera replican la codificación humana con calidad aceptable cuando se valida una submuestra (PDF p. 30); (iii) la riqueza de los datos abiertos justifica los costos adicionales frente a preguntas cerradas.
+- **Type of work:** methodological review article covering publications in leading economics journals and working papers from NBER, CEPR, and CESifo since 1990 (PDF p. 2, Figure 1).
+- **Data sources discussed:** single-item open-ended questions in written surveys, voice recordings, and AI-conducted qualitative interviews (PDF p. 3).
+- **Analysis methods covered:**
+  - Human coding with inductive vs. deductive schemes, codebooks, and inter-coder reliability (ICR) metrics such as Cohen's kappa and Krippendorff's alpha (PDF pp. 26–28).
+  - LLM coding (GPT-4o, Claude 3 Opus) via API, evaluated against human benchmarks using F1-scores (PDF pp. 29–30).
+  - Traditional methods: dictionaries, topic modeling, keyness analysis, ML classifiers (PDF p. 32).
+- **Key assumptions:** (i) respondents can verbally articulate at least part of their reasoning (PDF p. 4, Ericsson-Simon vs. Nisbett-Wilson debate); (ii) frontier LLMs replicate human coding at acceptable quality when a subsample is validated (PDF p. 30); (iii) the richness of open-ended data justifies the additional cost relative to closed-ended questions.
 
-## 4. Hallazgos principales
+## 4. Key findings
 
-- **Crecimiento explosivo del método:** los estudios con mediciones abiertas en revistas líderes de economía pasaron de ~1–4 por año entre 1990–2017 a aproximadamente 37 en 2024 (PDF p. 2, Figura 1).
-- **Aplicaciones temáticas documentadas:** razonamiento detrás de decisiones (redistribución, no participación bursátil, propiedad de armas), narrativas y modelos mentales (causas de la inflación), asignación de atención y memoria asociativa (PDF pp. 5–6).
-- **Las entrevistas conducidas por IA igualan la calidad humana percibida:** sociólogos entrenados califican entrevistas hechas por IA como comparables a las que un experto humano hipotético habría logrado (PDF p. 23, citando Geiecke y Jaravel 2024). Los respondientes muestran niveles similares de selección que en encuestas estándar (PDF p. 24).
-- **LLMs como codificadores escalables:** modelos frontera "proveen resultados muy similares a la codificación humana en muchos casos" (PDF p. 29) y superan a métodos basados en diccionarios, igualando enfoques de ML sin requerir datos de entrenamiento adicionales (PDF p. 32).
-- **Costos y privacidad:** APIs comerciales pueden ser prohibitivamente costosas con datasets grandes; LLMs open-source como Llama permiten ejecución local con replicabilidad completa pero exigen recursos computacionales y experticia técnica (PDF p. 33).
-- **Riesgos metodológicos:** "convergencia interpretativa" por iteración excesiva del ICR puede suprimir matices (PDF p. 28); grados de libertad del investigador en el diseño de esquemas de codificación amenazan la replicabilidad y exigen pre-registro y documentación detallada (PDF pp. 34–35).
+- **Explosive growth of the method:** studies using open-ended measures in leading economics journals rose from roughly 1–4 per year between 1990–2017 to approximately 37 in 2024 (PDF p. 2, Figure 1).
+- **Documented thematic applications:** reasoning behind decisions (redistribution, non-participation in stock markets, gun ownership), narratives and mental models (causes of inflation), attention allocation, and associative memory (PDF pp. 5–6).
+- **AI-conducted interviews match perceived human quality:** trained sociologists rate AI-conducted interviews as comparable to what a hypothetical skilled human interviewer would have achieved (PDF p. 23, citing Geiecke and Jaravel 2024). Respondents show similar selection rates as in standard surveys (PDF p. 24).
+- **LLMs as scalable coders:** frontier models "provide very similar results to human coding in many cases" (PDF p. 29) and outperform dictionary-based methods, matching ML approaches without requiring additional training data (PDF p. 32).
+- **Costs and privacy:** commercial APIs can be prohibitively expensive with large datasets; open-source LLMs such as Llama allow local execution with full replicability but demand computational resources and technical expertise (PDF p. 33).
+- **Methodological risks:** "interpretive convergence" from excessive ICR iteration can suppress nuance (PDF p. 28); researcher degrees of freedom in codebook design threaten replicability and require pre-registration and detailed documentation (PDF pp. 34–35).
 
-## 5. Implicaciones para política pública (Colombia / América Latina)
+## 5. Policy implications (Colombia / Latin America)
 
-Esta es la única pieza del corpus cuya contribución es metodológica más que sustantiva, y por eso es de alto valor para el diseño de encuestas en contextos colombianos y latinoamericanos:
+This is the only piece in the corpus whose contribution is methodological rather than substantive, which makes it especially valuable for survey design in Colombian and Latin American contexts:
 
-- **Captar realidades del sector informal.** Las preguntas cerradas estándar de encuestas como la GEIH del DANE asumen categorías ocupacionales y de ingreso construidas para mercados formales. Preguntas abiertas analizadas con LLMs podrían revelar cómo trabajadores informales conceptualizan empleo, riesgo, ahorro y exposición a shocks — categorías que probablemente no aparecen en los formularios estructurados.
-- **Encuestas a poblaciones de baja alfabetización.** Los autores destacan explícitamente que las entrevistas asistidas por IA con preguntas de seguimiento mejoran la calidad de los datos en poblaciones "menos alfabetizadas o con bajo nivel educativo" (PDF p. 23) — directamente relevante para encuestas en zonas rurales y comunidades indígenas.
-- **Medición de creencias sobre IA y desplazamiento laboral.** Las encuestas estructuradas sobre adopción de IA (al estilo de Bloom et al. o Bick-Blandin-Deming) pueden complementarse con preguntas abiertas para entender cómo trabajadores colombianos perciben las amenazas y oportunidades de la IA, capturando narrativas locales que no caben en categorías importadas.
-- **Diseño de política redistributiva.** Stantcheva (citada en PDF p. 6) ha usado preguntas abiertas para mapear cómo los ciudadanos piensan sobre impuestos e inflación. Aplicar este enfoque a debates colombianos sobre reforma tributaria o pensional podría informar comunicación pública y diseño de instrumentos.
-- **Costos accesibles.** El uso de LLMs vía API o modelos open-source baja drásticamente la barrera de entrada para centros de investigación con presupuestos limitados, democratizando una metodología que antes requería ejércitos de asistentes de investigación.
+- **Capturing informal-sector realities.** Standard closed-ended survey questions — such as those in DANE's GEIH — assume occupational and income categories built for formal labor markets. Open-ended questions analyzed with LLMs could reveal how informal workers conceptualize employment, risk, savings, and exposure to shocks: categories that are unlikely to appear in structured forms.
+- **Surveys with low-literacy populations.** The authors explicitly note that AI-assisted interviews with follow-up probes improve data quality among "less literate or less educated" populations (PDF p. 23) — directly relevant for surveys in rural areas and indigenous communities.
+- **Measuring beliefs about AI and labor displacement.** Structured surveys on AI adoption (in the style of Bloom et al. or Bick-Blandin-Deming) can be complemented with open-ended questions to understand how Colombian workers perceive the threats and opportunities of AI, capturing local narratives that do not fit imported categories.
+- **Redistributive policy design.** Stantcheva (cited in PDF p. 6) has used open-ended questions to map how citizens think about taxes and inflation. Applying this approach to Colombian debates on tax reform or pension reform could inform public communication and instrument design.
+- **Accessible costs.** Using LLMs via API or open-source models dramatically lowers the barrier to entry for research centers with limited budgets, democratizing a methodology that previously required large teams of research assistants.
 
-## 6. Debates y caveats
+## 6. Debates and caveats
 
-- **Validez de los reportes verbales.** Los autores reconocen la disputa clásica entre Ericsson-Simon (1980, 1993), que defienden los reportes verbales como ventana al razonamiento, y Nisbett-Wilson (1977), que documentan introspección poco confiable (PDF p. 4). Esto importa para cualquier intento de medir actitudes hacia la IA: lo que la gente *dice* sobre el desplazamiento tecnológico puede no coincidir con sus comportamientos reveladados — una preocupación que limita extrapolaciones de política.
-- **Medición vs. mecanismo: contraste con Brynjolfsson.** `brynjolfsson-li-raymond_2025_genai-at-work` mide productividad observada (resoluciones por hora) con datos administrativos. Las preguntas abiertas de Stantcheva et al. abren la "caja negra" del *por qué* —cómo agentes piensan sobre la herramienta— pero no sustituyen la medición de output. Idealmente las dos metodologías se combinan: datos administrativos para el efecto causal, datos abiertos para el mecanismo.
-- **Aplicación a debates Acemoglu vs. Aghion.** El desacuerdo macro sobre la magnitud del impacto de IA (ver `acemoglu_2024_simple-macro-ai` con su ~0.66% TFP/10 años vs. `aghion-bunel_2024_ai-and-growth` con 0.8–1.3 pp/año) descansa en parte en supuestos sobre qué tareas son automatizables. Stantcheva-et-al ofrece una vía empírica para preguntar a trabajadores y gerentes directamente qué partes de su trabajo creen que la IA puede o no hacer, complementando los ejercicios de exposición à la `frey-osborne_2024_genai-reappraisal`.
-- **Sesgos algorítmicos en codificación con LLM.** Los autores advierten sobre sesgos potenciales (Rozado 2024) y privacidad de datos (Dell 2024) (PDF p. 23), riesgos amplificados en contextos de vigilancia documentados por `yuchtman-et-al_2023_exporting-surveillance-state`.
-- **Replicabilidad frágil.** Los grados de libertad del investigador y la dependencia de modelos comerciales que pueden ser descontinuados (PDF p. 33) son una preocupación seria — especialmente cuando los resultados informan política pública.
+- **Validity of verbal reports.** The authors acknowledge the classic dispute between Ericsson-Simon (1980, 1993), who defend verbal reports as a window into reasoning, and Nisbett-Wilson (1977), who document unreliable introspection (PDF p. 4). This matters for any attempt to measure attitudes toward AI: what people *say* about technological displacement may not align with their revealed behavior — a concern that limits policy extrapolations.
+- **Measurement vs. mechanism: contrast with Brynjolfsson.** [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) measures observed productivity (resolutions per hour) using administrative data. The open-ended questions in Stantcheva et al. open the "black box" of *why* — how agents think about the tool — but do not replace output measurement. Ideally the two methodologies are combined: administrative data for causal effects, open-ended data for mechanisms.
+- **Application to the Acemoglu vs. Aghion debate.** The macro disagreement over the magnitude of AI's impact (see [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) with its ~0.66% TFP/10 years vs. [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) with 0.8–1.3 pp/year) rests in part on assumptions about which tasks are automatable. Stantcheva et al. offer an empirical path to ask workers and managers directly which parts of their jobs they believe AI can or cannot perform, complementing exposure exercises in the style of [frey-osborne_2024_genai-reappraisal](../labor-productivity/frey-osborne_2024_genai-reappraisal.md).
+- **Algorithmic biases in LLM coding.** The authors warn of potential biases (Rozado 2024) and data privacy concerns (Dell 2024) (PDF p. 23), risks that are amplified in surveillance contexts documented by [yuchtman-et-al_2023_exporting-surveillance-state](../ai-models-governance/yuchtman-et-al_2023_exporting-surveillance-state.md).
+- **Fragile replicability.** Researcher degrees of freedom and dependence on commercial models that may be discontinued (PDF p. 33) are a serious concern — especially when results inform public policy.
 
-## 7. Lecturas relacionadas
+## 7. Related readings
 
-- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — medición de productividad observada que se complementaría con preguntas abiertas sobre mecanismos.
-- [korinek_2025_ai-agents-econ-research](../ai-models-governance/korinek_2025_ai-agents-econ-research.md) — uso de LLMs en el flujo de trabajo del economista, otra vertiente de la misma transformación metodológica.
-- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — supuestos sobre tareas automatizables que los datos abiertos podrían validar empíricamente.
-- [autor_2024_rebuild-middle-class](../labor-productivity/autor_2024_rebuild-middle-class.md) — narrativas sobre clase media y trabajo que admiten medición con preguntas abiertas.
+- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — observed productivity measurement that would be complemented by open-ended questions on mechanisms.
+- [korinek_2025_ai-agents-econ-research](../ai-models-governance/korinek_2025_ai-agents-econ-research.md) — use of LLMs in the economist's workflow, another dimension of the same methodological transformation.
+- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — assumptions about automatable tasks that open-ended data could validate empirically.
+- [autor_2024_rebuild-middle-class](../labor-productivity/autor_2024_rebuild-middle-class.md) — narratives about the middle class and work that are amenable to measurement with open-ended questions.

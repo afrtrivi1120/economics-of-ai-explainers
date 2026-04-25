@@ -1,57 +1,57 @@
 # The Rapid Adoption of Generative AI
 
-**Autores / Authors:** Alexander Bick, Adam Blandin, David J. Deming
-**Año / Year:** 2024 (rev. febrero 2025)
-**Publicación / Venue:** NBER Working Paper No. 32966
+**Authors:** Alexander Bick, Adam Blandin, David J. Deming
+**Year:** 2024 (rev. February 2025)
+**Venue:** NBER Working Paper No. 32966
 **PDF:** [papers/pdfs/deming-bick-blandin_2024_rapid-adoption-genai.pdf](../../papers/pdfs/deming-bick-blandin_2024_rapid-adoption-genai.pdf)
-**Fuente / Source:** https://www.nber.org/papers/w32966
+**Source:** https://www.nber.org/papers/w32966
 
-## 1. Cita completa
+## 1. Full citation
 
-Bick, Alexander; Blandin, Adam; Deming, David J. (2024). *The Rapid Adoption of Generative AI*. NBER Working Paper No. 32966. National Bureau of Economic Research, Cambridge, MA. Revisado en febrero 2025. JEL: J24, O33.
+Bick, Alexander; Blandin, Adam; Deming, David J. (2024). *The Rapid Adoption of Generative AI*. NBER Working Paper No. 32966. National Bureau of Economic Research, Cambridge, MA. Revised February 2025. JEL: J24, O33.
 
-## 2. Pregunta de investigación
+## 2. Research question
 
-¿Qué tan rápida y profunda es la difusión real de la IA generativa entre la población trabajadora estadounidense, y cómo se compara su trayectoria de adopción con la del computador personal y el internet? ¿Qué implica esa adopción para la productividad agregada?
+How fast and how deep is the real-world diffusion of generative AI among the U.S. working-age population, and how does its adoption trajectory compare to that of the personal computer and the internet? What does that adoption imply for aggregate productivity?
 
-## 3. Método
+## 3. Method
 
-- **Datos.** Real-Time Population Survey (RPS), encuesta en línea nacionalmente representativa de adultos 18-64, fondeada por Qualtrics, con ondas de agosto y noviembre de 2024 (n = 5.014 + 5.329, total >10.000) (PDF p. 1, p. 5). Validación cruzada con la Survey of Working Arrangements and Attitudes (SWAA, n = 4.698 en diciembre 2024) (PDF p. 12).
-- **Estrategia de identificación.** No es causal: es medición descriptiva. Se replica literalmente el cuestionario del Computer and Internet Use Supplement (CIU) de la CPS de 1984-2009, lo que permite comparar la curva de difusión de la IA generativa con las curvas históricas del PC y el internet usando preguntas idénticas (PDF p. 7-9).
-- **Modelo de productividad.** Función de producción Cobb-Douglas agregada con trabajo en unidades de eficiencia ponderadas por salario; se suman los ahorros de tiempo auto-reportados por los usuarios (s_i) y se traducen a ganancia de productividad laboral via ΔY/Y ≈ (1−α)·(Σs_iw̃_i / Σℓ_iw̃_i) (PDF p. 26-27).
-- **Supuestos clave.** (i) Trabajo perfectamente sustituible entre trabajadores; (ii) los ahorros de tiempo se reinvierten en producción adicional, no en ocio en la oficina; (iii) las firmas ajustan expectativas y reconocen las ganancias (PDF p. 27).
+- **Data.** Real-Time Population Survey (RPS), a nationally representative online survey of adults aged 18–64, fielded via Qualtrics, with waves in August and November 2024 (n = 5,014 + 5,329, total >10,000) (PDF p. 1, p. 5). Cross-validated with the Survey of Working Arrangements and Attitudes (SWAA, n = 4,698 in December 2024) (PDF p. 12).
+- **Identification strategy.** Not causal: this is descriptive measurement. The paper replicates the exact questionnaire of the CPS Computer and Internet Use Supplement (CIU) from 1984–2009, enabling a direct comparison of the generative AI diffusion curve with the historical PC and internet curves using identical questions (PDF p. 7–9).
+- **Productivity model.** Aggregate Cobb-Douglas production function with labor in wage-weighted efficiency units; self-reported time savings by users (s_i) are summed and converted to a labor productivity gain via ΔY/Y ≈ (1−α)·(Σs_iw̃_i / Σℓ_iw̃_i) (PDF p. 26–27).
+- **Key assumptions.** (i) Perfect substitutability of labor across workers; (ii) time savings are reinvested in additional output rather than on-the-clock leisure; (iii) firms adjust expectations and capture the gains (PDF p. 27).
 
-## 4. Hallazgos principales
+## 4. Key findings
 
-- **Penetración masiva en dos años.** En agosto-noviembre de 2024, 39,4% de los adultos 18-64 reportan haber usado IA generativa para trabajo o fuera del trabajo; 26,5% de los empleados la usan en su trabajo, y 9,0% la usan todos los días laborales (PDF p. 10, Figura 2a).
-- **Difusión más rápida que PC e internet.** A 2 años de ChatGPT, la adopción global de la IA generativa supera la del PC (≈20% a 3 años) y la del internet en su ventana comparable; la adopción laboral (27% en 2024) es similar a la del PC en 1984 (25%), pero la adopción no laboral (34% para IA vs. 5% para PC) es mucho más veloz (PDF p. 14, Figura 3 y Figura 4b).
-- **Productos dominantes.** ChatGPT (28,1% de todos los encuestados), Gemini (16,6%) y productos embebidos como Microsoft Copilot (14,1%) (PDF p. 12).
-- **Heterogeneidad por educación, edad y género.** La adopción para trabajo es ≈40% entre quienes tienen pregrado/posgrado vs. ≈18% entre quienes tienen menos que universidad (PDF p. 15-16, Figura 5a). La adopción es 7,5 puntos porcentuales mayor entre hombres que entre mujeres —patrón opuesto al PC en 1984, cuando dominaban las secretarias mujeres (PDF p. 15).
-- **Premia salarial e intensidad de uso.** Controlando por demografía, ocupación e industria, los usuarios diarios de IA generativa ganan 40% más que los no-usuarios (30% es prima horaria); los usuarios semanales ganan 22% más (PDF p. 19).
-- **Tiempo ahorrado y productividad agregada.** Entre 1 y 5 (puntualmente 1,4-5,4)% del total de horas trabajadas en EE.UU. son asistidas por IA generativa; el ahorro promedio entre usuarios es 5,4% de las horas (≈2,2 horas/semana en jornada de 40h), y 1,4% entre todos los trabajadores (PDF p. 25). Esto implica una ganancia potencial de productividad laboral agregada de **1,1%** (con la cuota de trabajo ajustada por exposición de Acemoglu) o **1,9%** sin ajuste (PDF p. 27).
-- **Validación de la exposición predicha.** La métrica de exposición ocupacional de Eloundou et al. (2024) correlaciona ρ=0,67 con la adopción real por ocupación, lo que respalda usar tales medidas en proyecciones (PDF p. 20-21).
+- **Massive penetration within two years.** In August–November 2024, 39.4% of adults aged 18–64 report having used generative AI for work or outside of work; 26.5% of employed adults use it at work, and 9.0% use it every working day (PDF p. 10, Figure 2a).
+- **Faster diffusion than the PC and internet.** Two years after ChatGPT, overall generative AI adoption exceeds that of the PC (≈20% at three years) and the internet over a comparable window; work adoption (27% in 2024) is similar to PC adoption in 1984 (25%), but non-work adoption (34% for AI vs. 5% for PC) is far faster (PDF p. 14, Figures 3 and 4b).
+- **Dominant products.** ChatGPT (28.1% of all respondents), Gemini (16.6%), and embedded products such as Microsoft Copilot (14.1%) (PDF p. 12).
+- **Heterogeneity by education, age, and gender.** Work adoption is ≈40% among those with a college or postgraduate degree vs. ≈18% among those without college education (PDF p. 15–16, Figure 5a). Adoption is 7.5 percentage points higher among men than women — the opposite of the PC in 1984, when women in administrative roles were the early majority (PDF p. 15).
+- **Wage premium and use intensity.** Controlling for demographics, occupation, and industry, daily generative AI users earn 40% more than non-users (30% in hourly wages); weekly users earn 22% more (PDF p. 19).
+- **Time saved and aggregate productivity.** Between 1 and 5 (specifically 1.4–5.4)% of total U.S. hours worked are assisted by generative AI; the average time saving among users is 5.4% of hours (≈2.2 hours/week on a 40-hour schedule), and 1.4% across all workers (PDF p. 25). This implies a potential aggregate labor productivity gain of **1.1%** (using Acemoglu's exposure-adjusted labor share) or **1.9%** without adjustment (PDF p. 27).
+- **Validation of predicted exposure.** The occupational exposure metric of Eloundou et al. (2024) correlates ρ = 0.67 with actual adoption by occupation, supporting the use of such measures in projections (PDF p. 20–21).
 
-## 5. Implicaciones para política pública (Colombia / América Latina)
+## 5. Policy implications (Colombia / Latin America)
 
-- **La política no puede esperar a que las firmas adopten formalmente.** El paper documenta que la adopción individual va muy por delante de la adopción organizacional (sólo 5,4% de las firmas adoptaron formalmente IA generativa a febrero 2024, según Bonney et al. citado en PDF p. 27). En Colombia, esto sugiere que regular o capacitar sólo a través de empresas formales deja por fuera al usuario informal —que ya está reescribiendo su flujo de trabajo con ChatGPT—. Programas tipo SENA y Mintic deberían apuntar al individuo, no sólo a la empresa.
-- **Brecha educativa de adopción.** La adopción duplica entre profesionales universitarios vs. no universitarios. En un país con 24% de cobertura en educación superior, esto anticipa una brecha de productividad concentrada en el segmento ya privilegiado, agravando desigualdades urbano/rurales y formal/informal.
-- **Brecha de género.** A diferencia del PC (que entró por ocupaciones administrativas femeninas), la IA generativa entra primero por hombres. Programas de cierre de brecha digital con perspectiva de género (p. ej., del DANE o el Ministerio TIC) deberían incorporar este patrón temprano.
-- **Costo bajo + sin necesidad de hardware = difusión inevitable.** Los autores subrayan que la velocidad se debe en parte a costos casi nulos y a no requerir experticia técnica (PDF p. 14). En América Latina, donde la penetración móvil supera a la de banda ancha fija, esto sugiere que la IA generativa puede difundirse aun en entornos de infraestructura limitada —pero también que escapará al control fiscal y regulatorio tradicional.
-- **Tareas más beneficiadas: escritura, administración, traducción/resumen.** 39,5% de usuarios la rankean #1 o #2 para escritura; 25,6% para tareas administrativas; 22,7% para traducir/resumir (PDF p. 21, Figura 9). Para servicios públicos colombianos —oficios, formularios, atención ciudadana en español— el potencial de ahorro es directo y replicable.
+- **Policy cannot wait for firms to adopt formally.** The paper documents that individual adoption is well ahead of organizational adoption (only 5.4% of firms had formally adopted generative AI as of February 2024, per Bonney et al., cited at PDF p. 27). In Colombia, this suggests that regulating or training exclusively through formal firms leaves out the informal user — who is already rewriting their workflow with ChatGPT. Programs through SENA and MinTIC should target individuals, not just firms.
+- **Education gap in adoption.** Adoption is roughly twice as high among college-educated workers compared to those without a degree. In a country with 24% tertiary enrollment coverage, this points to a productivity gap concentrated in the already-privileged segment, widening urban/rural and formal/informal divides.
+- **Gender gap.** Unlike the PC (which entered through female-dominated administrative occupations), generative AI is being adopted first by men. Digital-inclusion programs with a gender lens (e.g., from DANE or the Ministry of ICT) should incorporate this early pattern.
+- **Low cost + no hardware required = inevitable diffusion.** The authors note that the speed of adoption is partly explained by near-zero costs and no need for technical expertise (PDF p. 14). In Latin America, where mobile penetration exceeds fixed broadband, this suggests generative AI can spread even in limited-infrastructure settings — but also that it will escape traditional fiscal and regulatory controls.
+- **Most-benefited tasks: writing, administration, translation/summarization.** 39.5% of users rank generative AI first or second for writing; 25.6% for administrative tasks; 22.7% for translation and summarization (PDF p. 21, Figure 9). For Colombian public services — forms, citizen assistance in Spanish — the potential time savings are direct and replicable.
 
-## 6. Debates y caveats
+## 6. Debates and caveats
 
-- **Productividad agregada: optimistas vs. conservadores.** El estimado de Bick-Blandin-Deming (1,1% potencial, basado en *uso reportado*) es ligeramente superior al 0,7% de Acemoglu (PDF p. 28), que se basa en exposición *predicha por tareas*. Ambos son órdenes de magnitud menores que los proyectados por Aghion-Bunel (0,8-1,3 pp/año de crecimiento). Ver `acemoglu_2024_simple-macro-ai` y `aghion-bunel_2024_ai-and-growth`. Los autores aclaran que su estimación es de productividad *potencial*: "estas ganancias pueden no aparecer en las estadísticas de productividad, al menos por ahora" (PDF p. 27), porque mucha adopción es informal y no reconocida por las firmas.
-- **Sesgo de auto-reporte.** Los ahorros de tiempo (5,4% promedio) son auto-reportados; los autores no validan con medidas objetivas. Esto contrasta con el experimento de campo de Brynjolfsson, Li y Raymond, que mide productividad observada en un call center (ver `brynjolfsson-li-raymond_2025_genai-at-work`).
-- **Selección en panel online.** El RPS es un panel comercial Qualtrics. Los autores triangulan con SWAA y con la encuesta postal de Pew (que incluye no-internautas) y encuentran cifras similares (PDF p. 12), pero el sesgo hacia adoptantes tempranos no se descarta del todo.
-- **Trabajo perfectamente sustituible.** El modelo asume sustituibilidad perfecta entre tipos de trabajadores; los autores reconocen que con sustitución imperfecta —y dado que los usuarios intensivos son los de mayores salarios— el efecto agregado podría ser menor (PDF p. 27, nota 20). Esto conecta con `acemoglu-restrepo_2018_ai-automation-work` sobre desplazamiento por tareas.
-- **¿Qué hace Humlum?** La encuesta paralela de Humlum-Vestergaard en Dinamarca (citada en PDF p. 12, nota 9) reporta tasas similares por edad, género y educación, pero estudia si esa adopción se traduce en cambios salariales —un test que esta encuesta estadounidense aún no puede hacer.
+- **Aggregate productivity: optimists vs. pessimists.** The Bick-Blandin-Deming estimate (1.1% potential, based on *reported use*) is slightly above Acemoglu's 0.7% (PDF p. 28), which is based on *task-predicted exposure*. Both are orders of magnitude below the Aghion-Bunel projections (0.8–1.3 pp/year of growth). See `acemoglu_2024_simple-macro-ai` and `aghion-bunel_2024_ai-and-growth`. The authors clarify that their estimate is of *potential* productivity: "these gains may not appear in productivity statistics, at least not yet" (PDF p. 27), because much adoption is informal and unrecognized by firms.
+- **Self-report bias.** Time savings (5.4% average) are self-reported; the authors do not validate against objective measures. This contrasts with the field experiment of Brynjolfsson, Li, and Raymond, which measures observed productivity in a call center (see `brynjolfsson-li-raymond_2025_genai-at-work`).
+- **Selection in online panel.** The RPS is a commercial Qualtrics panel. The authors triangulate with SWAA and with a Pew postal survey (which includes non-internet users) and find similar figures (PDF p. 12), but bias toward early adopters cannot be fully ruled out.
+- **Perfect labor substitutability.** The model assumes perfect substitutability across worker types; the authors acknowledge that with imperfect substitution — and given that intensive users tend to be the highest earners — the aggregate effect could be smaller (PDF p. 27, note 20). This connects to `acemoglu-restrepo_2018_ai-automation-work` on task-level displacement.
+- **What does Humlum find?** The parallel survey by Humlum and Vestergaard in Denmark (cited at PDF p. 12, note 9) reports similar rates by age, gender, and education, but studies whether adoption translates into wage changes — a test the U.S. survey is not yet able to perform.
 
-## 7. Lecturas relacionadas
+## 7. Related readings
 
-- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — evidencia experimental de productividad en call center; complementa el ahorro de tiempo auto-reportado aquí.
-- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — el contrapunto conservador (0,7% potencial vs. 1,1% de este paper).
-- [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — extremo optimista de la distribución de pronósticos macro.
-- [albanesi-et-al_2025_new-tech-jobs-europe](../labor-productivity/albanesi-et-al_2025_new-tech-jobs-europe.md) — efectos sobre empleo de tecnologías AI-relacionadas en Europa.
-- [autor_2024_rebuild-middle-class](../labor-productivity/autor_2024_rebuild-middle-class.md) — marco para pensar quién se beneficia y quién no de las olas tecnológicas.
-- [bloom-et-al_2026_firm-data-on-ai](../labor-productivity/bloom-et-al_2026_firm-data-on-ai.md) — adopción a nivel firma, que aquí se documenta como muy rezagada respecto a la adopción individual.
+- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — experimental evidence on productivity in a call center; complements the self-reported time savings documented here.
+- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — the conservative counterpoint (0.7% potential vs. 1.1% in this paper).
+- [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — the optimistic end of the macro-forecast distribution.
+- [albanesi-et-al_2025_new-tech-jobs-europe](../labor-productivity/albanesi-et-al_2025_new-tech-jobs-europe.md) — employment effects of AI-related technologies in Europe.
+- [autor_2024_rebuild-middle-class](../labor-productivity/autor_2024_rebuild-middle-class.md) — a framework for thinking about who gains and who does not from technological waves.
+- [bloom-et-al_2026_firm-data-on-ai](../labor-productivity/bloom-et-al_2026_firm-data-on-ai.md) — firm-level adoption, which this paper documents as far behind individual adoption.

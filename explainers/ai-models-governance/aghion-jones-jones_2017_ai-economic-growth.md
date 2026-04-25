@@ -1,58 +1,58 @@
 # Artificial Intelligence and Economic Growth
 
-**Autores / Authors:** Philippe Aghion, Benjamin F. Jones, Charles I. Jones
-**Año / Year:** 2017
-**Publicación / Venue:** NBER Working Paper 23928 (later published as a chapter in *The Economics of Artificial Intelligence: An Agenda*, U. Chicago Press, 2019)
+**Authors:** Philippe Aghion, Benjamin F. Jones, Charles I. Jones
+**Year:** 2017
+**Venue:** NBER Working Paper 23928 (later published as a chapter in *The Economics of Artificial Intelligence: An Agenda*, U. Chicago Press, 2019)
 **PDF:** [papers/pdfs/aghion-jones-jones_2017_ai-economic-growth.pdf](../../papers/pdfs/aghion-jones-jones_2017_ai-economic-growth.pdf)
-**Fuente / Source:** https://www.nber.org/papers/w23928
+**Source:** https://www.nber.org/papers/w23928
 
-## 1. Cita completa
+## 1. Full citation
 
 Aghion, Philippe, Benjamin F. Jones, and Charles I. Jones. 2017. "Artificial Intelligence and Economic Growth." NBER Working Paper No. 23928. National Bureau of Economic Research, Cambridge, MA.
 
-## 2. Pregunta de investigación
+## 2. Research question
 
-¿Cómo afecta la inteligencia artificial —entendida como la última fase de un proceso de automatización de más de 200 años— al crecimiento económico de largo plazo, a la distribución del ingreso entre capital y trabajo, y a la posibilidad de "singularidades" tecnológicas? El paper busca construir el andamiaje teórico (no empírico) para responderlas (p. 1, p. 2).
+How does artificial intelligence — understood as the latest phase of a 200-plus-year automation process — affect long-run economic growth, the distribution of income between capital and labor, and the possibility of technological "singularities"? The paper aims to build the theoretical scaffolding (not empirical evidence) needed to answer these questions (p. 1, p. 2).
 
-## 3. Método
+## 3. Method
 
-- **Clase de modelo:** teoría neoclásica y de crecimiento endógeno. Construye sobre Zeira (1998) y Acemoglu–Restrepo (2016), modelando la IA como automatización de tareas (p. 3, p. 5).
-- **Supuestos clave:**
-  - Producción CES de bienes con elasticidad de sustitución *menor que uno* (ρ < 0): las tareas son complementos, no sustitutos (eq. 5, p. 7). Esta es la pieza central que activa el "efecto Baumol".
-  - Cada tarea automatizada usa una unidad de capital; cada tarea no automatizada usa una unidad de trabajo (eq. 2, p. 5; eq. 6, p. 7).
-  - Una fracción β_t de tareas están automatizadas en t; los autores tratan β_t como exógeno (p. 9).
-  - Cierre neoclásico estándar con tasa de inversión constante (p. 5, p. 8).
-- **Estrategia analítica:** comparativa estática y simulaciones del modelo (Figuras 1–3) sin calibración a datos reales; el objetivo declarado es "dar forma a una agenda de investigación" (p. 2).
+- **Model class:** Neoclassical and endogenous growth theory. Builds on Zeira (1998) and Acemoglu–Restrepo (2016), modeling AI as the automation of tasks (p. 3, p. 5).
+- **Key assumptions:**
+  - CES production of goods with an elasticity of substitution *less than one* (ρ < 0): tasks are complements, not substitutes (eq. 5, p. 7). This is the central mechanism that activates the "Baumol effect."
+  - Each automated task uses one unit of capital; each non-automated task uses one unit of labor (eq. 2, p. 5; eq. 6, p. 7).
+  - A fraction β_t of tasks are automated at time t; the authors treat β_t as exogenous (p. 9).
+  - Standard neoclassical closure with a constant investment rate (p. 5, p. 8).
+- **Analytical strategy:** Comparative statics and model simulations (Figures 1–3) without calibration to real data; the stated goal is to "shape a research agenda" (p. 2).
 
-## 4. Hallazgos principales
+## 4. Key findings
 
-- **El efecto Baumol domina.** Cuando la elasticidad de sustitución entre tareas es menor que uno, la economía termina restringida no por lo que la IA hace bien sino por las tareas esenciales que mejoran lentamente: "growth may be constrained not by what we do well but rather by what is essential and yet hard to improve" (Abstract, p. 1; reiterado p. 3, p. 29).
-- **Crecimiento balanceado pese a automatización casi total.** En la simulación de la Figura 1, con automatización continua (una fracción θ de tareas no automatizadas se automatiza cada año), el crecimiento del PIB se estabiliza ≈ 2% anual durante 500 años, β_t → 1, y la participación del capital asintota a ~1/3 mientras el trabajo retiene ~2/3 del PIB (Figura 1, p. 12; texto p. 11).
-- **La automatización es, contraintuitivamente, *labor-augmenting* y *capital-depleting*.** Con ρ < 0, automatizar equivale a una combinación de cambio técnico que aumenta el trabajo y diluye el capital (eq. 16, p. 10). Esto invierte la intuición habitual de que la automatización siempre favorece al capital.
-- **Idea production y crecimiento endógeno.** Si la IA automatiza la producción de ideas (Sección 3), el factor escaso (los investigadores humanos) limita la aceleración cuando ρ < 0; pero con producción Cobb-Douglas, automatizar la producción de ideas sí puede elevar permanentemente la tasa de crecimiento (p. 18, eq. 25 p. 20).
-- **Singularidades posibles, pero frágiles.** Si la IA automatiza *todas* las tareas (Ejemplo 1, p. 21–22) o si γ ≡ (σ/(1−α))·(β/(1−φ)) > 1 con producción Cobb-Douglas (Ejemplo 3, eq. 36, p. 24), el modelo genera explosiones de crecimiento "Tipo II" (ingresos infinitos en tiempo finito). Pero los autores enfatizan que estos resultados dependen de supuestos particulares y son revertidos por cuellos de botella tipo Baumol o "fishing-out" (p. 27, p. 28).
-- **Cuellos de botella tres veces:** límites a la automatización completa, "search limits" (las ideas son cada vez más difíciles de encontrar; φ ≤ 0), y leyes naturales (segunda ley de la termodinámica, restricciones físicas) (p. 27–29). Moore's Law se invoca como advertencia: la computación se aceleró 10^11 desde la Segunda Guerra Mundial (p. 28, nota 16) y el crecimiento del PIB no se aceleró.
+- **The Baumol effect dominates.** When the elasticity of substitution across tasks is less than one, the economy ends up constrained not by what AI does well but by the essential tasks that improve slowly: "growth may be constrained not by what we do well but rather by what is essential and yet hard to improve" (Abstract, p. 1; restated p. 3, p. 29).
+- **Balanced growth despite near-total automation.** In the Figure 1 simulation, with continuous automation (a fraction θ of non-automated tasks automated each year), GDP growth stabilizes at approximately 2% per year over 500 years, β_t → 1, and the capital share asymptotes to roughly 1/3 while labor retains roughly 2/3 of GDP (Figure 1, p. 12; text p. 11).
+- **Automation is, counterintuitively, *labor-augmenting* and *capital-depleting*.** With ρ < 0, automating a task is equivalent to a combination of technical change that raises labor productivity and dilutes the return to capital (eq. 16, p. 10). This reverses the usual intuition that automation always favors capital.
+- **Idea production and endogenous growth.** If AI automates the production of ideas (Section 3), the scarce factor (human researchers) limits acceleration when ρ < 0; but with Cobb-Douglas idea production, automating that process can permanently raise the growth rate (p. 18, eq. 25 p. 20).
+- **Singularities are possible but fragile.** If AI automates *all* tasks (Example 1, p. 21–22), or if γ ≡ (σ/(1−α))·(β/(1−φ)) > 1 with Cobb-Douglas production (Example 3, eq. 36, p. 24), the model generates Type II growth explosions (infinite output in finite time). But the authors emphasize that these results depend on particular assumptions and are reversed by Baumol-type bottlenecks or "fishing-out" (p. 27, p. 28).
+- **Three classes of bottleneck:** limits to full automation, search limits (ideas become progressively harder to find; φ ≤ 0), and natural laws (the second law of thermodynamics, physical constraints) (p. 27–29). Moore's Law is cited as a warning: computing power grew by 10^11 since World War II (p. 28, note 16) and GDP growth did not accelerate.
 
-## 5. Implicaciones para política pública (Colombia / América Latina)
+## 5. Policy implications (Colombia / Latin America)
 
-- **No esperar un "shock IA" automático sobre la productividad agregada.** El marco predice que la automatización sectorial puede convivir con tasas de crecimiento agregado estables, porque los sectores esenciales pero difíciles de mejorar (cuidado, educación presencial, infraestructura) absorben una creciente fracción del gasto. Para Colombia, esto sugiere que estrategias de política industrial centradas únicamente en adoptar IA en manufactura/servicios financieros tendrán efectos macro modestos a menos que se ataquen también los cuellos de botella en sectores Baumol-intensivos (salud, educación, justicia).
-- **El cuello de botella es la complementariedad humana.** Si el trabajo escaso ancla el crecimiento, las políticas con mayor retorno son las que aumentan la productividad del trabajo en tareas no automatizadas: formación docente, profesionalización del cuidado, certificación de oficios. Esto coincide con el argumento de Autor sobre re-expandir empleo de clase media (ver `autor_2024_rebuild-middle-class`).
-- **Distribución capital/trabajo.** El modelo predice que la participación del capital puede subir transitoriamente pero está acotada por el efecto Baumol. Para política tributaria colombiana, esto modera el alarmismo sobre una "captura masiva del capital" pero advierte que la dinámica transicional sí puede aumentar la concentración (Figura 2, p. 14).
-- **Investigación y desarrollo.** Si la IA puede automatizar parte del proceso de innovación (p. 17), los retornos a inversión en I+D doméstico aumentan: una IA que multiplica la productividad de cada investigador colombiano hace más rentable mantener capacidad investigativa nacional, no menos.
+- **Do not expect an automatic AI shock on aggregate productivity.** The framework predicts that sectoral automation can coexist with stable aggregate growth rates, because essential but hard-to-improve sectors (care work, in-person education, infrastructure) absorb an ever-growing share of spending. For Colombia, this suggests that industrial-policy strategies focused solely on adopting AI in manufacturing or financial services will have modest macro effects unless bottlenecks in Baumol-intensive sectors (health, education, justice) are also addressed.
+- **The binding constraint is human complementarity.** If scarce labor anchors growth, the policies with the highest return are those that raise labor productivity in non-automated tasks: teacher training, professionalizing care work, and skills certification. This aligns with Autor's argument about re-expanding middle-class employment (see `autor_2024_rebuild-middle-class`).
+- **Capital vs. labor shares.** The model predicts that the capital share may rise transitionally but is bounded by the Baumol effect. For Colombian tax policy, this moderates alarmism about a "massive capital capture" while warning that the transitional dynamic can still increase concentration (Figure 2, p. 14).
+- **Research and development.** If AI can automate part of the innovation process (p. 17), returns to domestic R&D investment rise: an AI that multiplies the productivity of each Colombian researcher makes maintaining national research capacity more valuable, not less.
 
-## 6. Debates y caveats
+## 6. Debates and caveats
 
-- **Conservador vs. optimista.** Aghion–Jones–Jones es teórico y no estima magnitudes; en trabajo posterior, Aghion–Bunel cuantifican un impacto de 0.8–1.3 puntos porcentuales/año en crecimiento (ver `aghion-bunel_2024_ai-and-growth`), mientras que Acemoglu (2024) ofrece la estimación más conservadora —~0.66% de TFP en 10 años (ver `acemoglu_2024_simple-macro-ai`). Este paper es la *plomería teórica* sobre la cual ambos campos construyen y disputan.
-- **Supuesto crítico ρ < 0.** Todo el resultado de "crecimiento balanceado pese a automatización" depende de que las tareas sean complementos brutos (p. 9, p. 10). Si ρ > 0 (sustitutos), incluso sin automatización el modelo genera crecimiento explosivo (p. 19). La elección de ρ < 0 es defendida como "el caso natural", pero es una elección, no un dato. Acemoglu–Restrepo (2018) trabaja con un marco más rico que endogeniza esta elasticidad (ver `acemoglu-restrepo_2018_ai-automation-work`).
-- **β exógeno.** Los autores reconocen explícitamente que tratan la fracción de tareas automatizadas como exógena y que endogenizarla "es una dirección importante para investigación futura" (p. 9). La evidencia empírica de adopción real de GenAI (ver `brynjolfsson-li-raymond_2025_genai-at-work`) sugiere que β crece de manera muy desigual entre firmas y trabajadores.
-- **Sin estructura de mercado.** El paper introduce firmas en una sección posterior pero el núcleo del argumento de crecimiento ignora poder de mercado. Korinek–Vipra (2025) muestra que las leyes de escala de IA generan concentración fuerte (ver `korinek-vipra_2025_concentrating-intelligence`), un canal ausente aquí.
-- **Singularidades como ejercicio retórico.** Las cuatro "vías" hacia singularidad (Sección 4.1) son construidas para mostrar bajo qué supuestos *podrían* ocurrir; los propios autores listan tres clases de objeciones (automation limits, search limits, Baumol) que las hacen poco probables (p. 27–29).
+- **Conservative vs. optimistic.** Aghion–Jones–Jones is theoretical and estimates no magnitudes; in later work, Aghion–Bunel quantify an impact of 0.8–1.3 percentage points per year on growth (see `aghion-bunel_2024_ai-and-growth`), while Acemoglu (2024) offers the most conservative estimate — roughly 0.66% TFP over 10 years (see `acemoglu_2024_simple-macro-ai`). This paper is the *theoretical plumbing* on which both camps build and dispute.
+- **Critical assumption ρ < 0.** The entire "balanced growth despite automation" result hinges on tasks being gross complements (p. 9, p. 10). If ρ > 0 (substitutes), even without automation the model generates explosive growth (p. 19). The choice of ρ < 0 is defended as "the natural case," but it is an assumption, not a finding. Acemoglu–Restrepo (2018) work within a richer framework that endogenizes this elasticity (see `acemoglu-restrepo_2018_ai-automation-work`).
+- **β is exogenous.** The authors explicitly acknowledge that treating the share of automated tasks as exogenous is a limitation and that endogenizing it "is an important direction for future research" (p. 9). Empirical evidence on real-world GenAI adoption (see `brynjolfsson-li-raymond_2025_genai-at-work`) suggests that β grows very unevenly across firms and workers.
+- **No market structure.** The paper introduces firms in a later section, but the core growth argument ignores market power. Korinek–Vipra (2025) show that AI scaling laws generate strong concentration (see `korinek-vipra_2025_concentrating-intelligence`), a channel absent here.
+- **Singularities as a rhetorical exercise.** The four "paths" to singularity (Section 4.1) are constructed to show the assumptions under which they *could* occur; the authors themselves list three classes of objections (automation limits, search limits, Baumol) that make them unlikely (p. 27–29).
 
-## 7. Lecturas relacionadas
+## 7. Related readings
 
-- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — la versión empírica conservadora del marco de tareas; estima ~0.66% TFP/10 años.
-- [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — Aghion vuelve sobre el mismo problema con datos de Francia y obtiene cifras sustancialmente más altas (0.8–1.3 pp/año).
-- [acemoglu-restrepo_2018_ai-automation-work](../labor-productivity/acemoglu-restrepo_2018_ai-automation-work.md) — el marco hermano de tareas, con automatización endógena y creación de nuevas tareas.
-- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — evidencia empírica de campo sobre β en una firma real (call center).
-- [autor_2024_rebuild-middle-class](../labor-productivity/autor_2024_rebuild-middle-class.md) — interpretación complementaria: si IA es complementaria al trabajo no-experto, puede re-expandir clase media.
-- [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — añade el canal de estructura de mercado que este paper omite.
+- [acemoglu_2024_simple-macro-ai](../labor-productivity/acemoglu_2024_simple-macro-ai.md) — the conservative empirical version of the task framework; estimates ~0.66% TFP over 10 years.
+- [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — Aghion revisits the same question with French data and obtains substantially higher figures (0.8–1.3 pp/yr).
+- [acemoglu-restrepo_2018_ai-automation-work](../labor-productivity/acemoglu-restrepo_2018_ai-automation-work.md) — the sibling task framework, with endogenous automation and the creation of new tasks.
+- [brynjolfsson-li-raymond_2025_genai-at-work](../labor-productivity/brynjolfsson-li-raymond_2025_genai-at-work.md) — field empirical evidence on β in a real firm (call center).
+- [autor_2024_rebuild-middle-class](../labor-productivity/autor_2024_rebuild-middle-class.md) — complementary interpretation: if AI complements non-expert labor, it can re-expand the middle class.
+- [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — adds the market-structure channel that this paper omits.

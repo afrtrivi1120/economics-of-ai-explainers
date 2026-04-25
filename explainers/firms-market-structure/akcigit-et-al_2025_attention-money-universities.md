@@ -1,54 +1,54 @@
 # Attention (And Money) Is All You Need: Why Universities Are Struggling to Keep AI Talent
 
-**Autores / Authors:** Ufuk Akcigit, Craig A. Chikis, Emin Dinlersoz, Nathan Goldschlag
-**Año / Year:** 2026 (NBER WP, marzo)
-**Publicación / Venue:** NBER Working Paper No. 34964
+**Authors:** Ufuk Akcigit, Craig A. Chikis, Emin Dinlersoz, Nathan Goldschlag
+**Year:** 2026 (NBER WP, March)
+**Venue:** NBER Working Paper No. 34964
 **PDF:** [papers/pdfs/akcigit-et-al_2025_attention-money-universities.pdf](../../papers/pdfs/akcigit-et-al_2025_attention-money-universities.pdf)
-**Fuente / Source:** https://www.nber.org/papers/w34964
+**Source:** https://www.nber.org/papers/w34964
 
-## 1. Cita completa
+## 1. Full citation
 
-Akcigit, Ufuk; Chikis, Craig A.; Dinlersoz, Emin; y Goldschlag, Nathan (2026). "Attention (And Money) Is All You Need: Why Universities Are Struggling to Keep AI Talent." NBER Working Paper No. 34964, National Bureau of Economic Research, Cambridge MA, marzo. JEL: I23, J45, L33, O31.
+Akcigit, Ufuk; Chikis, Craig A.; Dinlersoz, Emin; and Goldschlag, Nathan (2026). "Attention (And Money) Is All You Need: Why Universities Are Struggling to Keep AI Talent." NBER Working Paper No. 34964, National Bureau of Economic Research, Cambridge MA, March. JEL: I23, J45, L33, O31.
 
-## 2. Pregunta de investigación
+## 2. Research question
 
-¿Quiénes son los investigadores de IA, cuán grande es la brecha salarial entre la academia y la industria, y cómo cambia el tipo de conocimiento que producen cuando migran de universidades hacia grandes firmas tecnológicas? El paper documenta una reorganización estructural del lado de la oferta de la innovación de frontera en IA en Estados Unidos.
+Who are AI researchers, how large is the wage gap between academia and industry, and how does the type of knowledge they produce change when they move from universities to large tech firms? The paper documents a structural reorganization of the supply side of frontier AI innovation in the United States.
 
-## 3. Método
+## 3. Method
 
-- **Datos:** dataset novedoso que vincula registros de publicaciones académicas de Microsoft Academic Graph (MAG) con microdatos administrativos del U.S. Census Bureau (LEHD, Longitudinal Employer-Household Dynamics). Sigue 42,000 investigadores de IA durante dos décadas (2001–2021) (p. 1, p. 4).
-- **Identificación:** combina (i) estadísticas descriptivas sobre composición demográfica, ingresos y tasas de transición; y (ii) un *event-study* tipo *stacked difference-in-differences* (Cengiz et al., 2019) que compara investigadores que transitan de academia a industria contra investigadores que se mueven dentro de la academia, controlando por efectos fijos persona-cohorte y campo-cohorte-edad-tiempo (p. 14).
-- **Supuestos clave:** los movers académicos sirven como contrafactual válido (ambos grupos revelan disposición a cambiar de afiliación, lo que diferencia efectos de selección comunes); la clasificación como "investigador de IA" se basa en el campo modal de publicación en MAG (p. 5).
-- **Limitaciones reconocidas:** LEHD no captura ingresos por consultoría 1099-MISC/NEC (subestima *moonlighting*); la compensación industrial top está subestimada porque LEHD no incluye opciones no ejercidas ni ganancias de capital (p. 11).
+- **Data:** a novel dataset linking publication records from Microsoft Academic Graph (MAG) with administrative microdata from the U.S. Census Bureau (LEHD, Longitudinal Employer-Household Dynamics). The study follows 42,000 AI researchers over two decades (2001–2021) (p. 1, p. 4).
+- **Identification:** combines (i) descriptive statistics on demographic composition, earnings, and transition rates; and (ii) a stacked difference-in-differences event study (Cengiz et al., 2019) comparing researchers who move from academia to industry against researchers who move within academia, controlling for person-cohort and field-cohort-age-time fixed effects (p. 14).
+- **Key assumptions:** academic movers serve as a valid counterfactual (both groups reveal a willingness to change affiliation, which differences out common selection effects); classification as an "AI researcher" is based on the modal publication field in MAG (p. 5).
+- **Acknowledged limitations:** LEHD does not capture 1099-MISC/NEC consulting income (understates moonlighting); top industrial compensation is understated because LEHD excludes unexercised stock options and capital gains (p. 11).
 
-## 4. Hallazgos principales
+## 4. Key findings
 
-- **Concentración del talento en la industria:** en 2019, el 68% de los investigadores de IA trabajaba en industria, frente al 48% en 2001 (p. 1). La participación industrial en patentes de IA pasó de 86% a 95%, y en papers de 27% a 32% (p. 6).
-- **Brecha salarial multiplicada por cinco:** los ingresos del top 1% en industria pasaron de US$595,000 en 2001 a US$1.94 millones en 2021 (en dólares de 2015), mientras que el top 1% académico apenas subió de US$301,000 a US$392,000 (p. 2, p. 10). El salario académico real promedio para investigadores de IA cayó 22% entre 2001 y 2021 (p. 11).
-- **Aceleración tras hitos tecnológicos:** la migración se acelera tras AlexNet (2012) y el paper "Attention Is All You Need" (2017). Las transiciones anuales de academia a industria pasaron de 1.4% a 3.4% (un aumento de 55%) durante la década de 2010 (p. 12). Después de 2017, las transiciones de jóvenes a *firmas incumbentes* (>1,000 empleados, >20 años) aumentaron 46% (p. 12).
-- **Cambio en el tipo de output:** investigadores que transitan a la industria reducen su probabilidad de publicar papers en 30 puntos porcentuales y producen 65% menos papers/año, mientras que su producción de patentes aumenta 530% (6 p.p. más probable de patentar) (p. 2, p. 16). El premio salarial relativo es de 63% frente a quienes se mueven dentro de la academia (p. 16).
-- **Composición demográfica:** la participación femenina en academia subió de 16% a 29%, frente a apenas 19% a 23% en industria (p. 8). La proporción de investigadores nacidos en EE.UU. cayó 5.5 p.p., compensada casi por completo por el alza de China (+3.8 p.p.) e India (+2.0 p.p.) (p. 1, p. 8).
-- **Moonlighting creciente:** la participación de académicos de IA con segundo empleo subió 16% (de 9.9% a 11.5%), y la fracción de su ingreso total proveniente de empleo secundario en industria subió de 6.3% (2001-2016) a 7.6% (2017-2021) (p. 16).
+- **Talent concentration in industry:** in 2019, 68% of AI researchers worked in industry, up from 48% in 2001 (p. 1). Industry's share of AI patents rose from 86% to 95%, and its share of papers from 27% to 32% (p. 6).
+- **Fivefold wage gap at the top:** earnings of the top 1% in industry rose from US$595,000 in 2001 to US$1.94 million in 2021 (in 2015 dollars), while the academic top 1% barely moved from US$301,000 to US$392,000 (p. 2, p. 10). Average real academic salaries for AI researchers fell 22% between 2001 and 2021 (p. 11).
+- **Acceleration after technological milestones:** migration accelerated after AlexNet (2012) and the "Attention Is All You Need" paper (2017). Annual transitions from academia to industry rose from 1.4% to 3.4% (a 55% increase) during the 2010s (p. 12). After 2017, transitions of junior researchers to incumbent firms (>1,000 employees, >20 years old) increased 46% (p. 12).
+- **Shift in output type:** researchers who move to industry reduce their probability of publishing papers by 30 percentage points and produce 65% fewer papers per year, while their patent output increases 530% (6 p.p. more likely to patent) (p. 2, p. 16). The relative earnings premium is 63% compared to those who move within academia (p. 16).
+- **Demographic composition:** the female share in academia rose from 16% to 29%, compared to only 19% to 23% in industry (p. 8). The proportion of U.S.-born researchers fell 5.5 p.p., offset almost entirely by increases from China (+3.8 p.p.) and India (+2.0 p.p.) (p. 1, p. 8).
+- **Growing moonlighting:** the share of AI academics with a second job rose 16% (from 9.9% to 11.5%), and the fraction of their total income from secondary employment in industry rose from 6.3% (2001–2016) to 7.6% (2017–2021) (p. 16).
 
-## 5. Implicaciones para política pública (Colombia / América Latina)
+## 5. Policy implications (Colombia / Latin America)
 
-Para universidades colombianas y latinoamericanas, los hallazgos son relevantes incluso si los montos absolutos no aplican: el *gradiente* de la brecha salarial — y no su nivel — es lo que reorganiza el ecosistema de innovación. Tres lecturas para la región:
+For Colombian and Latin American universities, the findings are relevant even if the absolute dollar amounts do not apply: it is the gradient of the wage gap — not its level — that reorganizes the innovation ecosystem. Three takeaways for the region:
 
-1. **Retención de profesores de IA:** si en EE.UU. el top 1% académico recibe ~US$392K y el top industrial ~US$1.9M (p. 10), la brecha en Colombia, donde un profesor titular gana entre US$50K–80K anuales y empresas globales reclutan remoto desde Bogotá o Medellín a múltiplos de eso, es estructuralmente similar o peor. La política de talento universitario (Minciencias, Icetex, becas de doctorado) no puede asumir que el salario académico será competitivo; necesita instrumentos paralelos: licencias sabáticas pagadas en industria, *joint appointments*, derechos de propiedad intelectual flexibles y tolerancia explícita al *moonlighting* regulado.
-2. **Acceso a cómputo como sustituto del salario:** el paper enfatiza que la ventaja de las firmas no es solo dinero sino infraestructura — datos masivos, GPUs, *clusters* (p. 3). Una política pública latinoamericana de cómputo compartido (al estilo de la *National AI Research Resource* de EE.UU.) podría ser más efectivo para retener investigadores que aumentos salariales puros, dado el costo fiscal.
-3. **Fuga de cerebros bidireccional:** Colombia exporta talento de IA tanto a la industria global como a universidades del Norte. Los autores muestran que en EE.UU. el talento extranjero (China, India) está sustituyendo al doméstico en industria (p. 8); América Latina puede ocupar nichos similares si se invierte en pipelines de doctorado y se ofrecen condiciones de retorno competitivas.
-4. **Riesgo para la ciencia abierta:** si los investigadores que migran publican 64% menos y patentan 530% más (p. 16), la frontera de IA se vuelve menos legible para reguladores y universidades del Sur global. Esto refuerza el rol de las universidades latinoamericanas en evaluación independiente, *benchmarking* y auditoría — funciones que el paper destaca explícitamente (p. 17).
+1. **Retaining AI faculty:** if in the U.S. the academic top 1% earns ~US$392K and the industrial top 1% ~US$1.9M (p. 10), the gap in Colombia — where a full professor earns US$50K–80K per year while global firms recruit remotely from Bogotá or Medellín at multiples of that — is structurally similar or worse. University talent policy (Minciencias, Icetex, doctoral fellowships) cannot assume academic salaries will be competitive; it needs parallel instruments: paid sabbaticals in industry, joint appointments, flexible IP rights, and explicit tolerance for regulated moonlighting.
+2. **Compute access as a substitute for salary:** the paper emphasizes that firms' advantage is not only money but infrastructure — massive datasets, GPUs, clusters (p. 3). A Latin American public policy on shared compute (along the lines of the U.S. National AI Research Resource) could be more effective at retaining researchers than pure salary increases, given fiscal constraints.
+3. **Two-way brain drain:** Colombia exports AI talent to both global industry and universities in the Global North. The authors show that in the U.S. foreign talent (China, India) is substituting for domestic talent in industry (p. 8); Latin America can occupy similar niches if it invests in doctoral pipelines and offers competitive return conditions.
+4. **Risk to open science:** if researchers who migrate publish 64% less and patent 530% more (p. 16), the frontier of AI becomes less legible to regulators and universities in the Global South. This reinforces the role of Latin American universities in independent evaluation, benchmarking, and auditing — functions the paper explicitly highlights (p. 17).
 
-## 6. Debates y caveats
+## 6. Debates and caveats
 
-- **Concentración de mercado:** el hallazgo de Akcigit et al. (mayoría del talento fluyendo a *incumbentes* >1,000 empleados, no a startups, p. 2) refuerza la tesis de Korinek y Vipra sobre concentración en IA — ver `korinek-vipra_2025_concentrating-intelligence`. La novedad aquí es mostrar que la concentración opera vía mercado laboral científico, no solo vía capital o datos.
-- **Spillovers y crecimiento:** Aghion y Bunel proyectan que la IA puede añadir 0.8–1.3 p.p./año al crecimiento de TFP (ver `aghion-bunel_2024_ai-and-growth`); Acemoglu estima ~0.66% en 10 años (ver `acemoglu_2024_simple-macro-ai`). Akcigit et al. no toman partido en esa disputa, pero su evidencia de que la migración reduce *publicaciones* y aumenta *patentes* sugiere que los spillovers de conocimiento abierto se debilitan, lo cual matiza los pronósticos optimistas: el output puede crecer pero la difusión se restringe.
-- **Política de innovación:** la evidencia complementa pero también tensiona la visión de Cockburn-Henderson-Stern (ver `cockburn-henderson-stern_2018_ai-impact-innovation`) sobre IA como tecnología de propósito general que "cambia el método de descubrimiento": si los descubridores migran a entornos propietarios, la GPT puede materializarse pero su carácter público se erosiona.
-- **Caveat de medición:** los autores no caracterizan la asignación *óptima* de científicos entre academia e industria (p. 17); documentan magnitudes, no normatividad. La interpretación normativa requiere un modelo estructural que aún no existe.
+- **Market concentration:** the finding of Akcigit et al. (most talent flowing to incumbents with >1,000 employees, not to startups, p. 2) reinforces the thesis of Korinek and Vipra on AI concentration — see `korinek-vipra_2025_concentrating-intelligence`. The novelty here is showing that concentration operates through the scientific labor market, not only through capital or data.
+- **Spillovers and growth:** Aghion and Bunel project that AI may add 0.8–1.3 p.p./year to TFP growth (see `aghion-bunel_2024_ai-and-growth`); Acemoglu estimates ~0.66% over 10 years (see `acemoglu_2024_simple-macro-ai`). Akcigit et al. do not take sides in that debate, but their evidence that migration reduces publications and increases patents suggests that open-knowledge spillovers weaken — which tempers optimistic forecasts: output may grow but diffusion is constrained.
+- **Innovation policy:** the evidence complements but also tensions the view of Cockburn-Henderson-Stern (see `cockburn-henderson-stern_2018_ai-impact-innovation`) on AI as a general-purpose technology that "changes the method of discovery": if the discoverers migrate to proprietary environments, the GPT may materialize but its public character erodes.
+- **Measurement caveat:** the authors do not characterize the optimal allocation of scientists between academia and industry (p. 17); they document magnitudes, not normative conclusions. A normative interpretation requires a structural model that does not yet exist.
 
-## 7. Lecturas relacionadas
+## 7. Related readings
 
-- [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — concentración de mercado en IA: aquí vemos el canal de talento.
-- [cockburn-henderson-stern_2018_ai-impact-innovation](../ai-models-governance/cockburn-henderson-stern_2018_ai-impact-innovation.md) — IA como GPT que reorganiza el descubrimiento científico.
-- [agrawal-gans-goldfarb_2025_research-agenda-tai](../firms-market-structure/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — agenda de investigación para IA transformativa.
-- [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — proyecciones de crecimiento que asumen difusión de conocimiento que aquí se erosiona.
+- [korinek-vipra_2025_concentrating-intelligence](../ai-models-governance/korinek-vipra_2025_concentrating-intelligence.md) — market concentration in AI: here we see the talent channel.
+- [cockburn-henderson-stern_2018_ai-impact-innovation](../ai-models-governance/cockburn-henderson-stern_2018_ai-impact-innovation.md) — AI as a GPT that reorganizes scientific discovery.
+- [agrawal-gans-goldfarb_2025_research-agenda-tai](../firms-market-structure/agrawal-gans-goldfarb_2025_research-agenda-tai.md) — research agenda for transformative AI.
+- [aghion-bunel_2024_ai-and-growth](../labor-productivity/aghion-bunel_2024_ai-and-growth.md) — growth projections that assume knowledge diffusion which this paper shows is weakening.
