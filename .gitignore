@@ -19,3 +19,6 @@ venv/
 
 # CE review run artifacts
 .context/
+
+# Compound Engineering local config
+.compound-engineering/*.local.yaml
