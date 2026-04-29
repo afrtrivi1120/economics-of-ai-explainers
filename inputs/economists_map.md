@@ -16,6 +16,7 @@ Each entry is tagged with the relevant sub-areas: **[L]** = labor/productivity, 
 - With Simon Johnson, *Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity* (PublicAffairs, 2023) [Source](https://shapingwork.mit.edu/power-and-progress/).
 - "Artificial Intelligence, Automation and Work" with P. Restrepo, NBER WP 24196 (2018) [Source](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3098384).
 - "AI and Social Media: A Political Economy Perspective," with Ozdaglar & Siderius, NBER (2025) [Source](https://ideas.repec.org/e/pac16.html).
+- "AI, Human Cognition and Knowledge Collapse," with Kong & Ozdaglar, NBER WP 34910 (2026) — dynamic model in which agentic AI substitutes for human learning effort and can drive a long-run knowledge-collapse steady state; derives a two-phase optimal information-design regulation [Source](https://www.nber.org/papers/w34910).
 - **Method:** Task-based theoretical macro models, calibration, empirical work on robots.
 - **Public engagement:** Extensive op-eds (Project Syndicate, NYT), IMF F&D articles, warnings about excessive automation and need for "pro-worker AI" [Source](https://www.imf.org/en/publications/fandd/issues/2023/12/rebalancing-ai-acemoglu-johnson).
 
@@ -58,6 +59,7 @@ Pioneered machine-learning methods for causal inference; 2025 AEA presidential a
 - "Machine Learning Methods That Economists Should Know About," with G. Imbens, *Annual Review of Economics* (2019) [Source](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey).
 - "Recursive Partitioning for Heterogeneous Causal Effects" (PNAS, 2016); "Estimation and Inference of Heterogeneous Treatment Effects Using Random Forests" (JASA, 2018).
 - AEA Presidential Address: "The Economist as Designer in the Innovation Process for Socially Impactful Digital Products," *AER* (2025) [Source](https://gsb-faculty.stanford.edu/susan-athey/research/).
+- "The Economics of Algorithmic Personalization: Evidence from an Educational Technology Platform," with K. Agrawal, Kanodia, Nath & Palikot, NBER WP 34950 (2026) — RCT-then-RDD evaluation of a collaborative-filtering recommender on an Indian children's reading app; documents a *reverse* voltage drop where scaled effects exceed RCT estimates by 2.5× [Source](https://www.nber.org/papers/w34950).
 - **Method:** Machine learning + causal inference; generalized random forests; large-scale field experiments.
 - **Public engagement:** Former Chief Economist at Microsoft; works with nonprofits on AI deployment; extremely influential in the econ + ML community. Highly relevant for the user's interest in causal inference and AI [Source](https://mdi.georgetown.edu/news/mdi-fall-2025-distinguished-lecture-ai-causal-inference-impact/).
 
@@ -85,6 +87,7 @@ Founder of the Creative Destruction Lab and co-organizer of the NBER Economics o
 - *The Economics of Artificial Intelligence: An Agenda* (U. Chicago Press, 2019), co-edited with Gans and Goldfarb — the foundational volume in the field [Source](https://press.uchicago.edu/ucp/books/book/chicago/E/bo35780726.html).
 - *The Economics of Transformative AI* (U. Chicago Press, 2025), co-edited with Brynjolfsson and Korinek.
 - "A Research Agenda for the Economics of Transformative AI," NBER WP 34256 (2025).
+- "AI in Science," with John McHale & Alexander Oettl, NBER WP 34953 (2026) — multi-stage model of scientific productivity treating AI as a General Purpose Meta Technology; argues human judgment remains central in question generation, idea generation, and abductive inference [Source](https://www.nber.org/papers/w34953).
 - **Method:** Applied micro / IO; framing AI as "cheap prediction."
 
 ### 10. Joshua Gans — Rotman, U. Toronto **[F, M]**
@@ -363,6 +366,23 @@ With David Deming: "The Rapid Adoption of Generative AI" (NBER WP 32966, 2024), 
 
 ### 60. Leonardo Aschenbrenner (formerly GPI/independent) and Seth Benzell (Chapman University / MIT Initiative on the Digital Economy) **[M]**
 Both contribute to quantitative simulation of transformative-AI economic scenarios [Source](https://digitaleconomy.stanford.edu/the-economics-of-transformative-ai/).
+
+---
+
+## Appendix: User-added off-map papers (2026)
+
+Per the rule in `CLAUDE.md` — *"New papers go in only if they are cited by an author already in the map, or the user explicitly adds them"* — the following papers were added directly to the corpus despite their lead authors not appearing on the map above. They are recorded here so the corpus and source list stay synchronized.
+
+- **Stijn Van Nieuwerburgh — NYU Stern (real estate finance)** **[M, F]**
+  - "Financing the AI Buildout," Working Paper (March 2026) — the AI infrastructure cycle as a physical-capital boom; ~$8.2T cumulative US data-center capex over 2026–2032 (~2.8% of GDP/yr); ~$660B of off-balance-sheet hyperscaler lease commitments [Source](https://pages.stern.nyu.edu/~svnieuwe/).
+
+- **Guillermo Cruces — Universidad de San Andrés / Nottingham; with Diego Fernández Meijide, Sebastian Galiani, Ramiro H. Gálvez, María Lombardi** **[I, L]**
+  - "Does Generative AI Narrow Education-Based Productivity Gaps? Evidence from a Randomized Experiment," NBER WP 34851 (2026) — pre-registered RCT on 1,174 Argentine adults; AI access closes ~75% of the baseline education-based productivity gap on a generic business problem-solving task, but the gap reopens in unassisted follow-up [Source](https://www.nber.org/papers/w34851).
+
+- **Judy Hanwen Shen & Alex Tamkin — Anthropic (Fellows Program)** **[L, E]**
+  - "How AI Impacts Skill Formation," arXiv:2601.20245 (January 2026) — randomized experiment with 52 Python developers learning a new asynchronous library with vs. without GPT-4o assistance; AI use reduces post-task quiz scores by ~17% (Cohen's d=0.738) with no significant productivity gain on this task [Source](https://arxiv.org/abs/2601.20245).
+
+These entries are read-only documentation of the off-map additions; they do not alter the curated source list above.
 
 ---
 

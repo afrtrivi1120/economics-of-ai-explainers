@@ -36,6 +36,22 @@ When a slug predates a metadata correction that changes `authors[0]`, the slug s
 
 - `yuchtman-et-al_2023_exporting-surveillance-state` — `authors[0]` is Martin Beraja in the corrected metadata, but the slug still uses `yuchtman-et-al` from the original source-list framing. The README correctly indexes the paper under Beraja.
 
+### Documented README-grouping exceptions
+
+The default rule is `authors[0]` drives README grouping. The corpus has a small number of cases where the README intentionally groups a paper under a senior co-author who is on `inputs/economists_map.md`, even though `authors[0]` is a junior collaborator (postdoc, grad student, lab member). This is curatorial — it keeps the index navigable by canonical name. Currently exempt:
+
+- `bloom-et-al_2026_firm-data-on-ai` — `authors[0]` is Ivan Yotzov; README groups under "Yotzov, Ivan" with co-authors enumerated. (Strict rule; no exception in practice.)
+- `agrawal-athey-et-al_2026_algorithmic-personalization-edtech` — `authors[0]` is Keshav Agrawal (Stanford PhD student); README groups under "Athey, Susan" because Athey is the senior PI on the economists map and the canonical citation handle. Slug uses `agrawal-athey-et-al` to disambiguate from Ajay Agrawal's papers.
+
+### Disambiguating the two Agrawals
+
+The corpus contains two distinct first-author "Agrawals" with different slug prefixes:
+
+- `agrawal-gans-goldfarb_*` and `agrawal-mchale-oettl_*` — Ajay K. Agrawal (Toronto Rotman). README section "Agrawal, Ajay K. — University of Toronto, Rotman".
+- `agrawal-athey-et-al_*` — Keshav Agrawal (Stanford PhD student). Grouped under "Athey, Susan" per the README-grouping exception above.
+
+Slugs alone are not load-bearing for disambiguation — the metadata `authors[0]` and `venue` fields are authoritative.
+
 ## Metadata Schema (`papers/metadata/{slug}.json`)
 
 ```json
@@ -50,11 +66,14 @@ When a slug predates a metadata correction that changes `authors[0]`, the slug s
   "pdf_url": "https://www.nber.org/system/files/working_papers/w32487/w32487.pdf",
   "pdf_path": "papers/pdfs/acemoglu_2024_simple-macro-ai.pdf",
   "download_status": "ok | failed | manual",
+  "download_reason": "ok | <free-text reason if not ok>",
   "download_date": "YYYY-MM-DD"
 }
 ```
 
-`authors[0]` is the **first author of the actual PDF** (not the curator's preferred index name) and drives both subarea routing and README author grouping. When corpus-side conventions and PDF reality conflict, the PDF wins and the metadata is corrected to match.
+`authors[0]` is the **first author of the actual PDF** (not the curator's preferred index name) and drives subarea routing. README grouping defaults to `authors[0]` but accepts the documented exceptions above. When corpus-side conventions and PDF reality conflict, the PDF wins and the metadata is corrected to match.
+
+`download_reason` is a free-text companion to `download_status`. For successful downloads the value is `"ok"`. For non-`ok` statuses it carries a brief diagnostic the `paper-downloader` agent records (e.g., `"paywalled"`, `"manual_pdf_replacement"`).
 
 ## Common Commands
 
@@ -90,7 +109,7 @@ Every `explainers/*/{slug}.md` follows this structure:
 6. **Debates and caveats** — where this paper disagrees with others in the corpus (e.g., Acemoglu's conservative TFP estimate vs. Aghion's optimistic one). Cite by slug.
 7. **Related readings** — cross-links to other explainers in this repo by slug.
 
-Length: ~600–1500 words. Tone: plain, accessible English for a non-specialist policy audience. The aim of an explainer is to dissect a paper into simple language — strip the academic apparatus, keep the substance.
+Length: ~600–1800 words, with the high end reserved for substantive papers that warrant a detailed walkthrough of introduction, methods, and conclusions. Tone: plain, accessible English for a non-specialist policy audience. The aim of an explainer is to dissect a paper into simple language — strip the academic apparatus, keep the substance.
 
 ## Content Rules
 
