@@ -1,6 +1,7 @@
 ---
 title: Ship the invariant checker on day one for content corpora with multiple sources of truth
 date: 2026-04-24
+last_updated: 2026-04-29
 category: docs/solutions/best-practices/
 module: content-corpus-pipeline
 problem_type: best_practice
@@ -12,6 +13,7 @@ applies_when:
   - "Files are routed into subdirectories driven by metadata, making cross-links structural and breakable"
   - "A derived artifact (README index, site nav, registry) is built from the metadata and propagates errors silently"
   - "The corpus is publicly visible; attribution accuracy affects credibility on first careful read"
+  - "The artifact triple has upstream sources (canonical source list, download manifest, schema doc) that the structural validator does not crawl"
 related_components:
   - tooling
   - documentation
@@ -24,6 +26,9 @@ tags:
   - subarea-routing
   - pdf-extraction
   - check-coverage
+  - co-update-checklist
+  - upstream-drift
+  - schema-drift
 ---
 
 # Ship the invariant checker on day one for content corpora with multiple sources of truth
@@ -82,6 +87,37 @@ The checker's job is to hold every layer accountable to the layer above it. If t
 **Step 4 — Document slug exceptions explicitly.** When the slug captures the curator's original framing (e.g., `yuchtman-et-al_2023_*`) but a metadata correction later changes `authors[0]` (PDF cover page actually leads with Beraja), the slug stays per the no-rename rule — but the exception goes in `CLAUDE.md` so future contributors don't open a "fix" PR that renames the file and breaks every inbound cross-link. (See `CLAUDE.md` "Documented slug exceptions" section.)
 
 **Step 5 — Audit the public-facing surface separately from the metadata.** Branding / framing / audience-positioning leaks (e.g., internal organizational markers that end up in a committed plan doc) are a different class of error — they don't fail any structural invariant — but a plain `grep -r "<internal-marker>" public-facing-paths/` step belongs in the same checker run.
+
+**Step 6 — When you add new entries, co-update the upstream and schema files the checker can't see.** *(Added 2026-04-29 after a follow-up six-paper batch replayed adjacent drift.)*
+
+`scripts/check_coverage.py` validates the artifact triple, subarea routing, and cross-link resolution. By construction it cannot detect drift in:
+
+- **Upstream sources** — the canonical source list (`inputs/economists_map.md`) and the download manifest (`scripts/papers.csv`). The validator doesn't crawl them, so adding a paper to the artifact triple while leaving these stale leaves the corpus internally inconsistent and no longer regeneratable from inputs.
+- **Schema doc** — fields written into every metadata record (e.g., `download_reason`) are invisible to a check that only verifies file presence and JSON parseability. If a field exists in 30/30 records but isn't in `CLAUDE.md`'s schema, that's silent drift.
+- **Index doc** — `README.md` author groupings derived from `metadata.authors[0]` are textual conventions, not validated relations. Curatorial exceptions (e.g., a paper indexed under a senior co-author) need to be documented in `CLAUDE.md` so future contributors don't "fix" them.
+
+Per-paper co-update checklist (one new paper = one new slug):
+
+```
+Artifact triple (caught by check_coverage.py):
+  [ ] papers/pdfs/{slug}.pdf
+  [ ] papers/metadata/{slug}.json   (matches schema in CLAUDE.md)
+  [ ] explainers/{subarea}/{slug}.md  (subarea = metadata.subareas[0])
+
+Upstream and indexing (NOT caught by the validator):
+  [ ] inputs/economists_map.md      (bullet under existing author OR appendix entry)
+  [ ] scripts/papers.csv             (one row so download_papers.py stays idempotent)
+  [ ] README.md                      (author section under authors[0]; document any exception)
+  [ ] CLAUDE.md                      (only if the addition introduces a new convention,
+                                       schema field, or curatorial exception)
+
+Post-batch sanity:
+  [ ] python scripts/check_coverage.py        (must pass green)
+  [ ] grep authors[0] across new metadata vs. README author sections
+  [ ] wc -w explainers/{subarea}/{slug}.md     (verify within the documented band)
+```
+
+The checklist exists because the validator exists. They are complements: green validator + skipped checklist still produces silent drift in four files that a careful reader would notice but the machine wouldn't.
 
 ## Why This Matters
 
@@ -146,7 +182,20 @@ A script-level check that diffs `metadata.authors` against text extracted from P
 
 A check that compares `metadata.title` against text extracted from PDF page 1 (with fuzzy matching for case / punctuation) would have surfaced this. Fix: 1 metadata edit (title + venue updated to match the PDF that's actually there).
 
-**The checker that shipped:** `scripts/check_coverage.py` — six invariants, ~172 lines, runs in under a second on the 24-paper corpus:
+**Real example — six-paper batch replays adjacent drift (2026-04-29).** A second batch added 6 new 2026 papers (corpus 24 → 30). The artifact triple was clean: 6 PDFs, 6 metadata JSON files, 6 explainers in correct subarea folders, README author sections updated, 7 commits pushed, `check_coverage.py` green. A `/ce:review` pass with 6 always-on reviewers surfaced 6 categories of drift the validator did NOT catch:
+
+| Drift | Where | Why missed |
+|---|---|---|
+| `inputs/economists_map.md` not updated | Stale "canonical source list" | Validator doesn't reach upstream |
+| `scripts/papers.csv` not updated | `download_papers.py` reads CSV not the source list | Validator doesn't reach pipeline input |
+| README author grouping for Agrawal-Athey paper put it under Susan Athey but `authors[0] = Keshav Agrawal` | Curatorial exception not in CLAUDE.md | No author-vs-README check |
+| `download_reason` field in 30/30 metadata records | Field never in CLAUDE.md schema | No JSON schema check |
+| All 6 new explainers ran 1648-1825 words | CLAUDE.md said `~600-1500` | No word-count check |
+| Two distinct first-author "Agrawals" share slug-prefix space | Convention not surfaced | No collision documentation |
+
+Fix applied per Step 6: bullets added to `inputs/economists_map.md`, 6 rows appended to `scripts/papers.csv`, README-grouping exception documented in CLAUDE.md, schema in CLAUDE.md updated to include `download_reason`, word band widened to `~600-1800`, two-Agrawals disambiguation note added. `check_coverage.py` still passes — exactly the failure mode this learning is named for.
+
+**The checker that shipped:** `scripts/check_coverage.py` — six invariants, ~172 lines, runs in under a second on the 30-paper corpus:
 
 ```
 $ python scripts/check_coverage.py
@@ -162,7 +211,7 @@ Loaded 24 metadata records.
 All checks passed.
 ```
 
-The script is plain Python with no dependencies. It reads `papers/metadata/*.json`, derives the expected explainer path per the `SUBAREA_FOLDER` mapping, walks `explainers/` to find orphans, regexes every `]({path}.md)` cross-link, and asserts each explainer contains the seven required template section headers in order. It does *not* yet check author attribution against PDF text — that is the obvious next invariant to add.
+The script is plain Python with no dependencies. It reads `papers/metadata/*.json`, derives the expected explainer path per the `SUBAREA_FOLDER` mapping, walks `explainers/` to find orphans, regexes every `]({path}.md)` cross-link, and asserts each explainer contains the seven required template section headers in order. It does *not* yet check author attribution against PDF text, JSON schema validity, README ↔ metadata index sync, word-count band, page-citation existence, or canonical cross-link form — those are the obvious next invariants to add. Until they exist, Step 6's per-paper checklist is the manual complement.
 
 ## Related
 
